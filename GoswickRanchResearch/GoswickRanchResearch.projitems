@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e71e12df-1121-4d84-a5d7-c7b67053e0ce</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GoswickRanchMayerArizona</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Claude--dangerously-skip-permissions.cmd" />
+    <None Include="$(MSBuildThisFileDirectory)CLAUDE_CODE_PROMPT.md" />
+    <None Include="$(MSBuildThisFileDirectory)Goswick_Ranch_HOA_Website_References.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\01_goswick_ranch_hoa.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\02_mayer_arizona.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\03_yavapai_county_resources.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\04_arizona_hoa_law.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\05_reference_hoa_websites.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\06_hoa_best_practices.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\07_local_geography.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\08_utilities_services.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\09_real_estate_context.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\HOW_TO_USE_THIS_RESEARCH.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\INDEX.md" />
+  </ItemGroup>
+</Project>
