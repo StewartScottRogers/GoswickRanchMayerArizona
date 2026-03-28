@@ -9,5 +9,7 @@
     <Import_RootNamespace>GoswickRanchMayerArizona</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)CLAUDE_CODE_PROMPT.md" />
+    <None Include="$(MSBuildThisFileDirectory)Goswick_Ranch_HOA_Website_References.md" />
   </ItemGroup>
 </Project>
