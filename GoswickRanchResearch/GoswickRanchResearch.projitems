@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Claude--dangerously-skip-permissions.cmd" />
     <None Include="$(MSBuildThisFileDirectory)CLAUDE_CODE_PROMPT.md" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\TextFile1.md" />
     <None Include="$(MSBuildThisFileDirectory)Goswick_Ranch_HOA_Website_References.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\01_goswick_ranch_hoa.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\02_mayer_arizona.md" />
