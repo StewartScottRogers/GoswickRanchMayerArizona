@@ -169,17 +169,67 @@ These items were not found in any public source and are essential for the websit
 
 | Area | Status |
 |------|--------|
-| Community identity/branding concepts | Ready |
-| Site structure / navigation | Ready |
-| About the Area content | Ready (geography, history, climate) |
-| Legal/compliance framework | Ready |
-| Resident Resources links | Ready (county, fire, sheriff, library) |
-| Reference site design patterns | Ready |
-| Best practices guidelines | Ready |
+| Community identity/branding concepts | **Done — live** |
+| Site structure / navigation | **Done — live** |
+| About the Area content | **Done — live** (geography, history, Mayer founding, climate) |
+| Legal/compliance framework | **Done — live** |
+| Resident Resources links | **Done — live** (county, fire, sheriff, library, GIS, permits) |
+| Reference site design patterns | **Done — live** |
+| Best practices guidelines | **Done — live** |
 | CC&Rs / Bylaws / Rules | **Blocked — needs board** |
 | Board of Directors page | **Blocked — needs board** |
 | Meeting minutes | **Blocked — needs board** |
 | Financial info | **Blocked — needs board** |
 | Community photos | **Blocked — needs board** |
 
-**Conclusion:** Sufficient research exists to begin HTML/CSS development with placeholder content. The structural framework, design approach, navigation, and all "Resident Resources" and "About the Area" content can be built immediately. HOA-specific content (documents, board info, photos) requires board engagement.
+**Conclusion:** Site is live. All research-backed content is published. Remaining items require board engagement (documents, board member names, financials, photos).
+
+**Live URL:** https://stewartscottrogers.github.io/GoswickRanchMayerArizona/
+
+---
+
+## Build Session — 2026-03-29
+
+**What was done:** Initial site built (prior session), then regenerated to incorporate all research content.
+
+**Pages created:**
+- `index.html` — homepage with hero, quick links, community snapshot
+- `about/index.html` — community overview, Bradshaw Mountains, Big Bug Creek, Mayer history/climate
+- `about/location.html` — directions from Prescott and Phoenix, distances table
+- `about/gallery.html` — placeholder (photos blocked pending board)
+- `hoa/index.html` — HOA info hub
+- `hoa/documents.html` — CC&Rs/bylaws download stubs + governing hierarchy
+- `hoa/board/index.html` — board placeholder (blocked pending board)
+- `hoa/minutes/index.html` — meeting minutes placeholder (blocked pending board)
+- `hoa/rules/index.html` — rules & regulations with known CC&R standards
+- `news/index.html` — announcements placeholder
+- `news/calendar.html` — calendar placeholder
+- `resources/index.html` — resources hub
+- `resources/emergency.html` — emergency numbers, fire/sheriff/hospital, wildfire & flood prep
+- `resources/county.html` — county links, GIS, permits, property taxes
+- `resources/services.html` — schools, library, recreation center, community services
+- `resources/utilities.html` — water, electricity, internet, trash, post office
+- `contact/index.html` — Formspree contact form
+- `contact/arc.html` — ARC request form
+
+**Research discrepancies found during build (site had errors; research was correct):**
+- Site originally listed Prescott as ~25 miles; research correctly states ~27 miles — **fixed**
+- Site said "thousands of acres" for Goodwin Fire; research says 28,516 acres — **fixed**
+- Site said YRMC in Prescott (30–40 min); research says Prescott Valley ~13 miles — **fixed**
+- Site said Bradshaw peak "over 7,600 ft"; research correctly states Mt. Union 7,979 ft — **fixed**
+- Site had wrong school district phone (928) 632-4263; research says (928) 642-1100 — **fixed**
+- Site had wrong school website (mayerusd.org); research says mayerschools.org — **fixed**
+
+**Content added from research during regeneration (2026-03-29):**
+- Mayer founding history (1882, Joseph Mayer), National Register sites, Mayer Daze, four-seasons climate, annual precipitation ~10 in, snow ~19 in/year, elevation 4,695 ft
+- YCSO Mayer Substation number: (928) 771-3509
+- Mayer Fire District full coverage details (52 sq mi primary, 302 sq mi extended, 3 stations)
+- Mayer Fire District website link (yavcofire.org)
+- YCSO email (web.sheriff@yavapaiaz.gov)
+- County resources: GIS parcel search, Recorder docs search, property tax inquiry, citizenserve permit portal, Cottonwood permits office
+- Mayer Recreation Center (10001 S Wicks Ave, Facebook page)
+- Mayer Area Community Service Center (10051 S. Miami St, (928) 632-7511)
+- School district address (12568 E Main St), Mayer Elementary address (17300 E Mule Deer Dr, Spring Valley)
+- Water district website (mayerwaterdistrict.com)
+
+**Deployment:** GitHub Actions workflow pushes `WebSite/wwwroot/` to GitHub Pages on every push to `master`. One-time setup: GitHub repo Settings → Pages → Source → GitHub Actions.
