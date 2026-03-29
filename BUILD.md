@@ -104,7 +104,9 @@ All of the above are blocked on board-supplied content. See PAGES.md for placeho
 ## Hosting Options (all free)
 
 **GitHub Pages** — simplest if repo is on GitHub
-Serve only the `wwwroot/` subdirectory from `master` or a `gh-pages` branch.
+A workflow at `.github/workflows/deploy.yml` deploys `WebSite/wwwroot/` on every push to `master`.
+One-time setup: repo **Settings → Pages → Source → GitHub Actions**
+Live URL: https://stewartscottrogers.github.io/GoswickRanchMayerArizona/
 
 **Netlify** — drag-and-drop deploy or GitHub auto-deploy
 Set publish directory to `WebSite/wwwroot`.
