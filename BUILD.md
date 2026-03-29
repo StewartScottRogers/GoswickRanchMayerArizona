@@ -28,10 +28,13 @@ wwwroot/
 │
 ├── hoa/
 │   ├── index.html                HOA Information (hub)
-│   ├── board.html                Board of Directors
+│   ├── board/
+│   │   └── index.html            Board of Directors
 │   ├── documents.html            CC&Rs & Bylaws
-│   ├── rules.html                Rules & Regulations
-│   └── minutes.html              Meeting Minutes
+│   ├── rules/
+│   │   └── index.html            Rules & Regulations
+│   └── minutes/
+│       └── index.html            Meeting Minutes
 │
 ├── news/
 │   ├── index.html                News & Announcements
@@ -58,7 +61,9 @@ wwwroot/
 │   └── .gitkeep
 │
 └── docs/                         PDFs served directly
-    └── .gitkeep                  (CC&Rs, Bylaws, Minutes go here when received)
+    ├── ccrrs.pdf                 CC&Rs — copied from GoswickRanchResearch/Documents/CCRs.pdf
+    ├── bylaws.pdf                Bylaws — copied from GoswickRanchResearch/Documents/Goswick ByLaws.pdf
+    └── .gitkeep                  (Budget, Financials, Minutes go here when received from board)
 ```
 
 `UseDefaultFiles()` means `about/` automatically serves `about/index.html`. Use clean paths in all links (e.g., `/about/`, `/hoa/board/`).
@@ -114,25 +119,25 @@ Custom domain suggestion: `goswickranchhoa.org` or `goswickranch.org` (~$12/year
 ## Build Checklist
 
 ### Phase 1 — Shell (can build now, no board content needed)
-- [ ] `css/style.css` with design system from DESIGN.md
-- [ ] Shared header/nav snippet (copy-paste into each page, or use a JS include)
-- [ ] Shared footer snippet
-- [ ] `index.html` (Home) — hero + intro copy from PAGES.md
-- [ ] `about/index.html` — community overview from PAGES.md
-- [ ] `about/location.html` — directions and map embed from PAGES.md
-- [ ] `resources/emergency.html` — emergency services from PAGES.md
-- [ ] `resources/utilities.html` — utilities from PAGES.md
-- [ ] `resources/county.html` — county links from PAGES.md
-- [ ] `contact/index.html` — board contact form (mailto: or Formspree)
+- [x] `css/style.css` with design system from DESIGN.md
+- [x] Shared header/nav snippet (copy-paste into each page, or use a JS include)
+- [x] Shared footer snippet
+- [x] `index.html` (Home) — hero + intro copy from PAGES.md
+- [x] `about/index.html` — community overview from PAGES.md
+- [x] `about/location.html` — directions and map embed from PAGES.md
+- [x] `resources/emergency.html` — emergency services from PAGES.md
+- [x] `resources/utilities.html` — utilities from PAGES.md
+- [x] `resources/county.html` — county links from PAGES.md
+- [x] `contact/index.html` — board contact form (mailto: or Formspree)
 
 ### Phase 2 — Awaiting board content
-- [ ] `hoa/board.html` — needs names, roles, email addresses
-- [ ] `hoa/documents.html` — needs CC&Rs + Bylaws PDFs
-- [ ] `hoa/rules.html` — needs Rules & Regulations text
-- [ ] `hoa/minutes.html` — needs meeting minutes PDFs
-- [ ] `about/gallery.html` — needs community photos
-- [ ] `news/index.html` — needs first announcement
-- [ ] `news/calendar.html` — needs meeting dates
+- [x] `hoa/board/index.html` — stub page created; needs names, roles, email addresses from board
+- [x] `hoa/documents.html` — CC&Rs and Bylaws PDFs now in docs/; needs Budget + Financial Statements
+- [x] `hoa/rules/index.html` — stub page created with known CC&R rules; needs full Rules & Regulations text from board
+- [x] `hoa/minutes/index.html` — stub page created; needs meeting minutes PDFs from board
+- [ ] `about/gallery.html` — needs community photos from board
+- [ ] `news/index.html` — needs first announcement from board
+- [ ] `news/calendar.html` — needs meeting dates from board
 
 ### Phase 3 — Nice to have
 - [ ] Print stylesheet for minutes/documents
