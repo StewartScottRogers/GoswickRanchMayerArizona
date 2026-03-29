@@ -143,6 +143,7 @@ Hub page. Brief intro + links to sub-pages.
 ## Board of Directors — `/hoa/board/`
 
 **H1:** Board of Directors
+**Status:** Stub page live at `hoa/board/index.html`.
 **[BOARD]** — All content. Need: names, roles (President, VP, Secretary, Treasurer, Member-at-Large), email addresses or contact form preference, terms.
 
 ### Template for each board member:
@@ -171,13 +172,15 @@ Term expires: [year]
 >
 > These documents control what residents may and may not do with their property, how the association is governed, and the rights and responsibilities of homeownership in Goswick Ranch.
 
-### Document List (all [BOARD] — PDFs needed)
+### Document List
 
-**[BOARD]** — Need PDFs for:
-- CC&Rs (Covenants, Conditions & Restrictions) — recorded with Yavapai County
-- Bylaws
-- Annual Budget (most recent)
-- Financial Statements (most recent fiscal year)
+PDFs available at:
+- `docs/ccrrs.pdf` — CC&Rs — copied from GoswickRanchResearch/Documents/CCRs.pdf ✓
+- `docs/bylaws.pdf` — Bylaws — copied from GoswickRanchResearch/Documents/Goswick ByLaws.pdf ✓
+
+**[BOARD]** — Still needed:
+- Annual Budget (most recent) → `docs/budget.pdf`
+- Financial Statements (most recent fiscal year) → `docs/financials.pdf`
 - Any amendments to CC&Rs
 
 ### Governing Document Hierarchy (use as-is)
@@ -195,6 +198,7 @@ Term expires: [year]
 
 **H1:** Rules & Regulations
 **Legal requirement** — A.R.S. § 33-1805.
+**Status:** Stub page live at `hoa/rules/index.html`. Known rules from CC&Rs are already posted.
 **[BOARD]** — Full content. Need the current Rules & Regulations document.
 
 ### Known Rules (from CC&Rs/zoning research — confirm with board before publishing)
@@ -221,6 +225,7 @@ These are likely covered but verify exact wording in the official documents:
 
 **H1:** Meeting Minutes
 **Legal requirement** — A.R.S. § 33-1805. Must be publicly available (executive session minutes excluded).
+**Status:** Stub page live at `hoa/minutes/index.html`.
 
 ### Intro Copy (use as-is)
 > Minutes from Goswick Ranch HOA board meetings and annual homeowner meetings are posted below. Arizona law requires these records to be made available to all association members.
@@ -334,7 +339,7 @@ This page is high-priority — build it early and make it easy to read on a mobi
 - [Yavapai County Emergency Management](https://www.yavapaiaz.gov/emergency)
 - [Arizona Emergency Information Network](https://ein.az.gov)
 - [National Weather Service — Flagstaff (covers this area)](https://www.weather.gov/fgz)
-- [APS Outage Map](https://www.aps.com/en/residential/accountservices/servicerequests/pages/outagecenter.aspx)
+- [APS Outage Map](https://www.aps.com/en/residential/accountservices/servicerequests/pages/outagecenter.aspx) — **DEAD LINK (404)** — find current APS outage center URL before publishing
 
 ---
 
