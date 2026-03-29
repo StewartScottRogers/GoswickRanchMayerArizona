@@ -4,8 +4,8 @@
     <File Path="Claude--dangerously-skip-permissions.cmd" />
     <File Path="DeployWebSite.md" />
     <File Path="DESIGN.md" />
-    <File Path="GenerateWebsite.md" />
-    <File Path="GitHub Web Pages.url" />
+    <File Path="GenerateWebsiteAndDeploy.md" />
+    <File Path="Github-GoswickRanchMayerArizona-WebSite.url" />
     <File Path="Github-GoswickRanchMayerArizona.url" />
     <File Path="PAGES.md" />
   </Folder>
