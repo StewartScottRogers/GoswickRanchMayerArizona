@@ -1,5 +1,7 @@
 # Goswick Ranch HOA Website — Design System
 
+> **Path prefix rule:** All internal `href` and `src` values in HTML must start with `/GoswickRanchMayerArizona/`. See BUILD.md for details.
+
 ## Design Direction
 
 Rural Arizona ranch living. Gated, private, mountain setting. Not corporate. Not cookie-cutter suburban HOA. The palette and typography should feel like the Bradshaw Mountains — earthy, warm, calm.
@@ -166,13 +168,13 @@ Mobile:   [GOSWICK RANCH HOA]  ☰
 - Full-viewport-width image (Bradshaw Mountains / Big Bug Creek / aerial of community)
 - Dark gradient overlay (bottom-to-top, 60% opacity)
 - Centered text: H1 community name + one-line tagline
-- CTA button: "View HOA Documents" → `/hoa/documents/`
+- CTA button: "View HOA Documents" → `/GoswickRanchMayerArizona/hoa/documents.html`
 
 ```css
 .hero {
   position: relative;
   height: min(70vh, 600px);
-  background: url('/img/hero.jpg') center/cover no-repeat;
+  background: url('/GoswickRanchMayerArizona/img/hero.jpg') center/cover no-repeat;
 }
 .hero-overlay {
   position: absolute; inset: 0;
@@ -209,7 +211,7 @@ Mobile:   [GOSWICK RANCH HOA]  ☰
 ### Document/PDF Links
 
 ```html
-<a class="doc-link" href="/docs/ccrrs.pdf">
+<a class="doc-link" href="/GoswickRanchMayerArizona/docs/ccrrs.pdf">
   <span class="doc-icon">📄</span>
   CC&amp;Rs — Goswick Ranch HOA
   <span class="doc-meta">(PDF · awaiting board)</span>

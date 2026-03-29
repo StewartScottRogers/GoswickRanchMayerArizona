@@ -2,6 +2,8 @@
 
 Each section below covers one page: URL, H1, purpose, and the actual copy/content to use. Items marked **[BOARD]** cannot be written without input from the HOA board. Everything else is ready to use.
 
+> **Path prefix rule:** The site is deployed at `https://stewartscottrogers.github.io/GoswickRanchMayerArizona/`. All internal links in HTML must be prefixed with `/GoswickRanchMayerArizona/`. For example: `href="/GoswickRanchMayerArizona/about/"`, `href="/GoswickRanchMayerArizona/hoa/documents.html"`. Never use bare root-relative paths like `/about/` or `/css/style.css`. Do not add a `<base href>` tag — it does not fix root-relative paths. See BUILD.md.
+
 ---
 
 ## Home — `/`
@@ -14,7 +16,7 @@ Full-width landscape photo with overlay text. Use the tagline as the overlay hea
 **[BOARD]** — Need a hero photo (aerial, mountain view, or community entrance gate shot).
 Placeholder until then: CSS gradient in `--color-primary` with the text overlay.
 
-CTA button: "View HOA Documents" → `/hoa/documents/`
+CTA button: "View HOA Documents" → `/GoswickRanchMayerArizona/hoa/documents.html`
 
 ### Welcome Copy (use as-is)
 > Goswick Ranch is a small, exclusive gated community nestled in the foothills of the Bradshaw Mountains near Mayer, Arizona. Set at elevations ranging from 4,400 to 6,000 feet, the community overlooks Big Bug Creek and offers stunning views of one of central Arizona's most dramatic mountain ranges.
@@ -22,9 +24,9 @@ CTA button: "View HOA Documents" → `/hoa/documents/`
 > With minimum 9-acre lots and site-built homes only, Goswick Ranch preserves the open, rural character that makes this corner of Yavapai County special — a true Arizona ranch lifestyle within reach of both Prescott and the Phoenix metro area.
 
 ### Quick Links Section (3-column cards)
-- **HOA Documents** — "Access CC&Rs, bylaws, meeting minutes, and financial reports." → `/hoa/documents/`
-- **Emergency Services** — "Sheriff, fire district, and emergency contact numbers." → `/resources/emergency/`
-- **Contact the Board** — "Questions, concerns, or architectural review requests." → `/contact/`
+- **HOA Documents** — "Access CC&Rs, bylaws, meeting minutes, and financial reports." → `/GoswickRanchMayerArizona/hoa/documents.html`
+- **Emergency Services** — "Sheriff, fire district, and emergency contact numbers." → `/GoswickRanchMayerArizona/resources/emergency.html`
+- **Contact the Board** — "Questions, concerns, or architectural review requests." → `/GoswickRanchMayerArizona/contact/`
 
 ### Community Snapshot (sidebar or strip)
 | | |
@@ -133,10 +135,10 @@ Hub page. Brief intro + links to sub-pages.
 > Arizona law (A.R.S. § 33-1805) requires us to make governing documents, financial statements, and meeting minutes available to all members. You'll find them all on this page.
 
 ### Sub-page Link Cards
-- **Board of Directors** — Meet the current board members → `/hoa/board/`
-- **CC&Rs & Bylaws** — Governing documents → `/hoa/documents/`
-- **Rules & Regulations** — Community rules → `/hoa/rules/`
-- **Meeting Minutes** — Board and annual meeting records → `/hoa/minutes/`
+- **Board of Directors** — Meet the current board members → `/GoswickRanchMayerArizona/hoa/board/`
+- **CC&Rs & Bylaws** — Governing documents → `/GoswickRanchMayerArizona/hoa/documents.html`
+- **Rules & Regulations** — Community rules → `/GoswickRanchMayerArizona/hoa/rules/`
+- **Meeting Minutes** — Board and annual meeting records → `/GoswickRanchMayerArizona/hoa/minutes/`
 
 ---
 
@@ -217,7 +219,7 @@ These are likely covered but verify exact wording in the official documents:
 >
 > [BOARD — confirm ARC process, timeline, submission requirements]
 >
-> To submit an ARC request, use the [Architectural Review Request form](/contact/arc/).
+> To submit an ARC request, use the [Architectural Review Request form](/GoswickRanchMayerArizona/contact/arc.html).
 
 ---
 
@@ -289,10 +291,10 @@ Hub page linking to the four sub-pages below.
 > Useful links and contact information for Goswick Ranch residents — emergency services, utilities, county offices, and local service providers.
 
 ### Card Links
-- **Emergency Services** → `/resources/emergency/`
-- **Utilities** → `/resources/utilities/`
-- **Yavapai County** → `/resources/county/`
-- **Local Services** → `/resources/services/`
+- **Emergency Services** → `/GoswickRanchMayerArizona/resources/emergency.html`
+- **Utilities** → `/GoswickRanchMayerArizona/resources/utilities.html`
+- **Yavapai County** → `/GoswickRanchMayerArizona/resources/county.html`
+- **Local Services** → `/GoswickRanchMayerArizona/resources/services.html`
 
 ---
 

@@ -1,5 +1,30 @@
 # Goswick Ranch HOA Website — Build Guide
 
+## ⚠️ GitHub Pages Path Requirement — Read Before Writing Any HTML
+
+The site is hosted at a subdirectory URL:
+**https://stewartscottrogers.github.io/GoswickRanchMayerArizona/**
+
+Every internal `href` and `src` in every HTML file **must** be prefixed with `/GoswickRanchMayerArizona/`. Never use bare root-relative paths like `/about/` or `/css/style.css` — they will resolve to the wrong origin and break navigation and styling.
+
+**Correct:**
+```html
+<link rel="stylesheet" href="/GoswickRanchMayerArizona/css/style.css">
+<script src="/GoswickRanchMayerArizona/js/main.js"></script>
+<a href="/GoswickRanchMayerArizona/about/">About</a>
+<a href="/GoswickRanchMayerArizona/hoa/documents.html">Documents</a>
+```
+
+**Wrong (breaks on GitHub Pages):**
+```html
+<link rel="stylesheet" href="/css/style.css">
+<a href="/about/">About</a>
+```
+
+Do **not** add a `<base href>` tag. The `<base>` tag only affects relative paths (no leading `/`), not root-relative paths, so it does not fix this problem.
+
+---
+
 ## How the Server Works
 
 `Program.cs` is already configured: an ASP.NET Core minimal host that calls `UseDefaultFiles()` + `UseStaticFiles()`. It serves everything from `wwwroot/`. Do not modify `Program.cs`.
@@ -72,13 +97,13 @@ wwwroot/
 
 ## Navigation (5 items — fits one line on mobile)
 
-| Label | Path |
+| Label | Path (use these exact hrefs in HTML) |
 |-------|------|
-| Home | `/` |
-| About | `/about/` |
-| HOA Info | `/hoa/` |
-| Resources | `/resources/` |
-| Contact | `/contact/` |
+| Home | `/GoswickRanchMayerArizona/` |
+| About | `/GoswickRanchMayerArizona/about/` |
+| HOA Info | `/GoswickRanchMayerArizona/hoa/` |
+| Resources | `/GoswickRanchMayerArizona/resources/` |
+| Contact | `/GoswickRanchMayerArizona/contact/` |
 
 News & Events links live inside the Home page and About hub. If the board asks for a News nav item, bump Contact to the footer and add News.
 
