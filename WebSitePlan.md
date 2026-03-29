@@ -5,10 +5,10 @@
 I am building a website for the Goswick Ranch HOA located in Mayer, Arizona. This is a brand new website — the community has no existing online presence (no website, no Facebook group, nothing). All work should be saved to:
 
 ```
-Z:\repos\GoswickRanchMayerArizona\GoswickRanchResearch
+Z:\repos\GoswickRanchMayerArizona\WebSite
 ```
 
-This directory is a git repository.
+This directory is a git repository. Research lives in `WebSite\GoswickRanchResearch\`.
 
 ---
 
