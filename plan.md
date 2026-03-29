@@ -126,33 +126,6 @@ This directory is a git repository.
 - Clear navigation — 5-7 top-level items max
 - Optional password-protected resident portal for sensitive docs
 
-### Recommended Sitemap
-
-```
-Home
-├── About Goswick Ranch
-│   ├── Community Overview
-│   ├── Location & Directions
-│   └── Photo Gallery
-├── HOA Information
-│   ├── Board of Directors
-│   ├── CC&Rs & Bylaws
-│   ├── Rules & Regulations
-│   └── Meeting Minutes
-├── News & Events
-│   ├── Announcements
-│   └── Community Calendar
-├── Resident Resources
-│   ├── Yavapai County Links
-│   ├── Emergency Services
-│   ├── Utilities
-│   └── Local Services
-└── Contact Us
-    ├── Board Contact Form
-    └── Architectural Review Request
-```
-
----
 
 ## Reference HOA Websites to Study for Inspiration
 
