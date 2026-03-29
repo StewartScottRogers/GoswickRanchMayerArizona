@@ -6,7 +6,7 @@ Building the first-ever website for the **Goswick Ranch HOA**, a small exclusive
 
 ## Key Research Files
 
-All research from the planning phase lives in `GoswickRanchResearch/`:
+All research from the planning phase lives in `WebSite/GoswickRanchResearch/`:
 
 | File | Purpose |
 |------|---------|
@@ -64,8 +64,8 @@ The website **must** make these publicly available (A.R.S. § 33-1805):
 
 ## What Still Needs to Come from the Board
 
-See the assets checklist in `GoswickRanchResearch/CLAUDE_CODE_PROMPT.md` — key blockers are the CC&Rs PDF, board member names, and community photos.
+See the assets checklist in `WebSite/GoswickRanchResearch/CLAUDE_CODE_PROMPT.md` — key blockers are the CC&Rs PDF, board member names, and community photos.
 
 ## Working Directory
 
-All website source files should go in `Z:\repos\GoswickRanchMayerArizona\` (this repo root). Research lives in `GoswickRanchResearch\`.
+All website source files should go in `Z:\repos\GoswickRanchMayerArizona\WebSite\`. Research lives in `WebSite\GoswickRanchResearch\`.
