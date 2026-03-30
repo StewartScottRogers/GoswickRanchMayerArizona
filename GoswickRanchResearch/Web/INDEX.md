@@ -403,3 +403,32 @@ These items from the original blockers list remain unresolved:
 - Both files are copied from `Documents/` to `wwwroot/img/` and `wwwroot/docs/` respectively
 - `index.html` includes a `<figure class="survey-map">` section with the image linked to the PDF
 - `hoa/documents.html` includes the survey PDF in the documents list
+
+---
+
+## Build Session — 2026-03-29 (QA Remediation — 18 defects)
+
+**What was done:** Full QA review of all 19 HTML pages, style.css, and main.js. 18 defects found and documented in `QA_Defects.md`. 16 fixed in code; 2 require board-supplied content.
+
+**Corrections with content/accuracy implications:**
+
+- **Directions rewrite (`about/location.html`):** "From Prescott / US-89" section was completely wrong — US-89 goes northwest toward Flagstaff. Rewritten to use SR-69 eastbound from Prescott (~27 miles). Both direction blocks (Prescott and Phoenix) now include the confirmed access route: turn west onto **E Poland Rd (Poland Junction Rd)** from AZ-69, then south on **S Goswick Ranch Rd** to the gate.
+- **"via US-89" in `about/index.html`:** Same error. Changed to "via SR-69".
+- **Prescott Airport distance:** Corrected from 30 miles to 28 miles in `about/location.html` distances table. Research and `recreation.html` both say 27–28 miles.
+- **Google Maps embed replaced:** The legacy `maps.google.com/maps?...&output=embed` format was replaced with an OpenStreetMap embed (no API key needed) centered on Mayer AZ at 34.4016°N, 112.2312°W.
+- **Survey map `<img>` dimensions fixed:** Was `width="900" height="600"` (wrong 3:2 ratio). Actual survey-map.png is 1545×912 px. Updated to match.
+- **ARC auto-approval correction:** Removed from "2025 Arizona HOA Law Updates" bullet list — this is A.R.S. §33-1817, pre-existing law not a 2025 change. Moved to a separate subsection labeled "Existing Law."
+
+**Structural/navigation changes:**
+- **News added to all navs:** `/news/` link added to main navigation on all 19 pages.
+- **Agua Fria removed from county.html:** Was misplaced (BLM, not county) and duplicated recreation.html. Replaced with a cross-reference link.
+
+**CSS/JS fixes:**
+- Hero CSS background path: `/img/hero.jpg` → `/GoswickRanchMayerArizona/img/hero.jpg`
+- Added `.notice.notice-danger` CSS class (was used but not defined)
+- Removed dead CSS line (`border-bottom: none` immediately overridden)
+- Fixed JS active-nav logic — home link now correctly highlights only on the home page
+
+**Pending (board action required):**
+- Contact form and ARC form Formspree IDs — visible notices added to both pages
+- Hero photo (`img/hero.jpg`) — CSS path is now correct; board must provide a landscape photo

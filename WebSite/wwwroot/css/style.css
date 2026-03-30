@@ -225,7 +225,7 @@ ul, ol { padding-left: var(--space-6); }
   position: relative;
   height: min(70vh, 600px);
   background:
-    url('/img/hero.jpg') center/cover no-repeat,
+    url('/GoswickRanchMayerArizona/img/hero.jpg') center/cover no-repeat,
     linear-gradient(135deg, var(--color-primary) 0%, #3d2810 100%);
   display: flex;
   align-items: flex-end;
@@ -520,6 +520,7 @@ tr:nth-child(even) td { background: var(--color-bg-alt); }
   margin: var(--space-6) 0;
 }
 .notice.notice-warn { border-left-color: var(--color-accent); }
+.notice.notice-danger { border-left-color: #c0392b; background: #fdf0ef; }
 .notice p {
   margin: 0;
   color: var(--color-text-muted);
@@ -778,7 +779,6 @@ button:focus-visible {
   .site-nav ul li a {
     display: block;
     padding: var(--space-3) var(--space-6);
-    border-bottom: none;
     border-bottom: 1px solid rgba(255,255,255,0.07);
   }
   .site-nav ul li:last-child a { border-bottom: none; }

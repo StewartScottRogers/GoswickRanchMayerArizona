@@ -25,13 +25,13 @@ if (toggle && nav) {
   });
 }
 
-// Active nav link
+// Active nav link — works correctly on GitHub Pages sub-path deployments
 const currentPath = window.location.pathname.replace(/\/$/, '') || '/';
+const siteBase = '/GoswickRanchMayerArizona';
 document.querySelectorAll('.site-nav a').forEach(link => {
   const href = (link.getAttribute('href') || '').replace(/\/$/, '') || '/';
-  if (href === '/' && currentPath === '/') {
-    link.classList.add('active');
-  } else if (href !== '/' && currentPath.startsWith(href)) {
+  // Exact match handles the home link; startsWith handles section links (excluding base path itself)
+  if (href === currentPath || (href.length > siteBase.length && currentPath.startsWith(href))) {
     link.classList.add('active');
   }
 });

@@ -25,6 +25,7 @@
         <li><a href="/GoswickRanchMayerArizona/about/">About</a></li>
         <li><a href="/GoswickRanchMayerArizona/hoa/">HOA Info</a></li>
         <li><a href="/GoswickRanchMayerArizona/resources/">Resources</a></li>
+        <li><a href="/GoswickRanchMayerArizona/news/">News</a></li>
         <li><a href="/GoswickRanchMayerArizona/contact/">Contact</a></li>
       </ul>
     </nav>
@@ -53,7 +54,10 @@
       <p>Before beginning any exterior improvement, addition, new structure, or landscaping change that may be visible from neighboring properties or common areas, submit an ARC request for board review.</p>
     </div>
 
-    <!-- Replace YOUR_ARC_FORM_ID with a Formspree form ID -->
+    <div class="notice notice-warn" style="margin-bottom: var(--space-6);">
+      <p><strong>Form setup pending:</strong> This form requires a Formspree account ID before it can deliver submissions. Until configured, the Submit button will not work. The board will activate this form soon.</p>
+    </div>
+    <!-- Replace YOUR_ARC_FORM_ID with a real Formspree form ID from formspree.io -->
     <form class="form-container" action="https://formspree.io/f/YOUR_ARC_FORM_ID" method="POST" novalidate>
 
       <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-6);">Homeowner Information</h2>
@@ -74,8 +78,8 @@
       </div>
 
       <div class="form-group">
-        <label for="arc-phone">Phone <span aria-hidden="true">*</span></label>
-        <input type="tel" id="arc-phone" name="phone" required autocomplete="tel" placeholder="(928) 555-0100">
+        <label for="arc-phone">Phone <span class="optional-label">(optional)</span></label>
+        <input type="tel" id="arc-phone" name="phone" autocomplete="tel" placeholder="(928) 555-0100">
       </div>
 
       <h2 style="font-size: var(--text-2xl); margin: var(--space-8) 0 var(--space-6);">Project Details</h2>
