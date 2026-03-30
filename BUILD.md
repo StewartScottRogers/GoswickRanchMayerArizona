@@ -12,7 +12,7 @@ Every internal `href` and `src` in every HTML file **must** be prefixed with `/G
 <link rel="stylesheet" href="/GoswickRanchMayerArizona/css/style.css">
 <script src="/GoswickRanchMayerArizona/js/main.js"></script>
 <a href="/GoswickRanchMayerArizona/about/">About</a>
-<a href="/GoswickRanchMayerArizona/hoa/documents.html">Documents</a>
+<a href="/GoswickRanchMayerArizona/buyers/">For Buyers</a>
 ```
 
 **Wrong (breaks on GitHub Pages):**
@@ -40,72 +40,86 @@ Site: http://localhost:5000
 
 ## wwwroot File Structure
 
-Create this layout under `WebSite/wwwroot/`:
-
 ```
 wwwroot/
-├── index.html                    Home
+├── index.html                     Home (redesigned — stats bar + dual CTA)
 │
 ├── about/
-│   ├── index.html                Community Overview
-│   ├── location.html             Location & Directions
-│   └── gallery.html              Photo Gallery
+│   ├── index.html                 About the Ranch (community overview + Goswick family history)
+│   ├── history.html               Community History (Goswick family deep dive)
+│   ├── location.html              Location & Directions
+│   └── gallery.html               Photo Gallery [BOARD BLOCKED]
+│
+├── lifestyle/
+│   ├── index.html                 Life Here (hub — seasons, wildlife, recreation, nearby)
+│   ├── seasons.html               Climate & Seasons (4 seasons, monsoon, dark skies)
+│   ├── outdoors.html              Outdoor Recreation (trails, Prescott NF, equestrian)
+│   └── nearby.html                Nearby Destinations (Prescott, Jerome, Sedona, wine trail)
+│
+├── buyers/
+│   ├── index.html                 For Buyers (hub — value story, stats, AZ advantage)
+│   └── faq.html                   Buyer FAQ (20 key questions + answers)
 │
 ├── hoa/
-│   ├── index.html                HOA Information (hub)
+│   ├── index.html                 HOA Information (hub)
 │   ├── board/
-│   │   └── index.html            Board of Directors
-│   ├── documents.html            CC&Rs & Bylaws
+│   │   └── index.html             Board of Directors [BOARD BLOCKED]
+│   ├── documents.html             CC&Rs & Bylaws (PDFs live; budget/financials blocked)
 │   ├── rules/
-│   │   └── index.html            Rules & Regulations
+│   │   └── index.html             Rules & Regulations [BOARD BLOCKED]
 │   └── minutes/
-│       └── index.html            Meeting Minutes
+│       └── index.html             Meeting Minutes [BOARD BLOCKED]
 │
 ├── news/
-│   ├── index.html                News & Announcements
-│   └── calendar.html             Community Calendar
+│   ├── index.html                 News & Announcements [BOARD BLOCKED]
+│   └── calendar.html              Community Calendar [BOARD BLOCKED]
 │
 ├── resources/
-│   ├── index.html                Resident Resources (hub)
-│   ├── emergency.html            Emergency Services
-│   ├── utilities.html            Utilities
-│   ├── county.html               Yavapai County Links
-│   └── services.html             Local Services
+│   ├── index.html                 Resident Resources (hub)
+│   ├── emergency.html             Emergency Services (expanded — wildfire, Genasys, medevac)
+│   ├── utilities.html             Utilities (updated — Starlink, arsenic warning, propane, solar)
+│   ├── county.html                Yavapai County Links
+│   ├── services.html              Local Services
+│   └── recreation.html            Recreation (updated — wine trail, Jerome, Arcosanti)
 │
 ├── contact/
-│   ├── index.html                Contact the Board
-│   └── arc.html                  Architectural Review Request
+│   ├── index.html                 Contact the Board
+│   └── arc.html                   Architectural Review Request
 │
 ├── css/
-│   └── style.css                 All styles
+│   └── style.css                  All styles (from DESIGN.md)
 │
 ├── js/
-│   └── main.js                   Nav toggle + lightweight interactions
+│   └── main.js                    Nav toggle + lightweight interactions
 │
-├── img/                          Photos (none yet — see PAGES.md placeholders)
+├── img/
+│   ├── survey-map.png             Goswick Ranch survey plat (from GoswickRanchResearch/Documents/)
 │   └── .gitkeep
 │
-└── docs/                         PDFs served directly
-    ├── ccrrs.pdf                 CC&Rs — copied from GoswickRanchResearch/Documents/CCRs.pdf
-    ├── bylaws.pdf                Bylaws — copied from GoswickRanchResearch/Documents/Goswick ByLaws.pdf
-    └── .gitkeep                  (Budget, Financials, Minutes go here when received from board)
+└── docs/
+    ├── ccrrs.pdf                  CC&Rs — from GoswickRanchResearch/Documents/CCRs.pdf ✓
+    ├── bylaws.pdf                 Bylaws — from GoswickRanchResearch/Documents/Goswick ByLaws.pdf ✓
+    ├── survey.pdf                 Survey — from GoswickRanchResearch/Documents/ ✓
+    └── .gitkeep                   (Budget, Financials, Minutes go here when received from board)
 ```
 
-`UseDefaultFiles()` means `about/` automatically serves `about/index.html`. Use clean paths in all links (e.g., `/about/`, `/hoa/board/`).
+`UseDefaultFiles()` means `lifestyle/` automatically serves `lifestyle/index.html`. Use clean paths in all links.
 
 ---
 
-## Navigation (5 items — fits one line on mobile)
+## Navigation (7 items)
 
-| Label | Path (use these exact hrefs in HTML) |
-|-------|------|
+| Label | Path (exact hrefs for HTML) |
+|-------|-----------------------------|
 | Home | `/GoswickRanchMayerArizona/` |
 | About | `/GoswickRanchMayerArizona/about/` |
+| Life Here | `/GoswickRanchMayerArizona/lifestyle/` |
 | HOA Info | `/GoswickRanchMayerArizona/hoa/` |
+| For Buyers | `/GoswickRanchMayerArizona/buyers/` |
 | Resources | `/GoswickRanchMayerArizona/resources/` |
 | Contact | `/GoswickRanchMayerArizona/contact/` |
 
-News & Events links live inside the Home page and About hub. If the board asks for a News nav item, bump Contact to the footer and add News.
+On mobile, all 7 items appear in the hamburger dropdown. "For Buyers" may have a subtle visual distinction (slightly bolder or rust-colored) to signal it's for a different audience.
 
 ---
 
@@ -115,59 +129,73 @@ These must be publicly accessible on the site (not behind a login):
 
 | Document | Where to Put It |
 |----------|----------------|
-| CC&Rs | `/docs/ccrrs.pdf` + linked from `/hoa/documents/` |
-| Bylaws | `/docs/bylaws.pdf` + linked from `/hoa/documents/` |
-| Rules & Regulations | `/hoa/rules/` (HTML page is fine, PDF preferred) |
-| Annual Budget / Financial Statements | `/hoa/documents/` |
+| CC&Rs | `/docs/ccrrs.pdf` + linked from `/hoa/documents.html` |
+| Bylaws | `/docs/bylaws.pdf` + linked from `/hoa/documents.html` |
+| Rules & Regulations | `/hoa/rules/` (HTML is fine; PDF preferred) |
+| Annual Budget / Financial Statements | `/hoa/documents.html` + `/docs/budget.pdf` |
 | Meeting Minutes | `/hoa/minutes/` |
 | Board member names & contact info | `/hoa/board/` |
 
-All of the above are blocked on board-supplied content. See PAGES.md for placeholder copy.
+Resale disclosure (A.R.S. § 33-1806): HOA may charge up to $400 for resale disclosure packet. Prospective buyers have a right to cancel within 5 days of receiving it.
 
 ---
 
-## Hosting Options (all free)
+## Hosting
 
-**GitHub Pages** — simplest if repo is on GitHub
-A workflow at `.github/workflows/deploy.yml` deploys `WebSite/wwwroot/` on every push to `master`.
+**GitHub Pages** (current)
+Workflow at `.github/workflows/deploy.yml` deploys `WebSite/wwwroot/` on every push to `master`.
 One-time setup: repo **Settings → Pages → Source → GitHub Actions**
 Live URL: https://stewartscottrogers.github.io/GoswickRanchMayerArizona/
 
-**Netlify** — drag-and-drop deploy or GitHub auto-deploy
-Set publish directory to `WebSite/wwwroot`.
-
-**Vercel** — GitHub integration, custom domain easy
-Set output directory to `WebSite/wwwroot`, framework to "Other".
-
-Custom domain suggestion: `goswickranchhoa.org` or `goswickranch.org` (~$12/year on Namecheap or Cloudflare).
+**Custom domain suggestion:** `goswickranchhoa.org` or `goswickranch.org` (~$12/year on Namecheap or Cloudflare). A custom domain would make the site more credible to real estate agents — worth doing before marketing to outside agents.
 
 ---
 
 ## Build Checklist
 
-### Phase 1 — Shell (can build now, no board content needed)
+### Phase 1 — Shell (complete)
 - [x] `css/style.css` with design system from DESIGN.md
-- [x] Shared header/nav snippet (copy-paste into each page, or use a JS include)
+- [x] Shared header/nav snippet
 - [x] Shared footer snippet
-- [x] `index.html` (Home) — hero + intro copy from PAGES.md
-- [x] `about/index.html` — community overview from PAGES.md
-- [x] `about/location.html` — directions and map embed from PAGES.md
-- [x] `resources/emergency.html` — emergency services from PAGES.md
-- [x] `resources/utilities.html` — utilities from PAGES.md
-- [x] `resources/county.html` — county links from PAGES.md
-- [x] `contact/index.html` — board contact form (mailto: or Formspree)
+- [x] `index.html` (Home)
+- [x] `about/index.html`
+- [x] `about/location.html`
+- [x] `resources/emergency.html`
+- [x] `resources/utilities.html`
+- [x] `resources/county.html`
+- [x] `resources/services.html`
+- [x] `resources/recreation.html`
+- [x] `contact/index.html`
+- [x] `contact/arc.html`
+- [x] `hoa/index.html`
+- [x] `hoa/documents.html`
 
-### Phase 2 — Awaiting board content
-- [x] `hoa/board/index.html` — stub page created; needs names, roles, email addresses from board
-- [x] `hoa/documents.html` — CC&Rs and Bylaws PDFs now in docs/; needs Budget + Financial Statements
-- [x] `hoa/rules/index.html` — stub page created with known CC&R rules; needs full Rules & Regulations text from board
-- [x] `hoa/minutes/index.html` — stub page created; needs meeting minutes PDFs from board
-- [ ] `about/gallery.html` — needs community photos from board
-- [ ] `news/index.html` — needs first announcement from board
-- [ ] `news/calendar.html` — needs meeting dates from board
+### Phase 2 — New pages (build from PAGES.md spec)
+- [ ] `index.html` — **Redesign:** add stats bar + dual audience CTA section
+- [ ] `about/index.html` — **Update:** add Goswick family history intro
+- [ ] `about/history.html` — **New:** full Goswick family story
+- [ ] `lifestyle/index.html` — **New:** Life Here hub page
+- [ ] `lifestyle/seasons.html` — **New:** Climate, seasons, dark skies
+- [ ] `lifestyle/outdoors.html` — **New:** Recreation, equestrian, trails
+- [ ] `lifestyle/nearby.html` — **New:** Day trips, Prescott, Jerome, wine trail
+- [ ] `buyers/index.html` — **New:** For Buyers hub (value prop, stats, AZ advantage)
+- [ ] `buyers/faq.html` — **New:** 20-question Buyer FAQ
+- [ ] `resources/emergency.html` — **Update:** Brady Fire, Genasys, Firewise, medevac
+- [ ] `resources/utilities.html` — **Update:** Starlink, arsenic warning, propane, solar
+- [ ] `resources/recreation.html` — **Update:** Wine trail, Jerome, Arcosanti, Lynx Lake status
+- [ ] **Nav update** — all pages get 7-item nav (add Life Here + For Buyers)
 
-### Phase 3 — Nice to have
+### Phase 3 — Awaiting board content
+- [ ] `hoa/board/index.html` — needs names, roles, contact info
+- [ ] `hoa/rules/index.html` — needs full R&R document
+- [ ] `hoa/minutes/index.html` — needs meeting minutes PDFs
+- [ ] `about/gallery.html` — needs community photos
+- [ ] `news/index.html` — needs first announcement
+- [ ] `news/calendar.html` — needs meeting dates
+
+### Phase 4 — Nice to have
 - [ ] Print stylesheet for minutes/documents
-- [ ] Search (simple: lunr.js)
+- [ ] Google Analytics or Plausible (privacy-first)
+- [ ] Custom domain (goswickranchhoa.org)
+- [ ] Email signup (Formspree or Buttondown — free tier)
 - [ ] Resident-only password area (basic HTTP auth via Netlify)
-- [ ] Google Analytics or Plausible
