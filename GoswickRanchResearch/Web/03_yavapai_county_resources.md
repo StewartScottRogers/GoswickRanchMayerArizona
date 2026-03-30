@@ -99,6 +99,8 @@
 - **Recorder's Office (documents):** https://www.yavapaiaz.gov/Mapping-and-Properties/Recorders-Office
 - **Recorded Documents Search:** https://www.yavapaiaz.gov/Mapping-and-Properties/Recorders-Office/Documents-Search
   - Online records date to 1953; surveys/subdivision plats since 1864
+- **Goswick Ranch Land Survey (Book 56, Page 8):** https://yavapaicountyaz-web.tylerhost.net/web/web/integration/search?field_selfservice_documentTypes-holderInput=LandSurveys&field_BookPageID.Book=56&field_BookPageID.Page=8
+  - Land survey record for the subdivision; searchable via Yavapai County Tyler Host document portal
 - **Assessor's Office:** https://www.yavapaiaz.gov/Mapping-and-Properties/Assessors-Office
   - (928) 771-3181 (fax)
   - Assessment notices sent in spring (by mid-March)
@@ -149,6 +151,7 @@
 | Building permit portal | https://www.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=300 |
 | Property Tax Inquiry | https://taxinquiry.yavapaiaz.gov/ |
 | Recorder's Document Search | https://www.yavapaiaz.gov/Mapping-and-Properties/Recorders-Office/Documents-Search |
+| Goswick Ranch Land Survey (Book 56, Page 8) | https://yavapaicountyaz-web.tylerhost.net/web/web/integration/search?field_selfservice_documentTypes-holderInput=LandSurveys&field_BookPageID.Book=56&field_BookPageID.Page=8 |
 
 ---
 

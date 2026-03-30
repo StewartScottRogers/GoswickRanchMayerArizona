@@ -150,7 +150,7 @@ These items were not found in any public source and are essential for the websit
 | Meeting minutes (past 2–3 years) | Legal disclosure; §33-1805 | High |
 | Community photos | Hero images, gallery — essential for design | High |
 | Gate access details | Security procedures for new residents | Medium |
-| Subdivision plat recording date | Historical context | Low |
+| ~~Subdivision plat recording date~~ | **Resolved — survey PDF obtained (Book 56, Pages 8–12)** | Done |
 | Internet/utility providers confirmed | Utilities page | Medium |
 | Trash collection provider | Utilities page | Medium |
 | Well water vs. MDWID | Utilities page | Medium |
@@ -201,6 +201,7 @@ These items were not found in any public source and are essential for the websit
 | Meeting minutes | **Blocked — needs board** |
 | Financial info | **Blocked — needs board** |
 | Community photos | **Blocked — needs board** |
+| Survey plat map (image + PDF) | **Done — live** |
 
 **Conclusion:** Site is live. All research-backed content is published. Remaining items require board engagement (documents, board member names, financials, photos).
 
@@ -377,3 +378,28 @@ These items from the original blockers list remain unresolved:
 | Gate upgrade plans (current lockbox → electronic?) | Medium |
 | Verify rancheshoa.com — is this the official HOA domain? | Medium |
 | Animal chart (Section 501E) — number of horses/cattle per acre | Low |
+
+---
+
+## Build Session — 2026-03-29 (Survey Map & PDF)
+
+**What was done:** Added the official Goswick Ranch subdivision survey as an image and downloadable PDF to the website.
+
+**Source files (in `GoswickRanchResearch/Documents/`):**
+- `GoswickRanchSurveyImage.png` — PNG image of the survey plat
+- `GOSWICK RANCH SURVEY.pdf` — Full survey PDF
+
+**Assets copied to website (`WebSite/wwwroot/`):**
+- `img/survey-map.png` — survey plat image (served from `/GoswickRanchMayerArizona/img/survey-map.png`)
+- `docs/survey.pdf` — survey PDF (served from `/GoswickRanchMayerArizona/docs/survey.pdf`)
+
+**Pages updated:**
+
+1. **`index.html`** — Added a "Community Map" `<figure>` section between the welcome prose and the Quick Links cards. The image links to the full PDF. Caption includes a direct PDF download link. Survey description: "Results of Survey — Goswick Ranch, a portion of Sections 31 and 32, T 13 N, R 1 E, G&SRB&M, Yavapai County, Arizona. 850.63 acres."
+
+2. **`hoa/documents.html`** — Added the survey PDF as a third entry in the CC&Rs & Bylaws `<ul>` list, with the label: "Results of Survey — Goswick Ranch (850.63 acres, Sections 31 & 32)".
+
+**Regeneration instructions:** If the site is regenerated from scratch, ensure:
+- Both files are copied from `Documents/` to `wwwroot/img/` and `wwwroot/docs/` respectively
+- `index.html` includes a `<figure class="survey-map">` section with the image linked to the PDF
+- `hoa/documents.html` includes the survey PDF in the documents list
