@@ -83,6 +83,8 @@ Sources: https://www.alltrails.com/parks/us/arizona/prescott-national-forest
 - Lynx Campground: 39 sites, April–Oct; https://www.recreation.gov/camping/campgrounds/234762
 - Hilltop: 38 sites, ¼ mi south; same rules
 
+**⚠️ CURRENT STATUS NOTE:** Lynx Lake was **intentionally drained in late 2024** for dam valve repairs. The lake is slowly refilling but the boat ramp remains closed as of March 2026. Verify current status before visiting — call Bradshaw Ranger District: (928) 443-8000.
+
 Sources: https://www.prescott.com/lynx-lake | https://www.fs.usda.gov/recarea/prescott/recarea/?recid=75178
 
 ---

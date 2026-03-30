@@ -10,7 +10,10 @@
 
 | File | Topic | Quality |
 |------|-------|---------|
-| [11_deep_research_march_2026.md](11_deep_research_march_2026.md) | Deep research session — new facts, listings, history, HOA fee, plat ref | **Excellent — major new findings** |
+**Wave 1 research (March 28, 2026) — original 9 topic files:**
+
+| File | Topic | Quality |
+|------|-------|---------|
 | [01_goswick_ranch_hoa.md](01_goswick_ranch_hoa.md) | Direct info about the HOA/community | Partial — limited public data |
 | [02_mayer_arizona.md](02_mayer_arizona.md) | Town/community profile | Good — Wikipedia + church history |
 | [03_yavapai_county_resources.md](03_yavapai_county_resources.md) | County services, links, contacts | Good — some direct fetches blocked |
@@ -20,7 +23,22 @@
 | [07_local_geography.md](07_local_geography.md) | Bradshaw Mountains, Big Bug Creek | Good — some sites blocked |
 | [08_utilities_services.md](08_utilities_services.md) | Utilities, local services | Partial — gaps noted |
 | [09_real_estate_context.md](09_real_estate_context.md) | Property listings, zoning info | Good — listing sites partly blocked |
-| [10_emergency_preparedness.md](10_emergency_preparedness.md) | Wildfire, flood, evacuation, insurance, medical | Excellent — deep multi-source research |
+
+**Wave 2 deep research (March 29, 2026) — 14-agent parallel research session:**
+
+| File | Topic | Quality |
+|------|-------|---------|
+| [10_emergency_preparedness.md](10_emergency_preparedness.md) | Wildfire/Firewise, flood zones, evacuation, PSPS, insurance crisis, medevac | **Excellent** |
+| [10_hoa_website_design_strategy_2025.md](10_hoa_website_design_strategy_2025.md) | Design direction, best-in-class models, tech stack, legal context | **Excellent** |
+| [11_deep_research_march_2026.md](11_deep_research_march_2026.md) | HOA fee $216/yr; Goswick family/plat/APN; gate; street names; listings | **Excellent — major new findings** |
+| [12_outdoor_recreation.md](12_outdoor_recreation.md) | All recreation within 60 miles; distances; Foothills Ranch; OHV; birding; dark skies | **Excellent** |
+| [13_demographics_migration_market.md](13_demographics_migration_market.md) | 57% appreciation; buyer profiles; tax advantages; SR 69 ADOT investment | **Excellent** |
+| [../scraped/mayer_az_community_research.md](../scraped/mayer_az_community_research.md) | Local businesses, Mayer Daze, churches, nearby towns, quality of life grades | **Excellent** |
+| [../scraped/research_hoa_law_and_lifestyle_2026.md](../scraped/research_hoa_law_and_lifestyle_2026.md) | 2025 AZ HOA statute updates; ARC rules; Prescott culture; Verde Valley; seasons | **Excellent** |
+| [../scraped/prescott_verde_valley_regional_research.md](../scraped/prescott_verde_valley_regional_research.md) | Prescott services/culture; Verde Valley wine trail; Jerome; Sedona; State Parks; Phoenix access | **Excellent** |
+| [../scraped/research_ranch_lifestyle_hoa_governance_2026-03-29.md](../scraped/research_ranch_lifestyle_hoa_governance_2026-03-29.md) | RCU-2A zoning; open range law; AG tax; equestrian services; HOA insurance/software/tax | **Excellent** |
+| [../scraped/ecology_security_technology_research_2026.md](../scraped/ecology_security_technology_research_2026.md) | Native plants; wildlife; buffelgrass; dark skies; soils; monsoon; gate systems; HAM radio | **Excellent** |
+| [../scraped/deep_research_goswick_history_infrastructure_2026-03-29.md](../scraped/deep_research_goswick_history_infrastructure_2026-03-29.md) | Goswick family genealogy; BLM mining claim; well water/arsenic; solar; propane; Starlink | **Excellent** |
 
 ---
 
@@ -235,3 +253,127 @@ These items were not found in any public source and are essential for the websit
 - Water district website (mayerwaterdistrict.com)
 
 **Deployment:** GitHub Actions workflow pushes `WebSite/wwwroot/` to GitHub Pages on every push to `master`. One-time setup: GitHub repo Settings → Pages → Source → GitHub Actions.
+
+---
+
+## Deep Research Session — 2026-03-29 (14-Agent Parallel Research)
+
+**What was done:** A second research session ran 14 parallel research agents covering topics not addressed in the original research. Approximately 1,200+ web tool calls across all agents.
+
+**Major new facts discovered:**
+
+### The Goswick Family (Confirmed — Historic Ranch Origin)
+- The Goswick family has been in Yavapai County since the **1860s–1880s**
+- William Isaac Goswick (1836–1904): mail carrier at Camp Verde
+- Giles Wesley Goswick (1888–1975): government lion hunter in the Bradshaw foothills
+- **George Allen Goswick (1919–1997) appears in the 1930 census in Mayer, Yavapai County** — direct link to the ranch site
+- **Mark Goswick Cattle Co.** (Bloody Basin Rd, Mayer, AZ 86333, phone 928-632-7730) is an active cattle operation — almost certainly a descendant of the same line
+- **Goswick Cattle Co. held BLM placer mining claim "SPANISH #8" (AMC102929)** filed 1980 in T.12N R.1E Sec.5 — the family's dual ranching/mining identity confirmed
+- HOA domain **rancheshoa.com** exists but was unreachable; worth investigating
+
+### HOA Fee and Plat — Confirmed
+- **HOA fee: $216/year ($18/month)** — from Coldwell Banker MLS structured data
+- **Plat legal description: "GOSWICK RANCH LS 56/8-12"** — Book 56, Pages 8–12, Yavapai County Recorder
+- **Known APNs:** 402-12-003F (27.19 acres), 402-12-008C (9.08 acres); all in 402-12-xxx range
+- Internal street names: S Hawk Mountain Trail, S Miners Pick Rd, E Vaca Bonita Trail, Bullhorn Rd, E Pearl Mountain Rd, E Elizabeth Mine Rd
+- Access: from SR 69 turn west on E Poland Rd (also called Poland Junction Rd); gate uses **lockbox** system
+- Internal roads are **private subdivision-maintained** — HOA maintenance responsibility (ARS 33-1818)
+- HOA road maintenance costs: estimated $1,400–$5,500/mile/year nationally
+
+### Water, Infrastructure, and Utilities
+- Goswick Ranch is almost certainly **outside the Prescott AMA** — exempt domestic wells (≤35 gpm) require only a Notice of Intention to Drill
+- **Arsenic warning:** 43.6% of Yavapai County groundwater samples exceed 10 ppb; Big Bug Mining District geology. Private well owners should test every 5 years.
+- **Rainwater harvesting:** Legal + **up to $2,000 ADWR reimbursement** for tanks ≥800 gallons; no permit for outdoor/non-potable use
+- **Solar:** Federal 30% ITC **eliminated January 1, 2026**; Arizona 25% state credit (max $1,000) remains; APS export rate ~$0.062/kWh locked 10 years; excellent potential at 6,000 ft
+- **Propane:** Ferrellgas (Chino Valley, 928-445-3940) and John Graves Propane explicitly cover Mayer
+- **Cell coverage:** All three major carriers cover ~73–77% of Mayer area; terrain effects on-site are unknown; test before committing
+- **Starlink:** Confirmed available at ZIP 86333; $80–120/month + ~$349 equipment; 50–180 Mbps / 30–50 ms latency — fully capable for professional remote work
+
+### Emergency and Safety Updates
+- **Brady Fire (February 2025):** 400 acres near Pine Flats, just west of Mayer — GO evacuations ordered. Recent proof the threat is ongoing.
+- **Crooks Fire (April 2022):** 9,402 acres near Mt. Union; 8 structures lost
+- **APS has identified Mayer as subject to Public Safety Power Shutoffs (PSPS)** — well-water users need generator backup (3,000+ watts)
+- **ALERTWildfire cameras confirmed on Mount Francis AND Mount Union** — detect fires under 1 acre in the Bradshaw Mountains; alerts to USFS, county, and sheriff
+- **Genasys Protect (launched April 2024):** New Yavapai County evacuation zone system; residents look up their zone at protect.genasys.com
+- **AlertYavapai / Smart911:** Current system (replaced Everbridge 2022); sign up at smart911.com or text alertYAVAPAI to 78015
+- **Big Bug Creek FEMA flood zone: AE** (1% annual probability); FIRM maps 04025C2488H and 04025C2470H
+- **Arizona homeowners insurance rates rose 48% between 2021–2024** (3rd highest nationally); Arizona has **no FAIR plan**; ISO Class 9–10 in Yavapai County
+- **Firewise USA designation:** 5-step NFPA program; USAA offers up to 5% discount; HB2384 requires insurers to factor designation into rates
+- **Yavapai County free slash drop-off** runs annually March–June including Mayer Transfer Station
+- **Native Air 4** (YRMC West helicopter): Received First Responder Status December 2024; YRMC is Level IV Trauma; Level I trauma requires Phoenix transport (~73 mi / ~71 min)
+
+### Gate and Security Technology
+- **LiftMaster LA412UL solar swing gate** ($1,400–$2,100) + Knox Gate Key Switch: recommended upgrade from current lockbox
+- **Knox Box:** No monthly fee; likely required by Mayer Fire District for emergency vehicle access
+- **CellGate:** Cellular-first alternative ($3,450–$4,450)
+- **Mt. Union repeater (147.260 MHz, CTCSS 103.5):** In the Bradshaw Mountains — perfect HAM coverage for Goswick Ranch
+- **GMRS repeater on Mt. Union (462.600 MHz, CTCSS 167.9):** GMRS license $35/10 years, no exam, covers whole family — strong recommendation for community emergency comms
+- **HOA Ally (hoaally.org):** Best free HOA management software — dues collection, documents, calendar, communications, polls; premium ~$15/month for 15 homes
+
+### Ecology — Native Plants and Wildlife
+- **Plant community:** Chaparral-to-ponderosa transition; alligator juniper, Emory oak, one-seed juniper, ponderosa pine (above ~5,500 ft); pointleaf manzanita dominates; sideoats + blue grama grasses; no saguaros at this elevation; cane cholla reaches 6,000 ft
+- **Wildflower peak:** April–May; penstemon, lupine, globe mallow, owl's clover; Senator Highway corridor is premier viewing route
+- **Buffelgrass:** Primary invasion front still in Tucson–Phoenix lower desert — not yet widely present in Bradshaw foothills near Mayer
+- **Wildlife:** Mule deer (not white-tailed) predominate; mountain lions actively occurring near Prescott; Wild turkeys year-round residents; black-tailed and Arizona black rattlesnakes primary at 6,000 ft; Gila monsters rare above 5,000 ft
+- **Birds:** Up to 11 hummingbird species in Prescott area; Golden Eagle and Northern Goshawk present
+- **Dark skies:** Bortle Class 3 confirmed; best October–June (monsoon July–Sept clouds); brilliant Milky Way naked-eye
+- **Soils:** Precambrian granite/gneiss/schist, 1.7–1.8 billion years old; shallow rocky with rapid drainage; blasting may be needed for construction; native plants strongly preferred
+- **Monsoon at 6,000 ft:** Storms form over the Bradshaws; trigger early (2–4 PM); 500,000+ lightning strikes/AZ monsoon season; washes 0 to 3–6 ft in 5–10 minutes
+- **Fall color at 6,000 ft:** Bigtooth maple, Gambel oak, sumac, cottonwood in October; **Senator Highway–Crown King is the premier fall color route near Mayer**
+
+### Demographics, Market, and Lifestyle
+- Mayer property appreciated **57.43% over 5 years** (2020–2026); current median value ~$303,591
+- Yavapai County growing at **5x the national rate** — 100% driven by in-migration; projected +24,000 residents by 2030
+- California is the #1 feeder state (74,157 people in 2022); escapees from high taxes and cost of living
+- Arizona flat income tax now **2.5%**; Social Security **not taxed**; no estate/inheritance tax; property tax ~0.44%
+- **ADUs:** Yavapai County adopted new rules Nov 19, 2025 — one attached + one detached allowed (1,000 sq ft max); HOA CC&Rs may restrict
+- **Open range law:** Yavapai County is open range — property owners must fence OUT livestock; driver may be liable to livestock owner if livestock hit on road
+- **AG property tax:** Class 2 agricultural has 15% assessment ratio vs. 10% residential — AG classification only helps if productive value is below market value; requires genuine commercial farming/ranching intent
+- **Mortimer Farms** (Dewey, SR 169, ~10–15 miles): nearest agritourism destination — U-pick, festivals, farm park
+- **Los Caballos Veterinary Service:** Mobile equine vet; explicitly covers Mayer; 24/7 emergencies: (928) 636-6644
+- **Olsen's Grain Dewey** (~15 miles): closest feed store with hay delivery
+- **Prescott Livestock Auction** (Chino Valley): Northern Arizona's premier auction since 1988
+
+### Prescott and Regional Context
+- **All major shopping on SR 69 route:** Trader Joe's, Safeway, Fry's, Sprouts in Prescott; Costco, Lowe's, Walmart in Prescott; Home Depot and Walmart Supercenter in Prescott Valley — all on the route home from Goswick Ranch
+- **YRMC East (Prescott Valley, 13 miles)** is the closer hospital; **NextCare Urgent Care** (3051 N Windsong Dr, Prescott Valley) is the primary urgent care on SR 69
+- **World's Oldest Rodeo:** Running since 1888; June 30–July 6, 2025; 27,000+ attendees; sells out annually
+- **Prescott Airport:** United Express daily to Denver and Los Angeles; free long-term parking; car rentals
+- **Verde Valley Wine Trail:** AVA designation granted 2021; ~15 tasting rooms; **Caduceus Cellars is Maynard Keenan's (Tool) winery** in Jerome
+- **Jerome:** 40 miles / ~50 min; National Historic Landmark; population 464; Jerome Grand Hotel (1927 former hospital) open for lodging, ghost tours
+- **Tuzigoot + Montezuma Castle:** Both ~27–28 miles; one $10 ticket covers both for 7 days
+- **Sedona:** ~60 miles / ~1 hour; arrive before 7 AM on weekends (trailhead lots fill)
+- **Arcosanti:** Only 11–15 miles from Goswick Ranch — guided tours Thu–Mon; famous Cosanti windbells
+- **Lynx Lake ⚠️:** Drained in late 2024 for dam valve repairs; boat ramp remains closed as of March 2026; verify status before visiting
+- **Sky Harbor Airport:** 74 miles / ~70 minutes via I-17; only practical route
+
+### 2025 Arizona HOA Law Updates (Key Changes)
+- **SB 1494:** Foreclosure threshold raised to 18 months / $10,000
+- **SB 1039:** Meeting recordings retained 6 months
+- **SB 1337:** Electronic violation responses allowed
+- **Flag protection extended:** Flags added to political sign protections
+- **Small claims limit raised to $5,000** for HOA disputes
+- **ARC auto-approval:** If HOA doesn't respond to ARC request within 30 days, it is deemed approved
+- **Assessment cap:** 20% annual increase requires majority member vote to exceed; late fee = greater of $15 or 10%
+- **Annual financial audit/review/compilation required within 180 days** of fiscal year-end
+
+---
+
+## Updated Knowledge Gaps (Still Require Board Input)
+
+These items from the original blockers list remain unresolved:
+
+| Item | Priority |
+|------|---------|
+| CC&Rs / Bylaws / Rules documents | Critical |
+| Board member names, roles, contact info | Critical |
+| HOA assessment ($216/yr from MLS — confirm officially with board) | High |
+| Current operating budget | High |
+| Meeting minutes (past 2–3 years) | High |
+| Community photos (gate, views, homes, landscape) | High |
+| Well water vs. MDWID confirmation for each lot | Medium |
+| Trash collection provider | Medium |
+| Internet providers confirmed for the subdivision | Medium |
+| Gate upgrade plans (current lockbox → electronic?) | Medium |
+| Verify rancheshoa.com — is this the official HOA domain? | Medium |
+| Animal chart (Section 501E) — number of horses/cattle per acre | Low |
