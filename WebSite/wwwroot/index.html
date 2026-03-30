@@ -23,9 +23,10 @@
       <ul>
         <li><a href="/GoswickRanchMayerArizona/">Home</a></li>
         <li><a href="/GoswickRanchMayerArizona/about/">About</a></li>
+        <li><a href="/GoswickRanchMayerArizona/lifestyle/">Life Here</a></li>
         <li><a href="/GoswickRanchMayerArizona/hoa/">HOA Info</a></li>
+        <li><a href="/GoswickRanchMayerArizona/buyers/" class="nav-buyers">For Buyers</a></li>
         <li><a href="/GoswickRanchMayerArizona/resources/">Resources</a></li>
-        <li><a href="/GoswickRanchMayerArizona/news/">News</a></li>
         <li><a href="/GoswickRanchMayerArizona/contact/">Contact</a></li>
       </ul>
     </nav>
@@ -39,17 +40,74 @@
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>Goswick Ranch</h1>
-      <p class="hero-tagline">A Private Ranch Community in the Bradshaw Mountains</p>
-      <a href="/GoswickRanchMayerArizona/hoa/documents.html" class="btn-primary">View HOA Documents</a>
+      <p class="hero-tagline">A Private Ranch Community in the Bradshaw Mountains · Mayer, Arizona</p>
+      <div style="display:flex; gap: var(--space-4); flex-wrap: wrap; justify-content: center; margin-top: var(--space-6);">
+        <a href="/GoswickRanchMayerArizona/hoa/" class="btn-outline">I'm a Resident</a>
+        <a href="/GoswickRanchMayerArizona/buyers/" class="btn-primary">Thinking of Buying Here?</a>
+      </div>
     </div>
   </section>
 
-  <!-- Welcome -->
+  <!-- Stats Bar -->
+  <section class="stats-bar" aria-label="Community facts at a glance">
+    <div class="stat-item">
+      <span class="stat-value">$216/yr</span>
+      <span class="stat-label">HOA annual assessment</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">9 acres</span>
+      <span class="stat-label">Minimum lot size</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">57%</span>
+      <span class="stat-label">5-yr appreciation (2020–2026)</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">~$476/yr</span>
+      <span class="stat-label">Median property tax (Mayer ZIP)</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">4,400–6,000 ft</span>
+      <span class="stat-label">Elevation range</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value">27 miles</span>
+      <span class="stat-label">To downtown Prescott</span>
+    </div>
+  </section>
+  <p class="stats-source">HOA fee from MLS disclosures; appreciation estimate Yavapai County 2020–2026; property taxes per county assessor.</p>
+
+  <!-- Welcome + Dual CTA -->
   <section class="section">
     <div class="page-content">
       <div class="prose">
-        <p>Goswick Ranch is a small, exclusive gated community nestled in the foothills of the Bradshaw Mountains near Mayer, Arizona. Set at elevations ranging from 4,400 to 6,000 feet, the community overlooks Big Bug Creek and offers stunning views of one of central Arizona's most dramatic mountain ranges.</p>
-        <p>With minimum 9-acre lots and site-built homes only, Goswick Ranch preserves the open, rural character that makes this corner of Yavapai County special — a true Arizona ranch lifestyle within reach of both Prescott and the Phoenix metro area. The ranch carries the name of the Goswick family, cattle ranchers who worked this land from the 1880s; the Mark Goswick Cattle Co. still operates in the valley below.</p>
+        <p>Goswick Ranch is a small, exclusive gated community nestled in the foothills of the Bradshaw Mountains near Mayer, Arizona. Set at elevations ranging from 4,400 to 6,000 feet, the community overlooks Big Bug Creek and offers sweeping views of one of central Arizona's most dramatic mountain ranges.</p>
+        <p>With minimum 9-acre lots and site-built homes only, Goswick Ranch preserves the open, rural character that makes this corner of Yavapai County special — a true Arizona ranch lifestyle within reach of both Prescott and the Phoenix metro area.</p>
+      </div>
+
+      <!-- Dual Audience Cards -->
+      <div class="audience-cards">
+        <div class="audience-card">
+          <h2>I'm a Resident</h2>
+          <p>Find HOA documents, governing rules, board information, emergency contacts, utility providers, and community resources.</p>
+          <ul>
+            <li><a href="/GoswickRanchMayerArizona/hoa/documents.html">HOA Documents</a></li>
+            <li><a href="/GoswickRanchMayerArizona/resources/emergency.html">Emergency Info</a></li>
+            <li><a href="/GoswickRanchMayerArizona/resources/utilities.html">Utilities</a></li>
+            <li><a href="/GoswickRanchMayerArizona/contact/">Contact the Board</a></li>
+          </ul>
+          <a href="/GoswickRanchMayerArizona/hoa/" class="btn-secondary">Go to HOA Info &rarr;</a>
+        </div>
+        <div class="audience-card">
+          <h2>Thinking of Buying Here?</h2>
+          <p>Explore the lifestyle, understand the numbers, and get the information you need — whether you're a local agent or relocating from out of state.</p>
+          <ul>
+            <li><a href="/GoswickRanchMayerArizona/lifestyle/">Life Here — seasons, dark skies, recreation</a></li>
+            <li><a href="/GoswickRanchMayerArizona/buyers/">Financial advantages &amp; CC&amp;R summary</a></li>
+            <li><a href="/GoswickRanchMayerArizona/buyers/faq.html">Buyer FAQ</a></li>
+          </ul>
+          <a href="/GoswickRanchMayerArizona/buyers/" class="btn-primary">For Buyers &rarr;</a>
+        </div>
       </div>
 
       <!-- Community Map -->
@@ -58,6 +116,7 @@
           <img src="/GoswickRanchMayerArizona/img/survey-map.png"
                alt="Results of Survey — Goswick Ranch, a portion of Sections 31 and 32, T 13 N, R 1 E, Yavapai County, Arizona. 850.63 acres. Shows individual numbered lots, easements, and a vicinity map."
                width="1545" height="912"
+               loading="lazy"
                style="width:100%; height:auto; border:1px solid var(--color-border); border-radius:4px;">
         </a>
         <figcaption style="margin-top: var(--space-2); font-size: var(--text-sm); color: var(--color-text-muted);">
@@ -71,17 +130,17 @@
       <div class="card-grid">
         <a class="card" href="/GoswickRanchMayerArizona/hoa/documents.html">
           <h3>HOA Documents</h3>
-          <p>Access CC&amp;Rs, bylaws, meeting minutes, and financial reports.</p>
+          <p>CC&amp;Rs, bylaws, survey plat, and governing documents.</p>
           <span class="card-cta">View documents &rarr;</span>
         </a>
         <a class="card" href="/GoswickRanchMayerArizona/resources/emergency.html">
           <h3>Emergency Services</h3>
-          <p>Sheriff, fire district, wildfire alerts, and emergency contact numbers for the Mayer area.</p>
+          <p>Sheriff, fire district, wildfire alerts, evacuation zones, and emergency contacts.</p>
           <span class="card-cta">View numbers &rarr;</span>
         </a>
-        <a class="card" href="/GoswickRanchMayerArizona/resources/recreation.html">
-          <h3>Recreation &amp; Lifestyle</h3>
-          <p>Dark skies, wildlife, equestrian services, and regional destinations within 60 miles.</p>
+        <a class="card" href="/GoswickRanchMayerArizona/lifestyle/">
+          <h3>Life Here</h3>
+          <p>Seasons, dark skies, wildlife, recreation, and nearby destinations within 60 miles.</p>
           <span class="card-cta">Explore the area &rarr;</span>
         </a>
         <a class="card" href="/GoswickRanchMayerArizona/contact/">
@@ -173,4 +232,3 @@
 <script src="/GoswickRanchMayerArizona/js/main.js"></script>
 </body>
 </html>
-
