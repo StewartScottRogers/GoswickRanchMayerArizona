@@ -10,6 +10,7 @@
 
 | File | Topic | Quality |
 |------|-------|---------|
+| [11_deep_research_march_2026.md](11_deep_research_march_2026.md) | Deep research session — new facts, listings, history, HOA fee, plat ref | **Excellent — major new findings** |
 | [01_goswick_ranch_hoa.md](01_goswick_ranch_hoa.md) | Direct info about the HOA/community | Partial — limited public data |
 | [02_mayer_arizona.md](02_mayer_arizona.md) | Town/community profile | Good — Wikipedia + church history |
 | [03_yavapai_county_resources.md](03_yavapai_county_resources.md) | County services, links, contacts | Good — some direct fetches blocked |
@@ -19,6 +20,7 @@
 | [07_local_geography.md](07_local_geography.md) | Bradshaw Mountains, Big Bug Creek | Good — some sites blocked |
 | [08_utilities_services.md](08_utilities_services.md) | Utilities, local services | Partial — gaps noted |
 | [09_real_estate_context.md](09_real_estate_context.md) | Property listings, zoning info | Good — listing sites partly blocked |
+| [10_emergency_preparedness.md](10_emergency_preparedness.md) | Wildfire, flood, evacuation, insurance, medical | Excellent — deep multi-source research |
 
 ---
 
