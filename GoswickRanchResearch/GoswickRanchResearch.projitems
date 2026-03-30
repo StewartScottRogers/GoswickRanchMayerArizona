@@ -13,6 +13,7 @@
     <None Include="$(MSBuildThisFileDirectory)Documents\CC&amp;Rs Goswick HOA.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\CCRs.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\Goswick ByLaws.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\GOSWICK RANCH SURVEY.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Goswick_Ranch_HOA_Website_References.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\01_goswick_ranch_hoa.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\02_mayer_arizona.md" />
@@ -25,5 +26,8 @@
     <None Include="$(MSBuildThisFileDirectory)Web\09_real_estate_context.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\HOW_TO_USE_THIS_RESEARCH.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\INDEX.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchSurveyImage.png" />
   </ItemGroup>
 </Project>
