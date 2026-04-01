@@ -1,6 +1,14 @@
-# Mayer, Arizona — Community Profile
+# Nearest Community & Local Services — Mayer, Arizona
 
 *Last updated: 2026-04-01*
+
+---
+
+## Role in the Goswick Ranch Context
+
+**Mayer, AZ is the nearest town to Goswick Ranch** — approximately 1 mile from the Poland Road / AZ-69 junction. It is a small rural community on SR 69, providing gas, groceries, hardware, a post office, basic medical, and a library. Residents needing larger stores (Walmart, Costco, Target, hospital) drive ~13 miles south to Prescott Valley or ~27 miles southwest to Prescott.
+
+Mayer is not the defining identity of Goswick Ranch. The Ranch's geographic anchor is **Poland Road** and the **Bradshaw Mountains** — Mayer simply happens to be the closest incorporated community at the base of that road.
 
 ---
 
