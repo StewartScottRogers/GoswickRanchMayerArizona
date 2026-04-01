@@ -1,0 +1,48 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Resident Resources — Goswick Ranch HOA"
+  description="Emergency services, utilities, county resources, and local services for Goswick Ranch residents."
+  pageTitle="Resident Resources"
+  pageSubtitle="Useful links and contact information for Goswick Ranch residents."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'Resident Resources' }
+  ]}
+>
+  <div class="page-content">
+
+    <div class="card-grid">
+      <a class="card" href={`${base}/resources/emergency/`}>
+        <h3>Emergency Services</h3>
+        <p>911, Mayer Fire District, Sheriff, nearest hospital, wildfire alerts, and flood preparedness.</p>
+        <span class="card-cta">View numbers &rarr;</span>
+      </a>
+      <a class="card" href={`${base}/resources/utilities/`}>
+        <h3>Utilities</h3>
+        <p>Wells, electricity, propane, Starlink internet, solar, and rainwater harvesting information.</p>
+        <span class="card-cta">View utilities &rarr;</span>
+      </a>
+      <a class="card" href={`${base}/resources/recreation/`}>
+        <h3>Recreation &amp; Lifestyle</h3>
+        <p>Dark skies (Bortle 3), wildlife, equestrian services, and regional destinations within 60 miles.</p>
+        <span class="card-cta">Explore the area &rarr;</span>
+      </a>
+      <a class="card" href={`${base}/resources/county/`}>
+        <h3>Yavapai County</h3>
+        <p>County offices, property records, building permits, zoning, and the assessor's office.</p>
+        <span class="card-cta">View county links &rarr;</span>
+      </a>
+      <a class="card" href={`${base}/resources/services/`}>
+        <h3>Local Services</h3>
+        <p>Schools, library, ranch &amp; equestrian services, and community-recommended providers.</p>
+        <span class="card-cta">View local services &rarr;</span>
+      </a>
+    </div>
+
+  </div>
+</PageLayout>

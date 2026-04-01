@@ -1,0 +1,37 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  pageTitle: string;
+  pageSubtitle?: string;
+  breadcrumbs?: Array<{ label: string; href?: string }>;
+}
+
+const { title, description, pageTitle, pageSubtitle, breadcrumbs } = Astro.props;
+---
+
+<BaseLayout title={title} description={description}>
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        {breadcrumbs && (
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            {breadcrumbs.map((crumb, i) => (
+              <>
+                {crumb.href
+                  ? <a href={crumb.href}>{crumb.label}</a>
+                  : <span>{crumb.label}</span>}
+                {i < breadcrumbs.length - 1 && <span aria-hidden="true">/</span>}
+              </>
+            ))}
+          </nav>
+        )}
+        <h1>{pageTitle}</h1>
+        {pageSubtitle && <p class="lead">{pageSubtitle}</p>}
+      </div>
+    </div>
+    <slot />
+  </main>
+</BaseLayout>

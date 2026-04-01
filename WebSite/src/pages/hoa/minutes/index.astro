@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Meeting Minutes — Goswick Ranch HOA"
+  description="Goswick Ranch HOA board meeting and annual meeting minutes."
+  pageTitle="Meeting Minutes"
+  pageSubtitle="Board meeting and annual meeting records, as required by A.R.S. § 33-1805."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'HOA Info', href: `${base}/hoa/` },
+    { label: 'Meeting Minutes' }
+  ]}
+>
+  <div class="page-content">
+    <div class="notice notice-info">
+      <p><strong>Coming soon.</strong> Meeting minutes are pending board submission. They will be posted here as received. <a href={`${base}/contact/`}>Contact the board</a> with questions.</p>
+    </div>
+    <div class="prose" style="margin-top: var(--space-8);">
+      <p>Under A.R.S. § 33-1805, meeting minutes must be made available to members within 10 business days of a request at no charge.</p>
+    </div>
+  </div>
+</PageLayout>

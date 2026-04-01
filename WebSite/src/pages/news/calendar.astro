@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Community Calendar — Goswick Ranch HOA"
+  description="Goswick Ranch HOA community calendar — upcoming meetings and events."
+  pageTitle="Community Calendar"
+  pageSubtitle="Upcoming HOA meetings and community events."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'News', href: `${base}/news/` },
+    { label: 'Calendar' }
+  ]}
+>
+  <div class="page-content">
+    <div class="notice notice-info">
+      <p><strong>Coming soon.</strong> The community calendar is pending board submission. <a href={`${base}/contact/`}>Contact the board</a> for upcoming meeting dates.</p>
+    </div>
+  </div>
+</PageLayout>
