@@ -86,9 +86,9 @@ All research was conducted in two waves, then consolidated on April 1, 2026:
 The research is comprehensive for everything publicly available. The following items require direct board input before the website can be completed:
 
 **Critical (blocking key pages):**
-- CC&Rs PDF
-- Bylaws PDF
-- Rules & Regulations PDF
+- ~~CC&Rs PDF~~ — **Received** (`Documents/CC&Rs Goswick HOA.pdf`)
+- ~~Bylaws PDF~~ — **Received** (`Documents/Goswick ByLaws.pdf`)
+- Rules & Regulations PDF — **Still needed**
 - Board member names, roles, and contact information
 
 **High priority:**

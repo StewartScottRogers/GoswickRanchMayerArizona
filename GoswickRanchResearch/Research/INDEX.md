@@ -39,8 +39,8 @@ These items were not found in any public source and are essential for completing
 | ~~Water source (well vs. MDWID)~~ | **Resolved** — Individual private wells confirmed | — | **Done** |
 | ~~Propane providers~~ | **Resolved** — Ferrellgas, AmeriGas, John Graves, Gilligan's | — | **Done** |
 | ~~Internet provider~~ | **Resolved** — Starlink confirmed for ZIP 86333 | — | **Done** |
-| CC&Rs (Declaration) PDF | Core legal document; legally must be made available; §33-1806 resale disclosure | **Critical** | Needs board |
-| Bylaws PDF | Governance document; §33-1805 record access | **Critical** | Needs board |
+| ~~CC&Rs (Declaration) PDF~~ | **Resolved** — `Documents/CC&Rs Goswick HOA.pdf` and `Documents/CCRs.pdf`; linked from site at `/docs/ccrrs.pdf` | — | **Done** |
+| ~~Bylaws PDF~~ | **Resolved** — `Documents/Goswick ByLaws.pdf`; linked from site at `/docs/bylaws.pdf` | — | **Done** |
 | Rules & Regulations PDF | Day-to-day conduct rules | **Critical** | Needs board |
 | Board member names and roles | Board of Directors page | **Critical** | Needs board |
 | Board contact email address(es) | Contact page | **Critical** | Needs board |
