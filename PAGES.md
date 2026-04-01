@@ -103,8 +103,9 @@ Six numbers that tell the community story at a glance. Use the Stats Bar compone
 | Zoning | RCU-2A (Yavapai County Rural Conservation Use) |
 | HOA | Self-managed · no management company |
 | HOA fee | $216/year ($18/month) |
+| Approx. lots | ~25–35 parcels (Yavapai County GIS parcel map; confirm exact count with board) |
 
-**[BOARD]** — Total number of lots, gate access procedure for guests/vendors.
+**[BOARD]** — Exact lot count, gate access procedure for guests/vendors.
 
 ---
 
@@ -198,6 +199,12 @@ Suggested categories:
 - Night sky / Milky Way (Bortle Class 3 — a genuine selling point)
 
 Technical note: Use pure CSS / vanilla-JS lightbox with `<dialog>` — no jQuery dependency.
+
+**Available image assets (in `GoswickRanchResearch/Documents/`):**
+- `GoswickRanchSurveyImage.png` — survey plat (already on site as `img/survey-map.png`)
+- `GoswickRanchYavapaiCountyMap.png` — Yavapai County GIS parcel map with lot boundary overlay; use on About page or Gallery
+- `GoswickRanchGoogleEarth.png` — Google Earth aerial with real estate price overlays; use on For Buyers page
+- `GoswickRanch2HawkMountainTrlMayerAZ86333.avif` — actual property photo of 2 S Hawk Mountain Trail; **must convert AVIF→JPEG/PNG before use on site** (AVIF is not universally browser-supported and the file is too large to read directly; run `ffmpeg -i input.avif output.jpg` or use an online converter)
 
 ---
 
@@ -416,6 +423,12 @@ Yavapai County property values appreciated approximately 57% between 2020 and 20
 **Active Listings (as of March 2026):**
 Multiple active listings ranging from raw land parcels to improved properties with homes. Contact local brokers for current inventory — eXp Realty, Coldwell Banker, and Compass all have active agents in the Mayer/Prescott area.
 
+**Value Premium vs. Surrounding Area:**
+Goswick Ranch properties command a substantial premium relative to surrounding unimproved parcels in the Mayer corridor. Adjacent and nearby unimproved land parcels range from approximately $43,000 to $220,000 — well below Goswick's $250,000–$599,000 range. The premium reflects the gated access, 9-acre minimums, and established community covenants. Lower-value parcels in the surrounding area tend to cluster near mining operations consistent with the Big Bug Mining District; Goswick Ranch sits in denser chaparral terrain west and south of those areas.
+
+**Know Before You Buy — Mining District Context:**
+Aerial and GIS imagery shows open-pit mine tailings in the mid-distance east of the community — consistent with Big Bug Mining District historical operations documented in county geology records. The mine is not immediately adjacent to the Goswick Ranch subdivision. However, this geology is why private well owners should test for arsenic (see Buyer FAQ). Properties closer to mining activity in the surrounding area carry lower values; Goswick Ranch's position in denser Bradshaw foothills vegetation separates it from those parcels.
+
 ### What the CC&Rs Require
 
 Key CC&R provisions (download full document for binding text):
@@ -475,7 +488,7 @@ Starlink satellite internet is confirmed available in ZIP code 86333 (Mayer). Eq
 **What about water — is there a municipal supply?**
 The Mayer Domestic Water Improvement District (MDWID) serves the Mayer townsite and some surrounding areas. Some Goswick Ranch lots may use private wells. **[BOARD]** — confirm which parcels are served by MDWID and which use wells.
 
-**Important water quality note:** Yavapai County has elevated naturally-occurring arsenic in groundwater. Approximately 43.6% of county groundwater samples exceed the EPA action level of 10 parts per billion. If your lot uses a private well, arsenic testing is strongly recommended before drinking well water. Point-of-use filtration systems that remove arsenic are widely available.
+**Important water quality note:** Yavapai County has elevated naturally-occurring arsenic in groundwater. Approximately 43.6% of county groundwater samples exceed the EPA action level of 10 parts per billion. The Big Bug Mining District geology in this area — which includes open-pit mine tailings visible in aerial imagery east of the community — is a contributing factor. If your lot uses a private well, arsenic testing is strongly recommended before drinking well water and every 5 years thereafter. Point-of-use filtration systems that remove arsenic are widely available.
 
 **What is the gate access like?**
 Goswick Ranch uses a gated entrance off S Goswick Ranch Rd. Access for residents uses a lockbox system. **[BOARD]** — specific gate access instructions and procedure for managing guest/vendor access.

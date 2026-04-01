@@ -94,6 +94,9 @@ wwwroot/
 │
 ├── img/
 │   ├── survey-map.png             Goswick Ranch survey plat (from GoswickRanchResearch/Documents/)
+│   ├── parcel-map.png             Yavapai County GIS parcel map (from Documents/GoswickRanchYavapaiCountyMap.png) — copy when building About or Gallery page
+│   ├── aerial-value-overlay.png   Google Earth aerial with price overlays (from Documents/GoswickRanchGoogleEarth.png) — copy when building For Buyers page
+│   ├── hawk-mountain-trail.jpg    Property photo — 2 S Hawk Mountain Trail (CONVERT from Documents/GoswickRanch2HawkMountainTrlMayerAZ86333.avif; use ffmpeg or online converter before copying)
 │   └── .gitkeep
 │
 └── docs/
@@ -178,7 +181,10 @@ Live URL: https://stewartscottrogers.github.io/GoswickRanchMayerArizona/
 - [ ] `lifestyle/seasons.html` — **New:** Climate, seasons, dark skies
 - [ ] `lifestyle/outdoors.html` — **New:** Recreation, equestrian, trails
 - [ ] `lifestyle/nearby.html` — **New:** Day trips, Prescott, Jerome, wine trail
-- [ ] `buyers/index.html` — **New:** For Buyers hub (value prop, stats, AZ advantage)
+- [ ] `buyers/index.html` — **New:** For Buyers hub (value prop, stats, AZ advantage, value premium vs. surrounding parcels, mine/arsenic context — see PAGES.md)
+- [ ] Copy `Documents/GoswickRanchGoogleEarth.png` → `img/aerial-value-overlay.png` (for For Buyers page)
+- [ ] Copy `Documents/GoswickRanchYavapaiCountyMap.png` → `img/parcel-map.png` (for About or Gallery page)
+- [ ] Convert `Documents/GoswickRanch2HawkMountainTrlMayerAZ86333.avif` → `img/hawk-mountain-trail.jpg` (actual community photo — usable on Gallery/hero once converted)
 - [ ] `buyers/faq.html` — **New:** 20-question Buyer FAQ
 - [ ] `resources/emergency.html` — **Update:** Brady Fire, Genasys, Firewise, medevac
 - [ ] `resources/utilities.html` — **Update:** Starlink, arsenic warning, propane, solar
