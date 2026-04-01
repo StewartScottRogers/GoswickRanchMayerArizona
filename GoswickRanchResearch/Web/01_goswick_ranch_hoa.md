@@ -63,11 +63,26 @@
 
 ---
 
+## Lot Configuration — Yavapai County Parcel Map Observations
+
+**Source:** `Documents/GoswickRanchYavapaiCountyMap.png` (Yavapai County GIS aerial with parcel boundary overlay, added 2026-03-31)
+
+Key observations from the parcel map:
+- Approximately **25–35 individual parcels** visible within the subdivision boundary
+- Lot shapes are **highly irregular** — terrain-adapted, not a grid layout; reflects the rugged Bradshaw Mountain foothills topography
+- **Road network visible:** main access road (S Goswick Ranch Rd) plus multiple internal subdivision roads branching off to serve individual lots
+- Layout is consistent with the survey plat (Book 56, Pages 8–12), which identifies Sections 31 & 32, T 13 N, R 1 E
+- Some parcels appear noticeably larger than others, which aligns with the survey's "NOT A PART" designations for excluded areas
+- The road network confirms private internal roads — HOA maintenance responsibility per ARS §33-1818
+
+This parcel map is the first visual confirmation of the overall lot configuration and confirms what the survey plat documents formally.
+
+---
+
 ## Gaps / Notes
 - No HOA CC&Rs, bylaws, or governing documents found online — must come from the board
 - No board member names found in any public source
 - No HOA meeting minutes or financials found
-- Subdivision plat (official recorded plat map) was not directly accessed — needs Yavapai County Recorder search
 - The Yavapai Title HOA list (PDF) could not be verified due to SSL error; worth retrying directly
 - No HOA management company is listed anywhere — confirms self-managed status
 - Property tax note: Mayer properties show very low taxes (median ~$476/year); one listing description referenced "$0 taxes" which likely refers to the extremely low Yavapai County property tax rates rather than a literal tax exemption
