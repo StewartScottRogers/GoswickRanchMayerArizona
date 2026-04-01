@@ -1,12 +1,13 @@
 ---
 const base = '/GoswickRanchMayerArizona';
+const publishedDate = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <footer class="site-footer">
   <div class="footer-grid">
     <div class="footer-brand">
       <a href={`${base}/`} class="site-logo">Goswick Ranch HOA</a>
-      <p class="footer-tagline">A Private Ranch Community in the Bradshaw Mountains<br>Mayer, Arizona 86333</p>
+      <p class="footer-tagline">On Poland Road in the Bradshaw Mountains<br>Mayer, Arizona 86333</p>
     </div>
     <div class="footer-col">
       <h3>Quick Links</h3>
@@ -30,7 +31,8 @@ const base = '/GoswickRanchMayerArizona';
     <p>
       &copy; 2026 Goswick Ranch Homeowners Association. All rights reserved.<br>
       This website is maintained by the Goswick Ranch HOA Board of Directors.<br>
-      For questions or corrections, <a href={`${base}/contact/`}>contact the board</a>.
+      For questions or corrections, <a href={`${base}/contact/`}>contact the board</a>.<br>
+      <span class="footer-published">Published {publishedDate}</span>
     </p>
   </div>
 </footer>
