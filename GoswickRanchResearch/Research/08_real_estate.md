@@ -1,6 +1,6 @@
 # Real Estate, Demographics & Market Context
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (Breezy Pine Acres comparable added)*
 
 ---
 
@@ -11,8 +11,10 @@
 | Attribute | Value |
 |-----------|-------|
 | Subdivision name | Goswick Ranches / Goswick Ranch |
-| Location | S Goswick Ranch Rd, Mayer, AZ 86333 (also 86327/86329 in some listings) |
-| Setting | Foothills of Bradshaw Mountains, overlooking Big Bug Creek |
+| Location | On **Poland Road** (E Poland Rd), Bradshaw Mountains foothills, Yavapai County |
+| Mailing address | S Goswick Ranch Rd, Mayer, AZ 86333 (also 86327/86329 in some listings) |
+| Nearest community | Mayer, AZ — ~1 mile from the Poland Rd / AZ-69 junction |
+| Setting | Bradshaw Mountain foothills on the Poland Road corridor, overlooking Big Bug Creek; Prescott National Forest begins at the upper end of Poland Rd |
 | Elevation | ~4,400–6,000 ft |
 | Access | Gated; ~1 mile east of AZ Route 69 |
 | Zoning | RCU-2A (Rural Community Unincorporated) |
@@ -276,6 +278,55 @@ Source: Land.com — https://www.land.com/Yavapai-County-AZ/
 5. Starlink makes rural living viable for remote workers — permanently expanded buyer pool
 6. Prescott is a top-5 retirement destination — 27 miles away
 7. SR 69 corridor is actively receiving ADOT investment — infrastructure confidence signal
+
+---
+
+## Nearby Communities — Context & Comparables
+
+### Breezy Pine Acres
+
+A distinct community in the Mayer/Bradshaw Mountains area worth knowing as a comparable — and contrast — to Goswick Ranch.
+
+| Attribute | Value |
+|-----------|-------|
+| Formal name | Breezy Pine Acres (also "Breezy Pines"; "Breezy Pine Acres Plat B" is a sub-plat) |
+| Address range | ~7900–8600 S Breezy Pine Rd, Mayer, AZ 86333 |
+| County | Yavapai |
+| Elevation | **~6,500 ft** — significantly higher than Goswick Ranch (~4,400–6,000 ft) |
+| Setting | High alpine; Bradshaw Mountains, south of Groom Creek; "largely thought of as south Prescott" |
+| Access road | Breezy Pine Rd — a **fire road maintained by Yavapai County**, paved access year-round |
+| Distance to Prescott | ~16 miles, largely dirt road (high-clearance vehicle required for some routes) |
+| National Forest | Backs directly to Prescott National Forest |
+| Water | **Breezy Pine Property Water Association** — shared community water system |
+| Housing type | Single-family homes and cabins only; no condos or townhouses |
+| HOA | Breezy Pine Homeowners Association (registered in Dewey, AZ); CC&Rs on file; no clubhouse or pool |
+| History | Former mining town; same Big Bug District heritage as Goswick Ranch area |
+
+**Current market (2026):**
+- Active listings range from ~$350,000–$549,000 (homes on ~1–3 acre lots)
+- Recent Plat B sales: $290,000 (700 sq ft cabin) and $300,000 (1,657 sq ft)
+- Properties typically 1–3 acres — much smaller than Goswick Ranch's 9-acre minimums
+
+**Key differentiators vs. Goswick Ranch:**
+
+| Factor | Breezy Pine Acres | Goswick Ranch |
+|--------|-------------------|---------------|
+| Elevation | ~6,500 ft | ~4,400–6,000 ft |
+| Lot size | ~1–3 acres | **9 acres minimum** |
+| Gated | No | **Yes** |
+| Water | Community water association | Private wells |
+| Forest access | Backs to NF | Borders state land / NF |
+| Road | County fire road | Private gated road |
+| HOA fee | Unknown (minimal) | $216/year |
+| Feel | Small cabin/mountain community | **Working ranch / equestrian** |
+
+Breezy Pine Acres appeals to buyers seeking a high-elevation mountain cabin feel with community water. Goswick Ranch appeals to buyers seeking private acreage, equestrian use, and genuine ranch character with gated security.
+
+**Sources:**
+- [Breezy Pine Acres — Prescott Arizona Houses](https://prescottarizonahouses.com/breezy-pine-acres-homes-for-sale-in-mayer-arizona/)
+- [Breezy Pine Acres Plat B market data — LuxeRealty](https://luxerealtyre.com/area/mayer-AZ/breezy-pine-acres-plat-b/market)
+- [RE/MAX neighborhood profile](https://www.remax.com/homes-for-sale/az/cordes-lakes-mayer/breezy-pine-acres/neighborhood/647408)
+- [Breezy Pine HOA record — Arizona HOA directory](https://arizona-homeowners-associations.com/azboard_list.php?mastertable=arizona-hoa-p&masterkey1=-0049764-5)
 
 ---
 

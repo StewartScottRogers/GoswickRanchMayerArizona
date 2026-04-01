@@ -54,11 +54,63 @@ All-trails source: https://www.alltrails.com/parks/us/arizona/prescott-national-
 ### OHV / ATV Trails
 
 **Big Bug Mesa OHV Trail System — ~5 miles / 10–15 min from Goswick Ranch**
-- Located directly off Highway 69 via Forest Road 670
+- Located in Prescott National Forest (Bradshaw District), northeastern slopes of the Bradshaw Mountains
 - Big Bug Mesa Trail: 5-mile dirt/gravel, multi-directional, ATV/OHV-rated (max 72" width)
 - Big Bug Mesa Semi-Loop: 1.5-mile maintained loop around the mesa
-- Dusty, rocky surface; great overlook of the Bradshaws
+- Dusty, rocky surface; Ponderosa pine forest; great overlook of the Bradshaws
 - Trailforks: https://www.trailforks.com/trails/big-bug-mesa/
+- TrailsOffroad: https://www.trailsoffroad.com/US/arizona/trails/4219-big-bug-mesa
+- **Note:** The June 2016 Big Bug Mesa fire affected parts of the trail network; downed trees reported on some sections; Bradshaw Ranger District maintains clearance
+
+### Five Corners / Five Points — The Hub of Poland Road
+
+The **top of Poland Road** terminates at a junction locally called **"Five Corners"** (also "Five Points") — where **five roads converge** on the high plateau above Mayer. This is the primary staging area for Big Bug Mesa exploration and a key navigation landmark for anyone driving Poland Road.
+
+**How to reach Five Corners:**
+
+| Route | From | Distance | Notes |
+|-------|------|----------|-------|
+| **Poland Road** (CR 58 / NFSR 261) | Poland Junction / AZ-69 near Mayer | ~5.9 miles | Follows Big Bug Creek for ~10 miles; car-drivable dirt; "best surface of all, but very twisty and quite narrow"; watch for cattle |
+| **Forest Road 670** | Walker, AZ — cross narrow bridge, turn left onto FR 670 (signed "Big Bug Mesa") | ~5.9 miles from turn | Well-graded dirt; 6.9 miles from Walker to the FR 670 turn |
+| **Forest Road 103** | Big Bug Mesa Road (main jeep trail across the mesa) | Varies | Rougher; high-clearance recommended |
+| **Via Breezy Pines** | AZ-69 near Mayer northeast | Connects through Breezy Pine Rd | Alternative northern approach |
+| **Via Senator Highway** | Prescott | FR 261 east | Western approach from Senator Hwy |
+
+**What's at Five Corners:**
+- Elevation: **~6,926 ft** (Trail 706 starts here; East Summit of Big Bug Mesa at 6,908 ft is 0.5 mi further)
+- **Old corral** — traditional staging/parking area; serves as the main trailhead
+- Junction of NFSR 103, NFSR 670, NFSR 261/CR 58, and at least two other forest roads
+- Trailhead for **Big Bug Mesa Trail #9434** — hikers here explore a 3×2 mile plateau covered in Ponderosa pine, juniper, and ancient alligator juniper
+- **Views:** northeast toward AZ-69 and Dewey-Humboldt; Mount Davis and Mount Union visible to the west
+- Wildlife: old mining camp with military vehicles visible on the mesa; spring boxes with rainwater; mule deer habitat (GMU 20A)
+- **Big Bug Mesa hike from here:** ~12.83 miles, ~890 ft elevation gain, ~4 hrs 50 min; uses FR 103 plus unmaintained jeep trails and mild cross-country terrain
+- Water: Grapevine Springs (reliable, 1+ gal/min), Seaton Spring (often dry), Coyote Spring (usually dry)
+
+### Historic Landmarks Along Poland Road (before Five Corners)
+
+Driving Poland Road from AZ-69 toward Five Corners — the same road residents use from the Goswick Ranch gate — you pass two of the Bradshaw Mountains' most significant mining heritage sites:
+
+**Poland Mine Mill Foundations** (~5 miles up from AZ-69)
+- Stone and concrete remnants of Frank Murphy's **20-stamp mill and concentrator** (built 1902)
+- Produced ~$750,000 in silver/gold 1900–1912; 1907 alone yielded $130,465 gold + 16,609 oz silver
+- Private property; observe from the road
+
+**Poland-Walker Tunnel — Sealed South Portal** (~5–6 miles up)
+- The **south (Poland) entrance** to the 8,071-ft tunnel (1.53 miles) that once linked the Poland and Walker mining districts
+- Built ~1903 by Frank Murphy; narrow-gauge ore cars hauled by mule through the mountain
+- Portal **collapsed in 1949**; now sealed/caved in and visible as a historic landmark
+- The north (Walker) end remains open and actively discharges water
+- Interior is not passable; water-filled since collapse
+- See `04_history_mining.md` for the full tunnel and mill history
+
+**Road closure note:** Big Bug Mesa Road is subject to temporary winter closures (snow/ice); Prescott NF issues notices via [signalsaz.com](https://www.signalsaz.com)
+
+**Sources:**
+- [Big Bug Mesa — prestonm.com (route details, Five Corners description)](https://prestonm.com/big-bug-mesa/)
+- [Big Bug Mesa East Summit — HikeArizona](https://hikearizona.com/decoder.php?ZTN=20134)
+- [Big Bug Mesa Trail #9434 trip reports — HikeArizona](https://hikearizona.com/x.php?I=4&ZTN=17117&UID=0)
+- [Big Bug Mesa Road Closed — Walker Community (2017)](https://www.walkercommunity.com/2017/06/25/big-bug-mesa-road-closed/)
+- [Poland Road trail description — TrailsOffroad](https://www.trailsoffroad.com/US/arizona/trails/4216-poland-road)
 
 **Alto Pit OHV Area — ~25 miles from Mayer**
 - 400 acres of ponderosa pine at 6,200 ft; 7 miles NW of Prescott

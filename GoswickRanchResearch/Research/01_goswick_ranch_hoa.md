@@ -11,11 +11,14 @@
 | Official name | Goswick Ranch / Goswick Ranches |
 | Subdivision record | "GOSWICK RANCH LS 56/8-12" (Liber 56, Pages 8–12, Yavapai County Recorder) |
 | Type | Exclusive gated community / HOA subdivision |
-| Location | S Goswick Ranch Rd, Mayer, AZ 86333 (also shows 86327/86329 in some listings — address ambiguity is a known issue) |
+| Location | On **Poland Road** (E Poland Rd / Poland Junction Rd), in the foothills of the **Bradshaw Mountains**, Yavapai County, Arizona |
+| Mailing address | S Goswick Ranch Rd, Mayer, AZ 86333 (also shows 86327/86329 in some listings — address ambiguity is a known issue) |
+| Nearest community | **Mayer, AZ** — ~1 mile from the Poland Road / AZ-69 junction |
 | County | Yavapai County, Arizona |
-| Setting | Foothills of the Bradshaw Mountains, overlooking Big Bug Creek |
+| Setting | Bradshaw Mountain foothills, on the Poland Road corridor overlooking Big Bug Creek; gateway to Prescott National Forest |
 | Elevation | ~6,000 ft (~4,400 ft lower boundary) — "one of the highest mountains in Yavapai County" per listings |
-| Access | Gated; ~1 mile east of AZ Route 69, from E Poland Rd (also called Poland Junction Rd) |
+| Access | Gated; enter from **E Poland Rd** (off AZ Route 69), ~1.5 miles to gate |
+| Road context | Poland Road continues past the ranch ~5.9 miles up to **Five Corners** (elevation 6,926 ft), the hub of the Bradshaw Mountain OHV and trail network |
 | Marketing tagline | "Arizona Urban Ranch Homes" |
 | Current online presence | None — this will be the first official website |
 | HOA management | Self-managed (no management company found in any public source) |
@@ -93,7 +96,7 @@ Several listings describe lots as "patented land" — meaning federal land conve
 
 **Gate access:** Physical lockbox/key system (not electronic keypad). Real estate agents obtain key from lockbox for showings. This affects visitor access, deliveries (FedEx, UPS, Amazon), and emergency services.
 
-**Directions:** From Hwy 69, turn west on E Poland Rd (Poland Junction Rd), travel ~1.5 miles, look for Goswick Ranch sign, gate accessed via lockbox.
+**Directions:** From AZ-69, turn west onto **E Poland Rd** (also signed as Poland Junction Rd) — this is the same road that climbs all the way up through the Bradshaws to Five Corners at 6,926 ft. Travel ~1.5 miles on Poland Rd; look for the Goswick Ranch sign. Gate accessed via lockbox.
 
 ---
 
@@ -151,7 +154,7 @@ Several listings describe lots as "patented land" — meaning federal land conve
 
 **Draft tagline option:** "Arizona Urban Ranch Homes — Gated. Private. Elevated."
 
-**Setting description:** "Goswick Ranch sits in the foothills of the Bradshaw Mountains, overlooking Big Bug Creek at nearly 6,000 feet elevation. Nine-acre minimum lots ensure privacy and open space. Site-built homes only — this is a community built to last."
+**Setting description:** "Goswick Ranch sits on Poland Road in the foothills of the Bradshaw Mountains — at nearly 6,000 feet elevation, overlooking Big Bug Creek, with Prescott National Forest as a back door. Nine-acre minimum lots ensure genuine privacy. Site-built homes only. Mayer, the nearest town, is one mile down the road."
 
 ---
 

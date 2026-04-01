@@ -7,7 +7,7 @@
 
 ## Overview
 
-This file covers the lifestyle and cultural context of Goswick Ranch and the broader Mayer/Yavapai County area: what draws people to rural Arizona ranch living, horse culture, agricultural zoning rules, open range law, equestrian services, local governance context, and regional day-trip destinations within an hour of the Ranch.
+This file covers the lifestyle and cultural context of Goswick Ranch and the broader **Poland Road / Bradshaw Mountains** corridor in Yavapai County: what draws people to rural Arizona ranch living, horse culture, agricultural zoning rules, open range law, equestrian services, local governance context, and regional day-trip destinations within an hour of the Ranch. Mayer is the nearest town; the Bradshaws are the defining geography.
 
 ---
 

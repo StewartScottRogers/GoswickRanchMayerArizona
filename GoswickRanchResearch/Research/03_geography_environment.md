@@ -1,13 +1,23 @@
-# Geography & Environment — Bradshaw Mountains, Big Bug Creek & Local Ecology
+# Geography & Environment — Bradshaw Mountains, Poland Road Corridor & Local Ecology
 
 *Last updated: 2026-04-01*
+
+---
+
+## Goswick Ranch: Geographic Anchor
+
+**Goswick Ranch is in the Bradshaw Mountains, on Poland Road.**
+
+Poland Road (E Poland Rd / CR 58 / NFSR 261) begins at AZ-69 near the junction known as Poland Junction — approximately 1.5 miles from the Goswick Ranch gate — and climbs ~5.9 miles through the Bradshaw foothills to **Five Corners** (elevation 6,926 ft), the hub of the Prescott National Forest trail and OHV network. Big Bug Creek runs parallel to Poland Road through this corridor.
+
+This positions Goswick Ranch not as a suburb of Mayer, but as a mountain community on a historic road into one of Arizona's great backcountry ranges. Mayer is the nearest town, a mile off AZ-69. The Bradshaws are the back yard.
 
 ---
 
 ## Bradshaw Mountains
 
 ### Location & Dimensions
-- **Location:** Central Arizona; approximately 5 miles south of Prescott
+- **Location:** Central Arizona; the range runs south from Prescott (~5 miles south of Prescott proper to the northern end; Goswick Ranch is ~27 miles south of Prescott within the range)
 - **Orientation:** North–south range, ~40 miles long × ~25 miles wide
 - **Eastern border:** Agua Fria River
 - **Western border:** Hassayampa River
