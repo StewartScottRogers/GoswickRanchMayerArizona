@@ -1,6 +1,6 @@
 # Geography & Environment — Bradshaw Mountains, Poland Road Corridor & Local Ecology
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (USGS gauge 09507980 added)*
 
 ---
 
@@ -69,7 +69,8 @@ On rocky hillside and upland positions (typical of Goswick Ranch's granite terra
 ### Water Quality
 - USGS monitoring: Site USGS 09512500
 - **FEMA flood zone:** Zone AE (Special Flood Hazard Area, 1% annual probability) in developed areas; FIRM maps **04025C2488H** and **04025C2470H** (effective March 2, 2015)
-- Real-time Big Bug Creek gauge (SR 69, station YMBA3): https://yavapaiaz.gov/ycflood/Weather/Weather-Stations-Gauges/ArtMID/6450/ArticleID/10997/3705-Big-Bug-Creek-at-SR69-YMBA3
+- **USGS Big Bug Creek gauge (site 09507980):** https://waterdata.usgs.gov/monitoring-location/09507980/ — USGS continuous stream gauge near Mayer; current stage, flow rate, and history. *Linked on the Goswick Ranch HOA website.*
+- Real-time Big Bug Creek gauge (SR 69, station YMBA3 — Yavapai County): https://yavapaiaz.gov/ycflood/Weather/Weather-Stations-Gauges/ArtMID/6450/ArticleID/10997/3705-Big-Bug-Creek-at-SR69-YMBA3
 - Yavapai County ALERT system (5-minute updates): https://gis.yavapaiaz.gov/alert/
 
 ---
