@@ -1,6 +1,6 @@
 # HOA Website Design & Content Strategy
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (hero photo added)*
 *Research compiled: 2026-03-28 to 2026-03-29*
 
 ---
@@ -270,6 +270,28 @@ The 70/20/10 rule applied to Sonoran desert palette:
 - **Do NOT lazy-load the hero image** — must load eagerly (it is the Largest Contentful Paint element)
 - Image format: **WebP with JPEG fallback**; compress to **under 200KB**
 - Mobile: reduce hero height, scale typography to 40–50px, minimum 44×44px tap target on CTA
+
+### Current Hero Photo — Implementation Record
+
+**File:** `GoswickRanch2HawkMountainTrlMayerAZ86333.png`
+**Source location:** `GoswickRanchResearch/Documents/GoswickRanch2HawkMountainTrlMayerAZ86333.png`
+**Deployed as:** `WebSite/public/img/hero-panorama.png` (Astro) and `WebSite/wwwroot/img/hero-panorama.png` (wwwroot)
+**Description:** Panoramic landscape shot from Hawk Mountain Trail, 2 Hawk Mountain Trl, Mayer AZ 86333 — Bradshaw Mountains chaparral in foreground, rolling peaks and dramatic monsoon cloud sky. MLS-sourced listing photo.
+**CSS implementation:**
+```css
+.hero {
+  height: min(75vh, 680px);
+  background: url('/GoswickRanchMayerArizona/img/hero-panorama.png') center 40%/cover no-repeat,
+              linear-gradient(135deg, var(--color-primary) 0%, #3d2810 100%);
+}
+```
+The `center 40%` vertical position keeps the mountain ridgeline prominent without overweighting the sky.
+
+**⚠ Known issue — file size:** Current PNG is **1.29 MB**, well above the 200KB target. Should be converted to WebP and compressed before the site is considered production-optimized. Suggested command:
+```
+cwebp -q 80 hero-panorama.png -o hero-panorama.webp
+```
+After conversion, update the CSS `url()` reference and add a JPEG fallback `<picture>` element if the hero is ever changed to an `<img>` tag.
 
 ### Layout Patterns
 
