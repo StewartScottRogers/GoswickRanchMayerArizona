@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Photo Gallery — Goswick Ranch HOA"
+  description="Photo gallery of Goswick Ranch — community entrance, mountain views, Big Bug Creek overlook, and seasonal photos."
+  pageTitle="Photo Gallery"
+  pageSubtitle="Community entrance, mountain views, Big Bug Creek overlook, and seasonal photos."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'About', href: `${base}/about/` },
+    { label: 'Gallery' }
+  ]}
+>
+  <div class="page-content">
+    <div class="notice notice-info">
+      <p><strong>Coming soon.</strong> The photo gallery is pending board review and submission of community photos. Check back for updates, or <a href={`${base}/contact/`}>contact the board</a> to contribute photos.</p>
+    </div>
+  </div>
+</PageLayout>

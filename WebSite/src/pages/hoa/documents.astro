@@ -1,0 +1,107 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Governing Documents — Goswick Ranch HOA"
+  description="Download Goswick Ranch HOA CC&Rs, bylaws, budget, and financial statements."
+  pageTitle="Governing Documents"
+  pageSubtitle="CC&Rs, bylaws, financial statements, and other official records — publicly available as required by Arizona law."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'HOA Info', href: `${base}/hoa/` },
+    { label: 'Governing Documents' }
+  ]}
+>
+  <div class="page-content">
+
+    <div class="prose" style="margin-bottom: var(--space-8);">
+      <p>Arizona law requires the Goswick Ranch HOA to make its governing documents available to all members and prospective members. You can download them below.</p>
+      <p>These documents control what residents may and may not do with their property, how the association is governed, and the rights and responsibilities of homeownership in Goswick Ranch.</p>
+    </div>
+
+    <h2 class="section-title">CC&amp;Rs &amp; Bylaws</h2>
+    <ul class="doc-list" aria-label="CC&Rs and Bylaws">
+      <li>
+        <a class="doc-link" href={`${base}/docs/ccrrs.pdf`} target="_blank" rel="noopener">
+          <span class="doc-icon" aria-hidden="true">📄</span>
+          CC&amp;Rs — Goswick Ranch HOA
+          <span class="doc-meta">PDF</span>
+        </a>
+      </li>
+      <li>
+        <a class="doc-link" href={`${base}/docs/bylaws.pdf`} target="_blank" rel="noopener">
+          <span class="doc-icon" aria-hidden="true">📄</span>
+          Bylaws — Goswick Ranch HOA
+          <span class="doc-meta">PDF</span>
+        </a>
+      </li>
+      <li>
+        <a class="doc-link" href={`${base}/docs/survey.pdf`} target="_blank" rel="noopener">
+          <span class="doc-icon" aria-hidden="true">📄</span>
+          Results of Survey — Goswick Ranch (850.63 acres, Sections 31 &amp; 32)
+          <span class="doc-meta">PDF</span>
+        </a>
+      </li>
+    </ul>
+
+    <h2 class="section-title" style="margin-top: var(--space-12);">Financial Documents</h2>
+    <div class="notice notice-warn">
+      <p>The following documents are awaiting board submission. They will be posted here once received.</p>
+    </div>
+    <ul class="doc-list" aria-label="Financial documents">
+      <li>
+        <span class="doc-link doc-pending" aria-label="Annual Budget — pending">
+          <span class="doc-icon" aria-hidden="true">📄</span>
+          Annual Budget (most recent)
+          <span class="doc-meta">Pending from board</span>
+        </span>
+      </li>
+      <li>
+        <span class="doc-link doc-pending" aria-label="Financial Statements — pending">
+          <span class="doc-icon" aria-hidden="true">📄</span>
+          Financial Statements (most recent fiscal year)
+          <span class="doc-meta">Pending from board</span>
+        </span>
+      </li>
+    </ul>
+
+    <div style="margin-top: var(--space-12);">
+      <h2 class="section-title">Governing Document Hierarchy</h2>
+      <p style="color: var(--color-text-muted); margin-bottom: var(--space-6);">When documents conflict, higher-ranked documents control.</p>
+      <ol class="hierarchy-list">
+        <li>
+          <div>
+            <strong>Arizona Revised Statutes</strong><br>
+            <span style="color: var(--color-text-muted); font-size: var(--text-sm);">State law — supersedes everything. A.R.S. Title 33, Chapter 16.</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>CC&amp;Rs</strong><br>
+            <span style="color: var(--color-text-muted); font-size: var(--text-sm);">Recorded with Yavapai County — core property restrictions and use covenants.</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Bylaws</strong><br>
+            <span style="color: var(--color-text-muted); font-size: var(--text-sm);">How the HOA is governed, how elections work, and board procedures.</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Rules &amp; Regulations</strong><br>
+            <span style="color: var(--color-text-muted); font-size: var(--text-sm);">Day-to-day community rules set by the board. See <a href={`${base}/hoa/rules/`}>Rules &amp; Regulations</a>.</span>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="notice" style="margin-top: var(--space-8);">
+      <p>The CC&amp;Rs are recorded instruments with Yavapai County. You can also search for them at the <a href="https://recorder.yavapai.gov/" target="_blank" rel="noopener">Yavapai County Recorder's Office</a>.</p>
+    </div>
+
+  </div>
+</PageLayout>

@@ -1,0 +1,90 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Architectural Review Request — Goswick Ranch HOA"
+  description="Submit an Architectural Review Committee (ARC) request to the Goswick Ranch HOA."
+  pageTitle="Architectural Review Committee Request"
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'Contact', href: `${base}/contact/` },
+    { label: 'ARC Request' }
+  ]}
+>
+  <div class="page-content">
+
+    <div class="notice notice-warn" style="margin-bottom: var(--space-8);">
+      <p><strong>Do not begin work until you receive written approval from the ARC.</strong> Submitting this form does not constitute approval. The board will confirm the review timeline once this process is finalized.</p>
+    </div>
+
+    <div class="prose" style="margin-bottom: var(--space-8);">
+      <p>Before beginning any exterior improvement, addition, new structure, or landscaping change that may be visible from neighboring properties or common areas, submit an ARC request for board review.</p>
+    </div>
+
+    <div class="notice notice-warn" style="margin-bottom: var(--space-6);">
+      <p><strong>Form setup pending:</strong> This form requires a Formspree account ID before it can deliver submissions. Until configured, the Submit button will not work. The board will activate this form soon.</p>
+    </div>
+    <!-- Replace YOUR_ARC_FORM_ID with a real Formspree form ID from formspree.io -->
+    <form class="form-container" action="https://formspree.io/f/YOUR_ARC_FORM_ID" method="POST" novalidate>
+
+      <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-6);">Homeowner Information</h2>
+
+      <div class="form-group">
+        <label for="owner-name">Homeowner Name <span aria-hidden="true">*</span></label>
+        <input type="text" id="owner-name" name="owner_name" required autocomplete="name" placeholder="Your full name">
+      </div>
+
+      <div class="form-group">
+        <label for="property-address">Property Address <span aria-hidden="true">*</span></label>
+        <input type="text" id="property-address" name="property_address" required placeholder="Your Goswick Ranch property address">
+      </div>
+
+      <div class="form-group">
+        <label for="arc-email">Email <span aria-hidden="true">*</span></label>
+        <input type="email" id="arc-email" name="email" required autocomplete="email" placeholder="your@email.com">
+      </div>
+
+      <div class="form-group">
+        <label for="arc-phone">Phone <span class="optional-label">(optional)</span></label>
+        <input type="tel" id="arc-phone" name="phone" autocomplete="tel" placeholder="(928) 555-0100">
+      </div>
+
+      <h2 style="font-size: var(--text-2xl); margin: var(--space-8) 0 var(--space-6);">Project Details</h2>
+
+      <div class="form-group">
+        <label for="description">Description of Proposed Work <span aria-hidden="true">*</span></label>
+        <textarea id="description" name="description" required placeholder="Describe the proposed improvement, addition, or change in detail. Include materials, dimensions, and location on the property."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="start-date">Estimated Start Date <span class="optional-label">(optional)</span></label>
+        <input type="date" id="start-date" name="start_date">
+      </div>
+
+      <div class="form-group">
+        <label for="end-date">Estimated Completion Date <span class="optional-label">(optional)</span></label>
+        <input type="date" id="end-date" name="end_date">
+      </div>
+
+      <h2 style="font-size: var(--text-2xl); margin: var(--space-8) 0 var(--space-6);">Acknowledgment</h2>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="acknowledgment" name="acknowledgment" value="agreed" required>
+        <label for="acknowledgment" style="font-weight: 400;">I understand that work may not begin until written approval is received from the Architectural Review Committee. I confirm that the information above is accurate and complete.</label>
+      </div>
+
+      <div style="margin-top: var(--space-8);">
+        <button type="submit" class="btn-primary">Submit ARC Request</button>
+      </div>
+
+      <p class="form-note" style="margin-top: var(--space-4);">
+        For general questions, use the <a href={`${base}/contact/`}>Contact the Board form</a>. For questions about the ARC process, see <a href={`${base}/hoa/rules/`}>Rules &amp; Regulations</a>.
+      </p>
+
+    </form>
+
+  </div>
+</PageLayout>

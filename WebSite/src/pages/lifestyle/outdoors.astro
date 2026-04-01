@@ -1,0 +1,88 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Outdoor Recreation — Goswick Ranch HOA"
+  description="Hiking, equestrian trails, Prescott National Forest, Agua Fria National Monument, and outdoor recreation near Goswick Ranch, Mayer, Arizona."
+  pageTitle="Outdoor Recreation"
+  pageSubtitle="From the gate, the wilderness begins almost immediately."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'Life Here', href: `${base}/lifestyle/` },
+    { label: 'Outdoor Recreation' }
+  ]}
+>
+  <div class="page-content">
+    <div class="prose">
+
+      <p>Goswick Ranch is surrounded by some of Arizona's best outdoor recreation land — Prescott National Forest to the north and west, BLM land throughout the Bradshaw foothills, and the Agua Fria National Monument to the south.</p>
+
+      <h2>Prescott National Forest</h2>
+      <p><strong>450+ miles of trail</strong> accessible from the Prescott area. Hikers, mountain bikers, equestrian riders, and OHV enthusiasts all find dedicated routes. The Bradshaw Ranger District covers the mountains immediately surrounding Goswick Ranch.</p>
+
+      <h3>Crown King</h3>
+      <p>A historic mining and ranching town at the top of the Bradshaws, accessible via the scenic <strong>Senator Highway</strong> (Forest Road 52) — best approached as a day trip. Dramatic views across the central Arizona highlands, a historic saloon that has operated since the mining era, and a genuine sense of old Arizona. The Senator Highway corridor is also one of central Arizona's best fall-color drives — bigtooth maple, Gambel oak, and sumac turn gold and red in mid-to-late October.</p>
+
+      <h3>Groom Creek Horse Camp</h3>
+      <p>Prescott National Forest equestrian staging and overnight facility with corrals, hitching posts, and water. One of Arizona's most popular equestrian campgrounds. Access from the Prescott area (~25–30 miles).</p>
+
+      <h2>Equestrian Access</h2>
+      <p>The community's minimum 9-acre lots and equestrian-friendly CC&Rs make Goswick Ranch well-suited for horse owners. Livestock are permitted under the RCU-2A zoning. Direct access to Prescott National Forest trails from the surrounding area means riders can leave the property and be in wilderness within minutes.</p>
+      <ul>
+        <li><strong>Los Caballos Veterinary</strong> — Large-animal care; 24-hour emergency line: (928) 636-6644</li>
+        <li><strong>Olsen's Grain</strong> (Dewey, ~15 miles) — Feed, ranch supply, agricultural goods</li>
+        <li><strong>Prescott Livestock Auction</strong> (Chino Valley) — Livestock auction and ranch services</li>
+      </ul>
+
+      <h2>Agua Fria National Monument</h2>
+      <p>Located approximately 25–30 miles south, the Agua Fria National Monument preserves 71,000 acres of high desert plateau with prehistoric ruins, riparian canyons, and excellent wildlife habitat. BLM manages the monument with no entrance fees. Access is via the I-17 corridor — same road as Bloody Basin Road, where Mark Goswick Cattle Co. still operates.</p>
+      <ul>
+        <li>Well-preserved prehistoric pueblo sites and thousands of petroglyphs</li>
+        <li>Dispersed primitive camping — free, no permits required for most areas</li>
+        <li>Excellent birding: golden eagles, prairie falcons, zone-tailed hawks</li>
+        <li>No facilities — pack in everything you need</li>
+      </ul>
+
+      <h2>Lynx Lake Recreation Area</h2>
+      <p>A Prescott National Forest lake and recreation area approximately 25 miles northwest. Fishing, non-motorized boating, and shoreline hiking.</p>
+      <div class="callout-warning">
+        <p><strong>Current status:</strong> Lynx Lake was drained in late 2024 for dam valve repairs. The boat ramp was closed as of early 2026. Verify current conditions with the Bradshaw Ranger District before planning a visit: <a href="https://www.fs.usda.gov/prescott" target="_blank" rel="noopener">fs.usda.gov/prescott</a></p>
+      </div>
+
+      <h2>Dark Sky Observing</h2>
+      <p>With a Bortle Class 3 rating, the community's ridgelines and open meadows are outstanding sites for amateur astronomy and astrophotography. See <a href={`${base}/lifestyle/seasons/#dark-skies`}>Seasons &amp; Dark Skies</a> for details on viewing conditions and best months.</p>
+
+      <h2>Seasonal Highlights</h2>
+      <ul>
+        <li><strong>Spring (April–May):</strong> Wildflower season — penstemon, lupine, globe mallow in bloom across the hillsides</li>
+        <li><strong>Summer (June–Sept):</strong> Morning hikes before afternoon monsoon storms; dramatic cloud formations</li>
+        <li><strong>Fall (October–November):</strong> Senator Highway fall color drive; peak conditions mid-to-late October</li>
+        <li><strong>Winter (December–March):</strong> Snow at upper elevations; forest roads may require 4WD; best stargazing conditions</li>
+      </ul>
+
+    </div>
+
+    <div style="margin-top: var(--space-12);">
+      <div class="card-grid">
+        <a class="card" href={`${base}/lifestyle/nearby/`}>
+          <h3>Day Trips &amp; Nearby</h3>
+          <p>Prescott, Jerome, Verde Valley Wine Trail, Sedona, Arcosanti, and more.</p>
+          <span class="card-cta">Day trips &rarr;</span>
+        </a>
+        <a class="card" href={`${base}/lifestyle/seasons/`}>
+          <h3>Seasons &amp; Dark Skies</h3>
+          <p>Four seasons at elevation, monsoon, and Bortle Class 3 night skies.</p>
+          <span class="card-cta">Seasons &amp; climate &rarr;</span>
+        </a>
+        <a class="card" href={`${base}/resources/services/`}>
+          <h3>Local Services</h3>
+          <p>Equestrian vets, feed stores, schools, medical, and local businesses.</p>
+          <span class="card-cta">Local services &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</PageLayout>

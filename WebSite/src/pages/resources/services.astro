@@ -1,0 +1,143 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Local Services — Goswick Ranch HOA"
+  description="Local services near Goswick Ranch — groceries, schools, library, and community-recommended providers."
+  pageTitle="Local Services"
+  pageSubtitle="Nearby schools, library, groceries, and community-recommended service providers."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'Resources', href: `${base}/resources/` },
+    { label: 'Local Services' }
+  ]}
+>
+  <div class="page-content">
+    <div class="prose">
+
+      <div class="notice">
+        <p>Listings here are provided as a convenience. Inclusion does not constitute an endorsement by the Goswick Ranch HOA.</p>
+      </div>
+
+      <h2>Gas &amp; Convenience in Mayer</h2>
+      <p>Several gas stations and convenience stores are on SR 69 within the Mayer/Spring Valley/Cordes Lakes corridor:</p>
+      <ul>
+        <li><strong>Gilligan's Mayer Market</strong> — 9985 S State Route 69, Mayer · (928) 632-7311 · Locally owned; regular, midgrade, premium, diesel; full grocery/C-store. The primary local option for everyday needs.</li>
+        <li><strong>Circle K</strong> — 10068 S State Route 69 · (928) 632-5348</li>
+        <li><strong>Gilligan's Spring Valley 76</strong> — 17257 E Spring Valley Rd · (928) 632-4139 · AmeriGas propane dealer on-site</li>
+        <li><strong>Chevron</strong> — Near I-17 at Cordes Junction · (928) 632-8558</li>
+      </ul>
+
+      <h2>Groceries &amp; Essentials</h2>
+      <p>For a full grocery run, the Prescott Valley / Prescott corridor (via SR 69) has everything you need — and it's on the way home from the highway:</p>
+      <ul>
+        <li><strong>Safeway</strong> — 7720 E Hwy 69, Prescott Valley (on SR 69 corridor)</li>
+        <li><strong>Fry's Food and Drug</strong> — 3100 N Glassford Hill Rd, Prescott Valley</li>
+        <li><strong>Sprouts Farmers Market</strong> — 5645 E State Rte 69, Prescott Valley</li>
+        <li><strong>Trader Joe's</strong> — 252 Lee Blvd, Prescott</li>
+        <li><strong>Costco</strong> — 3911 Hwy 69, Prescott (on SR 69 near Prescott)</li>
+        <li><strong>Walmart Supercenter</strong> — 3050 E State Route 69, Prescott · and 3450 N Glassford Hill Rd, Prescott Valley</li>
+        <li><strong>Lowe's</strong> — 2300 E State Route 69, Prescott</li>
+        <li><strong>Home Depot</strong> — 5500 E State Route 69, Prescott Valley</li>
+      </ul>
+
+      <h2>Dining &amp; Restaurants</h2>
+      <ul>
+        <li><strong>The Cellar at Creekside</strong> — 11255 S State Route 69 · (928) 632-4234 · American/Southwestern comfort food; live entertainment; Creekside Lodge on-site</li>
+        <li><strong>Smokin' Harley's Steakhouse</strong> — 10456 S State Route 69 · (928) 632-4255 · Steakhouse in Mayer townsite</li>
+        <li><strong>Flour Stone Bakery &amp; Cafe</strong> — 12780 Central Ave · (928) 277-8197 · Bakery, café, coffee house</li>
+        <li><strong>El Gordo Real Mexican Grill</strong> — AZ-69 near Cordes Lakes · (928) 273-4627 · Inside a gas station; extensive menu with chilaquiles, birria tacos, horchata</li>
+        <li><strong>CJ Diner / 50s Diner Backseat Bar</strong> — 19780 E Hitching Post Way · 1950s-themed diner and bar; motel/RV park on site</li>
+        <li><strong>Arcosanti Cafe</strong> — 13555 S Cross L Rd · Farm-to-fork at the Arcosanti experimental community; seasonally open — call ahead</li>
+      </ul>
+
+      <h2>Medical Services</h2>
+      <p>The closest local medical facilities are along the SR 69 corridor in the Cordes Junction / Spring Valley area. For serious emergencies, see <a href={`${base}/resources/emergency/`}>Emergency Services</a> for hospital and medevac information.</p>
+      <ul>
+        <li><strong>Cordes Clinic / Family Medical Walk-In</strong> — 20172 E Stagecoach Trl, Ste B · (928) 632-4399 · Family medicine, psychiatric, addiction, and pediatric care; same-day and walk-in accepted; telemedicine available</li>
+        <li><strong>Malin Medical</strong> (formerly Bradshaw Mountain Family Medicine) — 17301 E Spring Valley Rd, Ste F · (928) 632-4909 · Family practice; Mon–Thu 8:30am–5pm, Fri 8:30am–2pm</li>
+        <li><strong>Cordes Pharmacy</strong> — 20172 E Stagecoach Trl, Ste A · (928) 968-5040 · Local independent pharmacy; prescriptions, compounding, immunizations</li>
+        <li><strong>Labcorp</strong> — 17301 E Spring Valley Rd · (928) 632-9213 · Lab/blood draw services</li>
+        <li><strong>Dr. Selina West, DDS</strong> — 17301 E Spring Valley Rd, Ste C · (928) 632-9099 · The only confirmed dental office in the 86333 ZIP code</li>
+        <li><strong>NextCare Urgent Care</strong> — 3051 N Windsong Dr, Prescott Valley · Walk-in; no appointment needed; on the SR 69 corridor to Prescott</li>
+      </ul>
+
+      <h2>Hardware &amp; Building Supply</h2>
+      <ul>
+        <li><strong>Handy Man's Hardware</strong> — 10650 S State Route 69, Mayer · (928) 632-4683 · Local hardware store in the Mayer townsite</li>
+        <li><strong>Branson Tractors of Arizona</strong> — 10001 S State Route 69 · (480) 861-6025 · Tractor dealership and equipment sales</li>
+        <li><strong>Big Bug Sand &amp; Gravel / G&amp;S Gravel</strong> — 11500 E Finley Rd area · Building materials, sand, gravel</li>
+        <li><strong>Lowe's</strong> (Prescott) and <strong>Home Depot</strong> (Prescott Valley) — Both on SR 69, ~27 miles</li>
+      </ul>
+
+      <h2>Auto Repair &amp; Towing</h2>
+      <ul>
+        <li><strong>Mayer Truck &amp; Auto Repair</strong> — 13221 S State Route 69 · (928) 632-4314</li>
+        <li><strong>Wildcat Towing and Transport</strong> — 11850 S Stagecoach Trl · (928) 632-4469</li>
+        <li><strong>Full Throttle Automotive</strong> — 10780 S State Route 69 · (928) 632-9203</li>
+      </ul>
+
+      <h2>Schools</h2>
+      <p>
+        <strong>Mayer Unified School District #43</strong><br>
+        Serves Mayer and surrounding communities. Approximately 526 students, Pre-K through 12, with a 12:1 student-teacher ratio.<br>
+        District Office: 12568 E Main St, Mayer, AZ 86333<br>
+        Phone: <a href="tel:+19286421100">(928) 642-1100</a><br>
+        Website: <a href="https://www.mayerschools.org" target="_blank" rel="noopener">mayerschools.org</a>
+      </p>
+      <ul>
+        <li>Mayer Elementary School (Pre-K–8) — 17300 E Mule Deer Dr, Spring Valley · <a href="tel:+19286421200">(928) 642-1200</a></li>
+        <li>Mayer High School (9–12) — Spring Valley area (call district for address)</li>
+      </ul>
+
+      <h2>Library</h2>
+      <p>
+        <strong>Mayer Public Library</strong><br>
+        10004 Wicks Ave, Mayer, AZ 86333<br>
+        <a href="tel:+19286327370">(928) 632-7370</a><br>
+        Hours: Tuesday–Saturday, 9:00 AM–5:00 PM<br>
+        Part of the Yavapai County Free Library District.
+      </p>
+
+      <h2>Community Recreation</h2>
+      <p>
+        <strong>Mayer Recreation Center</strong><br>
+        10001 S Wicks Ave, Mayer, AZ 86333<br>
+        Available for community gatherings, events, and private rental.
+      </p>
+
+      <h2>Ranch &amp; Equestrian Services</h2>
+      <p>
+        <strong>Los Caballos Mobile Equine Veterinary Services</strong><br>
+        24/7 emergency equine veterinary care — mobile, comes to your property<br>
+        Phone: <a href="tel:+19286366644">(928) 636-6644</a>
+      </p>
+      <p>
+        <strong>Olsen's Grain — Dewey location</strong><br>
+        Feed, hay, and ranch supplies for horses and livestock; hay delivery available<br>
+        ~15 miles from Goswick Ranch via AZ-69
+      </p>
+      <p>
+        <strong>Prescott Livestock Auction</strong><br>
+        Chino Valley, AZ — Regular auctions for cattle, horses, goats, and sheep
+      </p>
+      <p>
+        <strong>Mark Goswick Cattle Co.</strong><br>
+        Bloody Basin Road area · <a href="tel:+19286327730">(928) 632-7730</a><br>
+        The continuing legacy of the Goswick family cattle ranching tradition in the valley below the subdivision.
+      </p>
+
+      <h2>Community Events</h2>
+      <p><strong>Mayer Daze</strong> — Annual festival held each October at the Mayer Recreation Center. Free admission. Events include a parade, BBQ, classic car show, vendor booths, and live entertainment. Running since approximately 1961.</p>
+
+      <h2>Community-Recommended Providers</h2>
+      <div class="notice">
+        <p>The board will add recommended contractors, landscapers, well drillers, and other service providers here. To suggest a provider, <a href={`${base}/contact/`}>contact the board</a>.</p>
+      </div>
+
+    </div>
+  </div>
+</PageLayout>

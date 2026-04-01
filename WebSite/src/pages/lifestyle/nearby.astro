@@ -1,0 +1,89 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const base = '/GoswickRanchMayerArizona';
+---
+
+<PageLayout
+  title="Day Trips & Nearby Destinations — Goswick Ranch HOA"
+  description="Prescott, Jerome, Sedona, Verde Valley Wine Trail, Arcosanti, and more — day trip destinations within 60 miles of Goswick Ranch, Mayer, Arizona."
+  pageTitle="Day Trips & Nearby Destinations"
+  pageSubtitle="Close enough to enjoy regularly. Far enough to feel like genuine country living."
+  breadcrumbs={[
+    { label: 'Home', href: `${base}/` },
+    { label: 'Life Here', href: `${base}/lifestyle/` },
+    { label: 'Day Trips & Nearby' }
+  ]}
+>
+  <div class="page-content">
+    <div class="prose">
+
+      <p>One of Goswick Ranch's most underappreciated assets is its position: close enough to Arizona's best small cities and outdoor destinations to enjoy them regularly, far enough away to feel like genuine country living.</p>
+
+      <h2>Prescott — 27 miles (~35 min)</h2>
+      <p>Arizona's "mile-high city" at 5,368 feet. Prescott offers a walkable historic downtown, Courthouse Plaza, Whiskey Row (a legendary strip of historic saloons), a thriving arts scene, excellent restaurants, and one of Arizona's most active outdoor recreation communities.</p>
+      <ul>
+        <li><strong>World's Oldest Rodeo</strong> — Held annually in late June/early July (Prescott Frontier Days). One of the most authentic Western events in the country, running continuously since 1888.</li>
+        <li><strong>Sharlot Hall Museum</strong> — One of Arizona's premier history museums on nearly four acres; 11 exhibit buildings including the 1864 Governor's Mansion</li>
+        <li><strong>Phippen Museum of Western Art</strong> — Dedicated to the art of the American West; named for cowboy artist George Phippen</li>
+        <li><strong>Summer Concert Series</strong> — Free live music at Courthouse Plaza most Tuesday, Thursday, and Friday evenings, June through September</li>
+        <li><strong>Prescott Farmers Market</strong> — Saturdays at 900 Iron Springs Rd</li>
+      </ul>
+      <h3>Prescott Airport (PRC)</h3>
+      <p>Ernest A. Love Field is approximately 30 miles from Goswick Ranch — often more convenient than Sky Harbor. <strong>United Express (SkyWest)</strong> operates daily service to Los Angeles (LAX) and Denver (DEN). Free long-term parking. Car rentals at baggage claim.</p>
+
+      <h2>Arcosanti — 11–15 miles (~20 min)</h2>
+      <p><strong>Arcosanti</strong> is one of the most distinctive sites in Arizona — and it's practically in the backyard. Paolo Soleri's iconic experimental city and architectural project in the Sonoran Desert near Mayer has been under continuous construction since 1970 as a living laboratory for "arcology" (architecture + ecology). Guided tours Thursday through Monday. The community is also the source of the famous Cosanti wind bells — cast in bronze and ceramic on-site and sold worldwide.</p>
+
+      <h2>Jerome — 40 miles (~50 min)</h2>
+      <p>A National Historic Landmark perched on the side of Cleopatra Hill above the Verde Valley. Once a booming copper-mining town of 15,000; now a community of galleries, restaurants, wine tasting rooms, and artists. The views of the Verde Valley and distant red rocks are exceptional.</p>
+      <ul>
+        <li><strong>Jerome Grand Hotel</strong> — A 1927 former hospital converted to a hotel; dramatic views and a storied history</li>
+        <li><strong>Caduceus Cellars</strong> — Winery owned by Maynard James Keenan (frontman of Tool); part of the Arizona wine resurgence; tasting room in Jerome</li>
+        <li>Galleries, restaurants, and historic mine tours</li>
+      </ul>
+
+      <h2>Verde Valley Wine Trail — 35–50 miles</h2>
+      <p>The Verde Valley was designated an American Viticultural Area (AVA) in 2021 and has become one of Arizona's most celebrated wine regions. Approximately 15 tasting rooms are now open along the trail — an increasingly serious wine destination. Jerome and Cottonwood are the primary hubs.</p>
+      <ul>
+        <li><strong>Page Springs Cellars</strong> (Cornville) — One of Arizona's most acclaimed wineries; Rhône-style varietals; bistro, tasting room, and tours along Oak Creek</li>
+        <li><strong>Caduceus Cellars / Merkin Vineyards</strong> — 110 acres under vine, 14,000 cases/year; Italian and Spanish varietals; drove the AVA designation</li>
+        <li><strong>Alcantara Vineyards</strong> (Verde River/Oak Creek confluence) — Live music, events, e-bike and kayaking tours</li>
+        <li><strong>Javelina Leap Vineyard &amp; Winery</strong> (Page Springs Road, Cornville) — Boutique winery known for red wines</li>
+      </ul>
+
+      <h2>Mortimer Farms — 10–15 miles (Dewey)</h2>
+      <p>A working farm with seasonal agritourism: u-pick vegetables and fruit, corn maze, pumpkin patch, farm store. A local institution in Dewey-Humboldt — excellent for families and fall visits.</p>
+
+      <h2>Tuzigoot &amp; Montezuma Castle — 27–30 miles</h2>
+      <p>Two of Arizona's most significant and well-preserved prehistoric sites:</p>
+      <ul>
+        <li><strong>Tuzigoot National Monument</strong> (Clarkdale) — Sinagua pueblo ruins on a hilltop overlooking the Verde River</li>
+        <li><strong>Montezuma Castle National Monument</strong> (Camp Verde) — Five-story cliff dwelling built into a limestone alcove around 1100 CE; one of the best-preserved cliff dwellings in North America</li>
+      </ul>
+      <p>A single $10 entrance fee covers both monuments for 7 consecutive days. A combined visit takes about half a day.</p>
+
+      <h2>Sedona — 60 miles (~65 min)</h2>
+      <p>Arizona's most famous destination: red rock formations, upscale restaurants, spas, galleries, and some of the state's best hiking (Cathedral Rock, Devil's Bridge, Bell Rock). An excellent day trip — better to visit on weekdays. Oak Creek Canyon between Sedona and Flagstaff is spectacular in late October when the cottonwoods and maples turn.</p>
+
+      <h2>Phoenix Metro — 74 miles (~70 min)</h2>
+      <p>Full metropolitan services, Sky Harbor International Airport (PHX), major medical centers, professional sports, and culture. Close enough for periodic visits; far enough to truly feel rural in between.</p>
+
+    </div>
+
+    <div style="margin-top: var(--space-12);">
+      <div class="card-grid">
+        <a class="card" href={`${base}/lifestyle/outdoors/`}>
+          <h3>Outdoor Recreation</h3>
+          <p>Prescott National Forest, equestrian trails, and Crown King.</p>
+          <span class="card-cta">Outdoors &rarr;</span>
+        </a>
+        <a class="card" href={`${base}/buyers/`}>
+          <h3>For Buyers</h3>
+          <p>The numbers, the tax advantages, and what makes Goswick Ranch distinctive.</p>
+          <span class="card-cta">Buyer info &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</PageLayout>
