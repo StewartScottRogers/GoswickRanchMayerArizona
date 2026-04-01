@@ -1,6 +1,6 @@
 # Emergency Preparedness & Safety
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (USGS gauge 09507980 added)*
 *Research compiled: 2026-03-29*
 
 ---
@@ -192,7 +192,8 @@ Any significant fire burning in the Big Bug Creek watershed upstream of Mayer cr
 - Monsoon rains are the trigger — 1 inch in 30 minutes over a burn scar is sufficient
 
 **Real-time monitoring:**
-- Big Bug Creek gauge at SR 69 (station YMBA3): https://yavapaiaz.gov/ycflood/Weather/Weather-Stations-Gauges/ArtMID/6450/ArticleID/10997/3705-Big-Bug-Creek-at-SR69-YMBA3
+- **USGS Big Bug Creek gauge (site 09507980):** https://waterdata.usgs.gov/monitoring-location/09507980/ — USGS continuous stream gauge near Mayer; shows current stage, flow rate, and historical data. *This is the gauge linked on the Goswick Ranch HOA website.*
+- Big Bug Creek gauge at SR 69 (station YMBA3 — Yavapai County): https://yavapaiaz.gov/ycflood/Weather/Weather-Stations-Gauges/ArtMID/6450/ArticleID/10997/3705-Big-Bug-Creek-at-SR69-YMBA3
 - Yavapai County ALERT System (5-minute updates): https://gis.yavapaiaz.gov/alert/
 - Flood After Fire page: https://www.yavapaiaz.gov/Resident-Services/Flood-Control/Flood-Safety/Local-Flood-Hazard/Flood-After-Fire
 
