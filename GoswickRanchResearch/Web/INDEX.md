@@ -432,3 +432,29 @@ These items from the original blockers list remain unresolved:
 **Pending (board action required):**
 - Contact form and ARC form Formspree IDs — visible notices added to both pages
 - Hero photo (`img/hero.jpg`) — CSS path is now correct; board must provide a landscape photo
+
+---
+
+## Image Assets Session — 2026-04-01 (New Visual Resources Evaluated)
+
+Two new image files were added to `Documents/` on 2026-03-31 and evaluated for research content.
+
+### `GoswickRanchYavapaiCountyMap.png` — Yavapai County GIS Parcel Map
+- Aerial imagery with yellow parcel boundary lines overlaid (official Yavapai County GIS data)
+- **Findings:** ~25–35 individual parcels of highly irregular, terrain-adapted shapes; main access road plus internal subdivision road network visible; lot configurations consistent with the survey plat (Book 56, Pages 8–12); confirms private road network = HOA maintenance responsibility
+- **Research updated:** `01_goswick_ranch_hoa.md` — new "Lot Configuration" section added
+
+### `GoswickRanchGoogleEarth.png` — Google Earth / Real Estate Aerial Overlay
+- Satellite imagery with real estate price badges overlaid on surrounding (non-Goswick) parcels
+- **Findings:**
+  - Surrounding unimproved parcels range from ~$43K to ~$220K — well below Goswick's $250K–$599K range; confirms Goswick Ranch commands a significant value premium
+  - Lower-value parcels ($43K–$60K) cluster near visible mining area; higher-value ($150K–$220K) further from mine
+  - **A large open pit mine / tailings pile is clearly visible** in the center-right of the image — Big Bug Mining District active/historical operations; visually confirms the arsenic groundwater risk documented in `11_deep_research_march_2026.md`
+  - Red marker likely represents an active Goswick Ranch listing (possibly 2 Hawk Mountain Trail per `GoswickRanch2HawkMountainTrlMayerAZ86333.avif`)
+- **Research updated:** `09_real_estate_context.md` — new "Surrounding Property Values" section added
+
+### `GoswickRanch2HawkMountainTrlMayerAZ86333.avif` — Property Photo (Unread)
+- AVIF format (217 KB); Read tool cannot render this format (149K tokens when attempted)
+- Filename indicates this is a photo of the property at **2 S Hawk Mountain Trail, Mayer AZ 86333** — one of the confirmed internal street names in the subdivision
+- This is likely an actual community/listing photo and could be used as website imagery
+- **Action needed:** Convert to JPEG/PNG to make it usable on the site, or obtain original from board

@@ -134,9 +134,33 @@ Note: Some real estate listings describe the community as having "$0 taxes" — 
 
 ---
 
+## Surrounding Property Values — Google Earth Aerial Observation
+
+**Source:** `Documents/GoswickRanchGoogleEarth.png` (satellite/aerial with real estate price overlay, added 2026-03-31)
+
+This image shows a satellite view of the broader Goswick Ranch area with real estate price markers overlaid on adjacent/nearby parcels. Key observations:
+
+| Observation | Detail |
+|-------------|--------|
+| Surrounding parcel prices (non-Goswick) | ~$43K–$220K — significantly lower than Goswick's $250K–$599K range |
+| Value premium | Goswick Ranch properties command a clear premium vs. surrounding unimproved/smaller parcels |
+| Active red marker | Likely represents an active Goswick Ranch listing (possibly 2 Hawk Mountain Trail) |
+| Lower-value parcels (~$43K–$60K) | Appear to be in the area closest to visible mining operations |
+| Higher-value parcels (~$150K–$220K) | Appear further from the mine tailings, in more vegetated terrain |
+
+**Critical geographic observation — mining operations:**
+The satellite image shows a **large open pit mine / tailings pile** clearly visible in the center-right of the frame. This is consistent with the Big Bug Mining District geology documented in `07_local_geography.md` and `11_deep_research_march_2026.md`. The mining operations are visible in the mid-distance from the Goswick Ranch area.
+
+Implications:
+- Visually confirms why private well owners should test for arsenic (43.6% of Yavapai County wells exceed 10 ppb threshold — see deep research)
+- The mining proximity likely explains the lower property values of some adjacent parcels ($43K–$60K range)
+- Not immediately adjacent to the subdivision itself; Goswick Ranch sits in denser chaparral vegetation west/south of the mine area
+- Worth noting in any "Know Before You Buy" or well-water content on the website
+
+---
+
 ## Gaps
 - Could not retrieve Zillow property data (JS-rendered, scraper-blocked)
 - ezhomesearch.com returned 403 — could not get listing details
-- Subdivision plat and CC&R recording date not found — needs Yavapai County Recorder search
 - No sold/historical price data found — would be useful context
 - HOA assessment amount not publicly documented anywhere — board must provide
