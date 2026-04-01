@@ -1,6 +1,6 @@
 # Goswick Ranch HOA — Community Facts & Governance
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (site launched; propane providers completed; hero photo received)*
 
 ---
 
@@ -20,7 +20,7 @@
 | Access | Gated; enter from **E Poland Rd** (off AZ Route 69), ~1.5 miles to gate |
 | Road context | Poland Road continues past the ranch ~5.9 miles up to **Five Corners** (elevation 6,926 ft), the hub of the Bradshaw Mountain OHV and trail network |
 | Marketing tagline | "Arizona Urban Ranch Homes" |
-| Current online presence | None — this will be the first official website |
+| Current online presence | **Live** — https://stewartscottrogers.github.io/GoswickRanchMayerArizona/ (GitHub Pages, launched April 2026) |
 | HOA management | Self-managed (no management company found in any public source) |
 
 ---
@@ -107,8 +107,8 @@ Several listings describe lots as "patented land" — meaning federal land conve
 | Water | **Individual private wells** — no community water system. Lots with wells noted in listings: "private well already on property," "well + 3,600-gallon tank." |
 | Sewer | **Individual septic systems** — shallow bedrock common in granite terrain may affect septic design |
 | Electricity | **APS (Arizona Public Service)** — confirmed serving Mayer and Poland Junction corridor |
-| Gas | **Propane** — no natural gas line. Ferrellgas (928-445-3940) and John Graves Propane explicitly serve Mayer. |
-| Internet | **Starlink** confirmed available at ZIP 86333. Cell coverage: Verizon (77%), T-Mobile (73%), AT&T (76%) citywide — on-site testing essential at 6,000 ft. |
+| Gas | **Propane** — no natural gas line. Four confirmed providers: Ferrellgas (928-445-3940), AmeriGas (800-263-7442), John Graves Propane (928-567-2425), Gilligan's Spring Valley 76 (928-632-4139). See `06_utilities_services.md`. |
+| Internet | **Starlink** confirmed available at ZIP 86333 (50–180 Mbps, 20–60ms latency; fully capable for remote work). Cell coverage: Verizon (77.1%), AT&T (76.1%), T-Mobile (73.2%) citywide — on-site testing essential at 6,000 ft. |
 | Trash | Not identified — board input needed |
 
 **ARSENIC WARNING:** 43.6% of Yavapai County groundwater samples exceed the EPA's 10 ppb arsenic limit (NCBI study). The Big Bug Mining District (which encompasses Goswick Ranch) has documented mining activity that increases metal leaching risk. Private well owners should test every 5 years for arsenic, lead, nitrates, and mining-related metals. ADHR well water testing info: https://www.azdhs.gov/wellwater
@@ -170,7 +170,7 @@ Several listings describe lots as "patented land" — meaning federal land conve
 | HOA assessment amount (confirm $216/yr) | Transparency requirement | High |
 | Current operating budget | Legal disclosure; §33-1806 | High |
 | Meeting minutes (past 2–3 years) | Legal disclosure; §33-1805 | High |
-| Community photos | Hero images, gallery | High |
+| ~~Community photos~~ | **Received** — `GoswickRanchResearch/Documents/GoswickRanch2HawkMountainTrlMayerAZ86333.png` deployed as hero background image. See `11_hoa_website_design.md`. | Done |
 | Gate access details/code procedures | Security and new resident guide | Medium |
 | Internet/utility providers confirmed | Utilities page | Medium |
 | Trash collection provider | Utilities page | Medium |
