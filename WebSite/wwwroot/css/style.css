@@ -228,9 +228,9 @@ ul, ol { padding-left: var(--space-6); }
 /* --- Hero (Home only) --- */
 .hero {
   position: relative;
-  height: min(70vh, 600px);
+  height: min(75vh, 680px);
   background:
-    url('/GoswickRanchMayerArizona/img/hero.jpg') center/cover no-repeat,
+    url('/GoswickRanchMayerArizona/img/hero-panorama.png') center 40%/cover no-repeat,
     linear-gradient(135deg, var(--color-primary) 0%, #3d2810 100%);
   display: flex;
   align-items: flex-end;
