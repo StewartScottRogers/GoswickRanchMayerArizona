@@ -39,7 +39,7 @@
     <None Include="$(MSBuildThisFileDirectory)Web\07_local_geography.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\08_utilities_services.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\09_real_estate_context.md" />
-    <None Include="$(MSBuildThisFileDirectory)Web\HOW_TO_USE_THIS_RESEARCH.md" />
+    <None Include="$(MSBuildThisFileDirectory)Web\HOW_TO_USE.md" />
     <None Include="$(MSBuildThisFileDirectory)Web\INDEX.md" />
   </ItemGroup>
   <ItemGroup>
