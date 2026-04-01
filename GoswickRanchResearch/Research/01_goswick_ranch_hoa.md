@@ -159,8 +159,8 @@ Several listings describe lots as "patented land" — meaning federal land conve
 
 | Item | Why Needed | Priority |
 |------|-----------|----------|
-| CC&Rs (Declaration) PDF | Core legal document; legally must be made available | Critical |
-| Bylaws PDF | Governance document | Critical |
+| ~~CC&Rs (Declaration) PDF~~ | **Received** — `Documents/CC&Rs Goswick HOA.pdf` | Done |
+| ~~Bylaws PDF~~ | **Received** — `Documents/Goswick ByLaws.pdf` | Done |
 | Rules & Regulations PDF | Day-to-day conduct rules | Critical |
 | Board member names and roles | Board of Directors page | Critical |
 | Board contact email address(es) | Contact page | Critical |
@@ -171,7 +171,7 @@ Several listings describe lots as "patented land" — meaning federal land conve
 | Gate access details/code procedures | Security and new resident guide | Medium |
 | Internet/utility providers confirmed | Utilities page | Medium |
 | Trash collection provider | Utilities page | Medium |
-| Water source confirmation (well vs. MDWID) | Utilities page | Medium |
+| ~~Water source confirmation~~ | **Resolved** — Individual private wells confirmed from MLS listing data | Done |
 
 ---
 

@@ -8,7 +8,7 @@ This directory is a **research repository** used by a parent solution (`GoswickR
 
 ## Purpose
 
-This project contains all background research gathered to support the first-ever website for Goswick Ranch HOA, located in Mayer, Arizona (Yavapai County). Research was gathered via automated web search and page fetches on 2026-03-28.
+This project contains all background research gathered to support the first-ever website for Goswick Ranch HOA, located in Mayer, Arizona (Yavapai County). Research was gathered via automated web search and page fetches in two waves: March 28, 2026 (Wave 1) and March 29, 2026 (Wave 2), then consolidated into the `Research/` directory on April 1, 2026.
 
 When you see references to "the research" in this project, they point here.
 
@@ -84,7 +84,9 @@ This research directory is part of the larger `GoswickRanchMayerArizona` Visual 
 
 The following items were not publicly findable and must come from the HOA board:
 
-- CC&Rs PDF, Bylaws PDF, Rules & Regulations PDF
+- ~~CC&Rs PDF~~ — **Received** (in `Documents/CC&Rs Goswick HOA.pdf` and `Documents/CCRs.pdf`)
+- ~~Bylaws PDF~~ — **Received** (in `Documents/Goswick ByLaws.pdf`)
+- Rules & Regulations PDF — **Still needed**
 - Board member names, roles, and contact information
 - Current operating budget and meeting minutes archive
 - Community photos (gate, views, homes, landscape, annual meeting)

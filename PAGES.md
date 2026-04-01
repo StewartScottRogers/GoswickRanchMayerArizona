@@ -152,7 +152,7 @@ S Goswick Ranch Rd, Mayer, AZ 86333
 | Mayer town center | ~2 miles | ~5 min |
 | Prescott, AZ | ~27 miles | ~35 min |
 | Prescott Valley | ~20 miles | ~25 min |
-| Prescott Airport (PRC) | ~30 miles | ~40 min |
+| Prescott Airport (PRC) | ~28 miles | ~35 min |
 | Cordes Junction (I-17) | ~15 miles | ~20 min |
 | North Phoenix suburbs | ~60 miles | ~60 min |
 | Sky Harbor Airport (PHX) | ~74 miles | ~70 min |
@@ -161,8 +161,8 @@ S Goswick Ranch Rd, Mayer, AZ 86333
 
 ### Directions
 
-**From Prescott / US-89:**
-> Head south on US-89 toward Mayer. Turn left (east) onto Mayer Main Street / AZ-69 east. Continue through Mayer and follow signs toward Cordes Junction. Turn south on S Goswick Ranch Rd. The gated entrance will be on your right.
+**From Prescott via SR-69:**
+> Head east on SR-69 from Prescott toward Mayer (~27 miles). Continue through Mayer. Turn south onto E Poland Rd (Poland Junction Rd), then turn onto S Goswick Ranch Rd. The gated entrance will be on your right.
 
 **From Phoenix / I-17:**
 > Take I-17 north to Exit 262 (Cordes Junction / Mayer). Head west on Cordes Junction Road, then north on AZ-69 through Cordes Lakes toward Mayer. Turn onto S Goswick Ranch Rd and look for the gated entrance.
@@ -338,7 +338,7 @@ Technical note: Use pure CSS / vanilla-JS lightbox with `<dialog>` — no jQuery
 >
 > **World's Oldest Rodeo:** Held annually in late June/early July (Prescott Frontier Days). One of the most authentic Western events in the country.
 >
-> **Prescott Airport (PRC):** United Express service to Denver and Los Angeles, with connections to major hubs. Approximately 30–35 miles from Goswick Ranch — dramatically more convenient than Sky Harbor for travel purposes.
+> **Prescott Airport (PRC):** United Express service to Denver and Los Angeles, with connections to major hubs. Approximately 28 miles from Goswick Ranch — dramatically more convenient than Sky Harbor for travel purposes.
 >
 > **Shopping:** The SR-69 corridor in Prescott Valley has full-service retail — grocery, home improvement, medical, and more.
 
@@ -486,7 +486,7 @@ The median annual property tax in the Mayer ZIP code is approximately $476 per y
 Starlink satellite internet is confirmed available in ZIP code 86333 (Mayer). Equipment runs approximately $349; monthly service $80–$120/month with speeds of 50–180 Mbps and latency of 30–50ms — entirely adequate for remote work and streaming. DSL and other satellite options also exist. Confirm provider availability for your specific parcel with the board.
 
 **What about water — is there a municipal supply?**
-The Mayer Domestic Water Improvement District (MDWID) serves the Mayer townsite and some surrounding areas. Some Goswick Ranch lots may use private wells. **[BOARD]** — confirm which parcels are served by MDWID and which use wells.
+All Goswick Ranch lots use individual private wells. The Mayer Domestic Water Improvement District (MDWID) serves the Mayer townsite but does not serve Goswick Ranch. Well listings confirmed in multiple MLS records ("private well already on property," "well + 3,600-gallon tank"). **[BOARD]** — confirm any exceptions if a parcel has been connected to MDWID.
 
 **Important water quality note:** Yavapai County has elevated naturally-occurring arsenic in groundwater. Approximately 43.6% of county groundwater samples exceed the EPA action level of 10 parts per billion. The Big Bug Mining District geology in this area — which includes open-pit mine tailings visible in aerial imagery east of the community — is a contributing factor. If your lot uses a private well, arsenic testing is strongly recommended before drinking well water and every 5 years thereafter. Point-of-use filtration systems that remove arsenic are widely available.
 
@@ -509,7 +509,7 @@ The Bradshaw Mountains are in an elevated wildfire risk zone. Recent notable fir
 **[BOARD]** — The CC&Rs should address this. Arizona law generally protects short-term rental rights, but HOA CC&Rs recorded before certain 2016 state law provisions may restrict them. Verify directly with the board.
 
 **How close is an airport?**
-Prescott Airport (PRC) is approximately 30 miles / 40 minutes and offers United Express service to Denver and Los Angeles with connections to major hubs. Phoenix Sky Harbor (PHX) is approximately 74 miles / 70 minutes.
+Prescott Airport (PRC) is approximately 28 miles / 35 minutes and offers United Express service to Denver and Los Angeles with connections to major hubs. Phoenix Sky Harbor (PHX) is approximately 74 miles / 70 minutes.
 
 **What is the Arizona income tax situation for retirees?**
 Arizona's 2.5% flat state income tax (effective 2023) is among the lowest in the country. Arizona does **not** tax Social Security benefits. There is no Arizona estate or inheritance tax. These factors make Arizona particularly attractive for retirement relocation from California (up to 13.3%), Oregon (up to 9.9%), Colorado (4.4%), and other states with higher rates. *Consult a CPA for your individual situation.*
