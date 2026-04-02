@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stewartscottrogers.github.io/GoswickRanchMayerArizona/sitemap.xml
