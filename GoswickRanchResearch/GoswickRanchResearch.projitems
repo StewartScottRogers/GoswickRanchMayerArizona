@@ -36,28 +36,26 @@
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchGoogleEarth.png" />
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchSurveyImage.png" />
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchYavapaiCountyMap.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1048555_P04.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1048555_P10.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P36.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P57.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P09.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P19.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P22.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P00.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P02.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P05.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P09.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P13.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P16.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P19.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P23.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P29.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P32.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P33.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1079880_P06.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\chk1058583_P30.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\chk1058583_P45.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Aerial\aerial-forested-ridge-private-road.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Aerial\aerial-home-ridgeline-winding-driveway.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Aerial\aerial-mining-disturbed-hillside.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Creek\big-bug-creek-rocks-cottonwood.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\boulder-outcrop-canyon-view.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\dirt-road-descending-valley.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\granite-boulder-bradshaw-ridges.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\ridgeline-boulder-valley-overlook.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\valley-panorama-mayer-corridor.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\RanchLife\black-angus-cattle-grazing-chaparral.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\RanchLife\historic-stone-wall-juniper-meadow.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\fall-cottonwood-golden-color.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\monsoon-clouds-bradshaw-ridgelines.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\monsoon-green-hillsides-sunlight.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\monsoon-rainbow-bradshaw-ridges-evening.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\monsoon-rainbow-mayer-valley.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\monsoon-thunderhead-golden-sunset.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\spring-brittlebush-wildflowers-meadow.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\spring-wildflowers-desert-scrub.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\winter-snow-cactus-mountain-peaks.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\winter-sunset-snow-peaks-crimson-sky.jpg" />
   </ItemGroup>
 </Project>
