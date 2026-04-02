@@ -24,6 +24,7 @@ This is the master index for the consolidated research library. All files are in
 | [10_arizona_hoa_law.md](10_arizona_hoa_law.md) | Arizona HOA Law | Complete Arizona Planned Communities Act (§§33-1801 through 33-1818): open meetings (§33-1804), records/retention (§33-1805), resale disclosure/fees (§33-1806), assessments/liens/foreclosure (§33-1807, 2025: 18 months/$10K threshold), flags/signs (§33-1808, 2025 amendment), elections/proxies (§33-1812/1813), ARC requirements (§33-1817), 2025 legislative updates (SB 1039/1494/1337), self-managed HOA guidance (fiduciary duties, officer roles, insurance), dispute resolution |
 | [11_hoa_website_design.md](11_hoa_website_design.md) | Website Design | HOA website design strategy: reference sites analyzed (Windgate Ranch, Johnson Ranch, Canyon Gate, Cherry Ridge, Vactor Ranch, The Ranch Community), content best practices, navigation structure, visual design (color palette, typography, hero sections), technical features (Formspree forms, Leaflet.js maps, Google Calendar, Lightbox2 gallery, document library structure), SEO (keyword strategy, schema markup, Google Business Profile), legal compliance, content checklist (MVP vs. Phase 2), priority action plan |
 | [12_ranch_lifestyle_governance.md](12_ranch_lifestyle_governance.md) | Ranch Lifestyle & Regional | Ranch lifestyle culture in the **Poland Road / Bradshaw Mountains** corridor; horse culture in Yavapai County; RCU-2A livestock/ADU/STR/camping rules; agricultural tax classification; open range law (ARS § 3-1426, lawful fence specs, driver liability); equestrian services (Los Caballos Vet, Olsen's Grain); four seasons at elevation; Prescott (Whiskey Row, World's Oldest Rodeo, museums, airport); Verde Valley Wine Trail; Jerome; Sedona; Phoenix metro access; Arcosanti; distance reference table |
+| [13_photo_gallery.md](13_photo_gallery.md) | Photo Gallery | Catalog of 23 PAAR MLS photos (2022–2026) in `PhotoGallery/`: full inventory table, subject descriptions, key visual facts confirmed (gate design, black Angus cattle, Big Bug Creek flowing water, historic stone wall, 4 seasons, mining disturbance, ridgeline home siting), cross-references to research files, website-use recommendations |
 
 ---
 
@@ -46,7 +47,7 @@ These items were not found in any public source and are essential for completing
 | Board contact email address(es) | Contact page | **Critical** | Needs board |
 | Current operating budget | Legal disclosure; §33-1806 | **High** | Needs board |
 | Meeting minutes (past 2–3 years) | Legal disclosure; §33-1805 | **High** | Needs board |
-| Community photos | Hero images, gallery — essential for design | **High** | Needs board |
+| Community photos | Hero images, gallery — essential for design | **High** | **23 MLS photos received** — see `13_photo_gallery.md`; board photos of interior spaces / current residents still valuable |
 | Gate access details | New resident onboarding | **Medium** | Needs board |
 | Trash collection provider | Utilities page | **Medium** | Needs board |
 | Number of lots / community size | HOA profile page | **Medium** | ~25–35 parcels estimated from parcel map |
