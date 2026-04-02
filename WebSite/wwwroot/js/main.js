@@ -227,20 +227,22 @@
         return;
       }
 
-      // Replace this with Formspree or backend endpoint
-      const btn = contactForm.querySelector('[type="submit"]');
-      btn.disabled = true;
-      btn.textContent = 'Sending…';
+      const phone        = contactForm.querySelector('[name="phone"]')?.value.trim();
+      const inquiryType  = contactForm.querySelector('[name="inquiry_type"]')?.value;
+      const property     = contactForm.querySelector('[name="property"]')?.value.trim();
 
-      // Demo: simulate success after 1s
-      setTimeout(() => {
-        contactForm.innerHTML = `
-          <div style="text-align:center;padding:2rem 0;">
-            <div style="font-size:2.5rem;margin-bottom:1rem;">✓</div>
-            <h3 style="margin-bottom:0.5rem;">Message Received</h3>
-            <p style="color:var(--stone)">Thank you. A board member will be in touch shortly.</p>
-          </div>`;
-      }, 1000);
+      const subjectLabel = inquiryType ? inquiryType.replace(/_/g, ' ') : 'General Inquiry';
+      const subject = 'Goswick Ranch HOA – ' + subjectLabel.charAt(0).toUpperCase() + subjectLabel.slice(1);
+
+      let body = 'Name: ' + name + '\n'
+               + 'Email: ' + email + '\n';
+      if (phone)    body += 'Phone: ' + phone + '\n';
+      if (property) body += 'Property: ' + property + '\n';
+      body += '\nMessage:\n' + message;
+
+      window.location.href = 'mailto:goswickranchtreasurer@gmail.com'
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body='    + encodeURIComponent(body);
     });
   }
 
