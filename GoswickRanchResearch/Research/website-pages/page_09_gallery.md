@@ -28,48 +28,56 @@ Showcases authentic community photography organized by category. Builds emotiona
 
 ## Gallery Categories and Photo Assignments
 
-*(Based on catalog in `research/13_photo_gallery.md` — verify filenames against actual files)*
+Photos are organized into subfolders in `PhotoGallery/`. Full catalog with subjects and website-use notes is in `research/13_photo_gallery.md`.
 
-### Category 1: Landscape & Views
-Bradshaw Mountain vistas, Big Bug Creek, monsoon sky, distant ridgelines. Hero-quality images.
+### landscapes/ — Ground-Level Views (5 photos)
 
-**Use for:** Homepage hero (already selected), "About" section, "Living Here" page, any full-width photo breaks.
+| File | Subject | Best Use |
+|---|---|---|
+| `boulder-outcrop-canyon-view.jpg` | Dark boulders framing deep canyon view | About page, section divider |
+| `valley-panorama-mayer-corridor.jpg` | Wide panorama down to Mayer and Big Bug corridor | About page, For Buyers |
+| `ridgeline-boulder-valley-overlook.jpg` | Granite boulder + dead oak, valley far below | Hero candidate, About |
+| `granite-boulder-bradshaw-ridges.jpg` | Layered boulder in dry summer grass, ridges behind | Living Here (geology) |
+| `dirt-road-descending-valley.jpg` | Dirt road descending toward Mayer valley | About, Living Here |
 
-### Category 2: The Gate and Entry
-The custom ornamental iron gate with cowboy and cowgirl silhouettes — the community's landmark.
+### seasons/ — All Four Seasons (10 photos)
 
-**Key photo:** `1062124_P23` (from MLS listing 1062124) — full gate in context, rust/brown iron, hillside setting.
-**Use for:** About page, homepage tile, favicon/logo source.
+| File | Subject | Best Use |
+|---|---|---|
+| `spring-brittlebush-wildflowers-meadow.jpg` | Yellow wildflowers blanket meadow, peaks behind | **Top pick** — hero, Living Here |
+| `spring-wildflowers-desert-scrub.jpg` | Wildflowers in desert scrub | Gallery, Living Here |
+| `monsoon-clouds-bradshaw-ridgelines.jpg` | Monsoon clouds over ridgelines | Gallery, Living Here |
+| `monsoon-green-hillsides-sunlight.jpg` | Emerald green monsoon hillsides | Gallery, Living Here |
+| `monsoon-rainbow-mayer-valley.jpg` | Rainbow over Mayer valley with cactus | **Top pick** — Gallery |
+| `monsoon-rainbow-bradshaw-ridges-evening.jpg` | Rainbow over ridges, golden evening light | Gallery |
+| `monsoon-thunderhead-golden-sunset.jpg` | Towering thunderhead lit gold/orange | **Top pick** — hero candidate |
+| `fall-cottonwood-golden-color.jpg` | Cottonwood peak fall gold | Gallery, Living Here |
+| `winter-sunset-snow-peaks-crimson-sky.jpg` | Crimson winter sunset, snow on peaks | **Top pick** — hero candidate |
+| `winter-snow-cactus-mountain-peaks.jpg` | Snow on cactus and valley floor, peaks | **Top pick** — Gallery |
 
-### Category 3: Cattle and Ranch Life
-Black Angus cattle confirmed in multiple photos — visual evidence of working ranch heritage and open-range context.
+### ranch-life/ — Working Ranch Heritage (2 photos)
 
-**Use for:** About page (historic ranch origin), Living Here (open range section), For Buyers page.
+| File | Subject | Best Use |
+|---|---|---|
+| `black-angus-cattle-grazing-chaparral.jpg` | Three Angus cattle grazing in chaparral | About (heritage), Living Here (open range) |
+| `historic-stone-wall-juniper-meadow.jpg` | Old dry-stone wall in juniper meadow | About (history section) |
 
-### Category 4: The Creek and Water
-Big Bug Creek with flowing water visible — seasonal creek scenes.
+### creek/ — Big Bug Creek (1 photo)
 
-**Use for:** About page (geography section), Emergency Preparedness (flood section), Living Here.
+| File | Subject | Best Use |
+|---|---|---|
+| `big-bug-creek-rocks-cottonwood.jpg` | Big Bug Creek over sandstone rocks, winter cottonwoods | Outdoors page, About geography |
 
-### Category 5: Historic Stone Wall
-Stone wall construction — confirms ranch-era construction and character.
+### aerial/ — Drone and Aerial Views (3 photos)
 
-**Use for:** About page (community history section).
+| File | Subject | Best Use |
+|---|---|---|
+| `aerial-home-ridgeline-winding-driveway.jpg` | Home on ridgeline, winding private drive, Bradshaws | **Top pick** — For Buyers, About |
+| `aerial-forested-ridge-private-road.jpg` | Forested oak/juniper ridge, private road, outbuildings | For Buyers (privacy) |
+| `aerial-mining-disturbed-hillside.jpg` | Mining tailings hillside from air | **Do not use for hero/homepage** — contextual only |
 
-### Category 6: The Land — Four Seasons
-Evidence of snow, dry summer conditions, spring color.
-
-**Use for:** Living Here (four seasons section), For Buyers page.
-
-### Category 7: Mining Disturbance
-Photos showing land disturbance consistent with mining activity in the area.
-
-**Use note:** These should be used carefully — they document the Henrietta Mine context but may not be the most flattering. Useful for the FAQ or a transparent disclosure section rather than the homepage.
-
-### Category 8: Ridgeline Home Siting
-Photos showing how custom homes sit on the ridgeline — demonstrates scale, views, and privacy.
-
-**Use for:** For Buyers page, About page.
+**Missing — locate and add:**
+- Gate photo (`1062124_P23`) — the cowboy/cowgirl iron gate; most important missing image for the About page
 
 ---
 
