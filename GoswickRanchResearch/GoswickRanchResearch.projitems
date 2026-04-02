@@ -27,6 +27,7 @@
     <None Include="$(MSBuildThisFileDirectory)Research\10_arizona_hoa_law.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\11_hoa_website_design.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\12_ranch_lifestyle_governance.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\13_photo_gallery.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\HOW_TO_USE.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\INDEX.md" />
   </ItemGroup>
@@ -35,5 +36,30 @@
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchGoogleEarth.png" />
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchSurveyImage.png" />
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchYavapaiCountyMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1048555_P04.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1048555_P10.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P23.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P36.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P38.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P57.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P09.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P19.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P22.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P00.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P02.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P05.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P09.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P13.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P16.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P19.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P23.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P29.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P32.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1069387_P33.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1079880_P06.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\chk1058583_P30.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\chk1058583_P45.jpg" />
   </ItemGroup>
 </Project>

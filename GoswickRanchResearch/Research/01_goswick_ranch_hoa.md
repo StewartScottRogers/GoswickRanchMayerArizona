@@ -96,6 +96,8 @@ Several listings describe lots as "patented land" — meaning federal land conve
 
 **Gate access:** Physical lockbox/key system (not electronic keypad). Real estate agents obtain key from lockbox for showings. This affects visitor access, deliveries (FedEx, UPS, Amazon), and emergency services.
 
+**Gate design:** MLS photo (1062124_P23) documents the gate as a custom ornamental iron double gate with **full-height cowboy and cowgirl silhouettes** flanking a sun/wheel design at center. Rust/brown iron, set into the hillside. A distinctive, photographable community landmark. See `13_photo_gallery.md`.
+
 **Directions:** From AZ-69, turn west onto **E Poland Rd** (also signed as Poland Junction Rd) — this is the same road that climbs all the way up through the Bradshaws to Five Corners at 6,926 ft. Travel ~1.5 miles on Poland Rd; look for the Goswick Ranch sign. Gate accessed via lockbox.
 
 ---
@@ -170,7 +172,7 @@ Several listings describe lots as "patented land" — meaning federal land conve
 | HOA assessment amount (confirm $216/yr) | Transparency requirement | High |
 | Current operating budget | Legal disclosure; §33-1806 | High |
 | Meeting minutes (past 2–3 years) | Legal disclosure; §33-1805 | High |
-| ~~Community photos~~ | **Received** — `GoswickRanchResearch/Documents/GoswickRanch2HawkMountainTrlMayerAZ86333.png` deployed as hero background image. See `11_hoa_website_design.md`. | Done |
+| ~~Community photos~~ | **23 MLS photos received** — `GoswickRanchResearch/PhotoGallery/` (2022–2026 PAAR MLS). Hero background image also at `Documents/GoswickRanch2HawkMountainTrlMayerAZ86333.png`. Full catalog in `13_photo_gallery.md`. Copyright clearance needed before web use. | Done (verify rights) |
 | Gate access details/code procedures | Security and new resident guide | Medium |
 | Internet/utility providers confirmed | Utilities page | Medium |
 | Trash collection provider | Utilities page | Medium |
