@@ -40,9 +40,7 @@
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1048555_P04.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1048555_P10.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P23.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P36.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P38.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1062124_P57.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P09.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\1065556_P19.jpg" />
