@@ -10,10 +10,10 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Claude--dangerously-skip-permissions.cmd" />
-    <None Include="$(MSBuildThisFileDirectory)Documents\CC&amp;Rs Goswick HOA.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\CC&amp;RsGoswickHOA.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\CCRs.pdf" />
-    <None Include="$(MSBuildThisFileDirectory)Documents\Goswick ByLaws.pdf" />
-    <None Include="$(MSBuildThisFileDirectory)Documents\GOSWICK RANCH SURVEY.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchByLaws.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\GOSWICKRANCHSURVEY.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Research\01_goswick_ranch_hoa.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\02_mayer_arizona.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\03_geography_environment.md" />
