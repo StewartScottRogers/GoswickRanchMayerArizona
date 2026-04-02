@@ -1,12 +1,20 @@
 # How to Use This Research
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 (website-pages/ subfolder added)*
 
 This folder (`research/`) contains all research for the Goswick Ranch HOA website project, consolidated from the original `Web/` and `scraped/` directories. Twelve topic files cover everything needed to build and maintain the website.
 
 ---
 
-## When Building Which Page — Use These Files
+## Page-by-Page Content Briefs (Start Here)
+
+**`research/website-pages/`** contains one ready-to-use content brief per website page. Each brief consolidates all relevant research into a single file with draft copy, design specs, form specs, and a list of remaining blockers. Use these when building a page instead of hunting across multiple topic files.
+
+See `research/website-pages/INDEX.md` for the full list of pages.
+
+---
+
+## When Building Which Page — Topic File Cross-Reference
 
 | Website Page / Section | Primary File(s) | Secondary / Supplementary |
 |---|---|---|
