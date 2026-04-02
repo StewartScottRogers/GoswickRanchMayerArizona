@@ -1,13 +1,10 @@
 <Solution>
   <Folder Name="/Solution Items/">
-    <File Path="BUILD.md" />
     <File Path="Claude--dangerously-skip-permissions.cmd" />
     <File Path="DeployWebSite.md" />
-    <File Path="DESIGN.md" />
     <File Path="GenerateWebsiteAndDeploy.md" />
     <File Path="Github-GoswickRanchMayerArizona-WebSite.url" />
     <File Path="Github-GoswickRanchMayerArizona.url" />
-    <File Path="PAGES.md" />
   </Folder>
   <Project Path="GoswickRanchResearch/GoswickRanchResearch.shproj" Id="e71e12df-1121-4d84-a5d7-c7b67053e0ce" />
   <Project Path="WebSite/WebSite.csproj" Id="bddaf966-bfd3-45ed-910f-d9fd9e254fab" />
