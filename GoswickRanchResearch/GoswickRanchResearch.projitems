@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Claude--dangerously-skip-permissions.cmd" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\BoardOfDirectors.md" />
     <None Include="$(MSBuildThisFileDirectory)Documents\CC&amp;RsGoswickHOA.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\CCRs.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchByLaws.pdf" />
