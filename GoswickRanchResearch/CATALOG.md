@@ -60,7 +60,7 @@ GoswickRanchResearch/
 │   ├── 13_photo_gallery.md          ← MLS photo catalog and usage guide
 │   └── website-pages/               ← Ready-to-use content brief per page
 │       ├── INDEX.md
-│       ├── page_01_home.md … page_13_news.md
+│       ├── page_01_home.md … page_28_india_outreach.md
 ├── Documents/                       ← HOA governing documents and maps (PDFs/PNGs)
 └── PhotoGallery/                    ← 21 MLS listing photos in 5 subfolders
 ```
@@ -481,7 +481,7 @@ GoswickRanchResearch/
 
 ## 3. Research/website-pages/ — Per-Page Content Briefs
 
-These 13 files translate the research into ready-to-use per-page specifications. Each file has: page purpose, H1/meta description, section-by-section draft copy, design notes, a blockers table, and source file citations.
+These 28 files translate the research into ready-to-use per-page specifications. Each file has: page purpose, H1/meta description, section-by-section draft copy, design notes, a blockers table, and source file citations.
 
 **Use these first** when building or updating a specific page. Only go to the topic files if you need more depth than the brief provides.
 
@@ -500,8 +500,23 @@ These 13 files translate the research into ready-to-use per-page specifications.
 | `page_11_resources.md` | Resident Resources | Phase 2 | Contacts and URLs ready from `09_yavapai_county_resources.md` |
 | `page_12_outdoors.md` | Outdoor Recreation & Day Trips | Phase 2 | Full content ready from `05_outdoor_recreation.md` and `12_ranch_lifestyle_governance.md` |
 | `page_13_news.md` | News & Announcements | MVP | Template ready; content is ongoing |
+| `page_14_nyc_outreach.md` | NYC Metro Outreach | Phase 3 | Full draft complete |
+| `page_15_california_outreach.md` | California Outreach | Phase 3 | Full draft complete |
+| `page_16_canada_outreach.md` | Canada / Snowbird Outreach | Phase 3 | Full draft complete |
+| `page_17_chicago_outreach.md` | Chicago / Midwest Outreach | Phase 3 | Full draft complete |
+| `page_18_texas_outreach.md` | Texas Outreach | Phase 3 | Full draft complete |
+| `page_19_pacific_northwest_outreach.md` | Pacific Northwest / Seattle-Portland | Phase 3 | Full draft complete |
+| `page_20_mid_atlantic_outreach.md` | Mid-Atlantic / DC-Baltimore-Philadelphia | Phase 3 | Full draft complete |
+| `page_21_new_england_outreach.md` | New England / Boston | Phase 3 | Full draft complete |
+| `page_22_colorado_outreach.md` | Colorado / Mountain West | Phase 3 | Full draft complete |
+| `page_23_florida_outreach.md` | Florida Reverse Migration | Phase 3 | Full draft complete |
+| `page_24_hawaii_outreach.md` | Hawaii Mainland Base | Phase 3 | Full draft complete |
+| `page_25_uk_outreach.md` | United Kingdom Investment/Holiday Property | Phase 3 | Full draft complete |
+| `page_26_australia_outreach.md` | Australia Investment/Holiday Property | Phase 3 | Full draft complete |
+| `page_27_israel_outreach.md` | Israel Investment/Vacation/NRI | Phase 3 | Full draft complete |
+| `page_28_india_outreach.md` | India / NRI Investment & Relocation | Phase 3 | Full draft complete |
 
-**INDEX.md** in this subfolder: Lists all 13 pages, their priority, and which research files feed each page. Also shows the proposed navigation structure.
+**INDEX.md** in this subfolder: Lists all 28 pages, their priority, and which research files feed each page. Also shows the proposed navigation structure.
 
 ---
 
