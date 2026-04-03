@@ -11,10 +11,14 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Claude--dangerously-skip-permissions.cmd" />
     <None Include="$(MSBuildThisFileDirectory)Documents\BoardOfDirectors.md" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\CATALOG.md" />
     <None Include="$(MSBuildThisFileDirectory)Documents\CC&amp;RsGoswickHOA.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\CCRs.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\GoswickRanchByLaws.pdf" />
     <None Include="$(MSBuildThisFileDirectory)Documents\GOSWICKRANCHSURVEY.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Documents\README.md" />
+    <None Include="$(MSBuildThisFileDirectory)PhotoGallery\CATALOG.md" />
+    <None Include="$(MSBuildThisFileDirectory)PhotoGallery\README.md" />
     <None Include="$(MSBuildThisFileDirectory)README.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\01_goswick_ranch_hoa.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\02_mayer_arizona.md" />
@@ -31,7 +35,7 @@
     <None Include="$(MSBuildThisFileDirectory)Research\13_photo_gallery.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\HOW_TO_USE.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\INDEX.md" />
-    <None Include="$(MSBuildThisFileDirectory)RESEARCH_CATALOG.md" />
+    <None Include="$(MSBuildThisFileDirectory)CATALOG.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanch2HawkMountainTrlMayerAZ86333.png" />
