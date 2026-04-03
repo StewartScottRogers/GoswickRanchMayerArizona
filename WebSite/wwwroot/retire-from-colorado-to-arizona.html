@@ -66,36 +66,35 @@
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="main-nav" id="main-nav">
-    <div class="nav-container">
-      <a href="index.html" class="nav-logo">Goswick Ranch</a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links" id="nav-links">
+  <nav class="nav nav--transparent" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-name">Goswick Ranch</span>
+        <span class="nav-brand-sub">Homeowners Association</span>
+      </a>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="lifestyle.html">Living Here</a></li>
+        <li><a href="lifestyle.html">Lifestyle</a></li>
         <li><a href="recreation.html">Recreation</a></li>
-        <li><a href="buyers.html">For Buyers</a></li>
+        <li><a href="buyers.html">Buyers &amp; Realtors</a></li>
         <li><a href="residents.html">Residents</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact Board</a></li>
       </ul>
+      <button class="nav-hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
-
-  <!-- Mobile Nav -->
-  <div class="mobile-nav" id="mobile-nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="lifestyle.html">Living Here</a></li>
-      <li><a href="recreation.html">Recreation</a></li>
-      <li><a href="buyers.html">For Buyers</a></li>
-      <li><a href="residents.html">Residents</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+  <div class="nav-mobile" role="dialog" aria-label="Mobile navigation">
+    <button class="nav-mobile-close" aria-label="Close menu">&#x2715;</button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="lifestyle.html">Lifestyle</a>
+    <a href="recreation.html">Recreation</a>
+    <a href="buyers.html">Buyers &amp; Realtors</a>
+    <a href="residents.html">Residents</a>
+    <a href="contact.html">Contact Board</a>
   </div>
 
   <!-- Hero -->
@@ -340,24 +339,45 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="main-footer">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <h3>Goswick Ranch</h3>
-        <p>E Poland Road, Mayer, AZ 86333</p>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-brand-name">Goswick Ranch</span>
+          <span class="footer-brand-sub">Homeowners Association</span>
+          <p class="footer-desc">A private, gated community on Poland Road in the Bradshaw Mountain foothills of Mayer, Arizona. Minimum 9-acre lots. Site-built homes. Genuine ranch heritage.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Community</h5>
+          <ul>
+            <li><a href="about.html">About Goswick Ranch</a></li>
+            <li><a href="lifestyle.html">Ranch Lifestyle</a></li>
+            <li><a href="recreation.html">Outdoor Recreation</a></li>
+            <li><a href="buyers.html">For Buyers &amp; Realtors</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Residents</h5>
+          <ul>
+            <li><a href="residents.html#documents">Governing Documents</a></li>
+            <li><a href="residents.html#arc">ARC Applications</a></li>
+            <li><a href="residents.html#news">News &amp; Announcements</a></li>
+            <li><a href="residents.html#resources">Community Resources</a></li>
+            <li><a href="residents.html#veterans">Veterans Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="contact.html">Board of Directors</a></li>
+            <li><a href="contact.html#form">Send a Message</a></li>
+            <li><a href="contact.html#meetings">Meetings</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="lifestyle.html">Living Here</a>
-        <a href="recreation.html">Recreation</a>
-        <a href="buyers.html">For Buyers</a>
-        <a href="residents.html">Residents</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="footer-legal">
-        <p>&copy; 2025 Goswick Ranch HOA. This website is maintained by the volunteer board.</p>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Goswick Ranch Homeowners Association &mdash; Mayer, AZ 86333</span>
+        <span>Poland Road, Yavapai County, Arizona</span>
       </div>
     </div>
   </footer>
