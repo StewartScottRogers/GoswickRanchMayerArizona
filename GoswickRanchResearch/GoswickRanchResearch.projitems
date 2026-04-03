@@ -36,6 +36,33 @@
     <None Include="$(MSBuildThisFileDirectory)Research\HOW_TO_USE.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\INDEX.md" />
     <None Include="$(MSBuildThisFileDirectory)CATALOG.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\INDEX.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_01_home.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_02_about.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_03_documents.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_04_arc.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_05_contact.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_06_living_here.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_07_for_buyers.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_08_faq.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_09_gallery.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_10_emergency.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_11_resources.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_12_outdoors.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_13_news.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_14_nyc_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_15_california_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_16_canada_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_17_chicago_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_18_texas_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_19_pacific_northwest_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_20_mid_atlantic_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_21_new_england_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_22_colorado_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_23_florida_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_24_hawaii_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_25_uk_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_26_australia_outreach.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanch2HawkMountainTrlMayerAZ86333.png" />

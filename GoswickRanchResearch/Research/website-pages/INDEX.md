@@ -39,6 +39,19 @@ Home | About | Living Here | Documents | ARC | News | Contact
 | [page_11_resources.md](page_11_resources.md) | Resident Resources | Phase 2 |
 | [page_12_outdoors.md](page_12_outdoors.md) | Outdoor Recreation & Day Trips | Phase 2 |
 | [page_13_news.md](page_13_news.md) | News & Announcements | MVP |
+| [page_14_nyc_outreach.md](page_14_nyc_outreach.md) | NYC Metro Outreach — full draft complete | Phase 3 |
+| [page_15_california_outreach.md](page_15_california_outreach.md) | California Outreach — full draft complete | Phase 3 |
+| [page_16_canada_outreach.md](page_16_canada_outreach.md) | Canada / Snowbird Outreach — full draft complete | Phase 3 |
+| [page_17_chicago_outreach.md](page_17_chicago_outreach.md) | Chicago / Midwest Outreach — full draft complete | Phase 3 |
+| [page_18_texas_outreach.md](page_18_texas_outreach.md) | Texas Outreach — full draft complete | Phase 3 |
+| [page_19_pacific_northwest_outreach.md](page_19_pacific_northwest_outreach.md) | Pacific Northwest / Seattle-Portland — full draft complete | Phase 3 |
+| [page_20_mid_atlantic_outreach.md](page_20_mid_atlantic_outreach.md) | Mid-Atlantic / DC-Baltimore-Philadelphia — full draft complete | Phase 3 |
+| [page_21_new_england_outreach.md](page_21_new_england_outreach.md) | New England / Boston — full draft complete | Phase 3 |
+| [page_22_colorado_outreach.md](page_22_colorado_outreach.md) | Colorado / Mountain West — full draft complete | Phase 3 |
+| [page_23_florida_outreach.md](page_23_florida_outreach.md) | Florida Reverse Migration — full draft complete | Phase 3 |
+| [page_24_hawaii_outreach.md](page_24_hawaii_outreach.md) | Hawaii Mainland Base — full draft complete | Phase 3 |
+| [page_25_uk_outreach.md](page_25_uk_outreach.md) | United Kingdom Investment/Holiday Property — full draft complete | Phase 3 |
+| [page_26_australia_outreach.md](page_26_australia_outreach.md) | Australia Investment/Holiday Property — full draft complete | Phase 3 |
 
 ---
 
