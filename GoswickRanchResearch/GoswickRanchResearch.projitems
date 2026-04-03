@@ -63,6 +63,8 @@
     <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_24_hawaii_outreach.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_25_uk_outreach.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_26_australia_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_27_israel_outreach.md" />
+    <None Include="$(MSBuildThisFileDirectory)Research\website-pages\page_28_india_outreach.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Documents\GoswickRanch2HawkMountainTrlMayerAZ86333.png" />
