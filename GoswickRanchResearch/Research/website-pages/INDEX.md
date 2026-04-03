@@ -52,6 +52,8 @@ Home | About | Living Here | Documents | ARC | News | Contact
 | [page_24_hawaii_outreach.md](page_24_hawaii_outreach.md) | Hawaii Mainland Base — full draft complete | Phase 3 |
 | [page_25_uk_outreach.md](page_25_uk_outreach.md) | United Kingdom Investment/Holiday Property — full draft complete | Phase 3 |
 | [page_26_australia_outreach.md](page_26_australia_outreach.md) | Australia Investment/Holiday Property — full draft complete | Phase 3 |
+| [page_27_israel_outreach.md](page_27_israel_outreach.md) | Israel Investment/Vacation/NRI — full draft complete | Phase 3 |
+| [page_28_india_outreach.md](page_28_india_outreach.md) | India / NRI Investment & Relocation — full draft complete | Phase 3 |
 
 ---
 
