@@ -7,18 +7,158 @@
   <meta name="description" content="Goswick Ranch buyer guides for every region — US retirement markets and international buyers. Find the page written for where you're coming from." />
   <link rel="canonical" href="https://stewartscottrogers.github.io/GoswickRanchMayerArizona/outreach.html" />
   <meta name="robots" content="noindex" />
-
-  <!-- Open Graph -->
   <meta property="og:title" content="Regional Buyer Guides | Goswick Ranch" />
   <meta property="og:description" content="Goswick Ranch buyer guides for every region — US retirement markets and international buyers." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://stewartscottrogers.github.io/GoswickRanchMayerArizona/outreach.html" />
   <meta property="og:image" content="https://stewartscottrogers.github.io/GoswickRanchMayerArizona/images/aerial/aerial-forested-ridge-private-road.jpg" />
-
   <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* ── Guide card: full-row clickable link ─────────────────────── */
+    .guide-card {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      padding: 1.4rem 1.75rem;
+      background: var(--white);
+      border: 1px solid var(--cream-dark);
+      border-left: 3px solid transparent;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.2s ease;
+    }
+    .guide-card:hover {
+      border-left-color: var(--gold);
+      box-shadow: var(--shadow-md);
+      transform: translateX(4px);
+    }
+    .guide-icon {
+      width: 52px;
+      height: 52px;
+      background: var(--cream);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+      transition: background 0.22s ease;
+    }
+    .guide-card:hover .guide-icon { background: var(--cream-dark); }
+    .guide-body { flex: 1; min-width: 0; }
+    .guide-hook {
+      font-family: var(--font-caps);
+      font-size: 0.63rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .guide-body h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+      color: var(--charcoal);
+      transition: color 0.2s ease;
+    }
+    .guide-card:hover .guide-body h3 { color: var(--pine); }
+    .guide-body p {
+      font-size: 0.88rem;
+      color: var(--stone);
+      margin-bottom: 0;
+      line-height: 1.55;
+    }
+    .guide-arrow {
+      color: var(--gold);
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      opacity: 0.55;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .guide-card:hover .guide-arrow { transform: translateX(5px); opacity: 1; }
+
+    /* ── International cards: full feature-card is a link ────────── */
+    a.intl-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: var(--space-xl) var(--space-lg);
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      text-decoration: none;
+      color: inherit;
+      border-top: 3px solid transparent;
+      transition: transform 0.22s ease, box-shadow 0.22s ease, border-top-color 0.22s ease;
+    }
+    a.intl-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-top-color: var(--gold);
+    }
+    a.intl-card h3 {
+      font-size: 1.2rem;
+      margin-bottom: var(--space-sm);
+      transition: color 0.2s ease;
+    }
+    a.intl-card:hover h3 { color: var(--pine); }
+    a.intl-card p {
+      color: var(--stone);
+      font-size: 0.92rem;
+      flex: 1;
+    }
+    .intl-card-cta {
+      margin-top: var(--space-lg);
+      color: var(--pine);
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      transition: gap 0.2s ease;
+    }
+    a.intl-card:hover .intl-card-cta { gap: 0.7rem; }
+    .intl-card-cta::after { content: '→'; }
+
+    /* ── What's inside section ───────────────────────────────────── */
+    .covers-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--cream-dark);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .covers-item {
+      background: var(--white);
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .covers-icon {
+      font-size: 1.75rem;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    .covers-item h4 { font-size: 0.95rem; margin-bottom: 0.4rem; color: var(--charcoal); }
+    .covers-item p  { font-size: 0.84rem; color: var(--stone); margin-bottom: 0; max-width: none; }
+
+    /* ── Responsive ──────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .covers-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .guide-card { flex-wrap: wrap; }
+      .guide-arrow { display: none; }
+      .covers-grid { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
 
+<!-- NAV -->
 <nav class="nav nav--transparent" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
@@ -84,180 +224,210 @@
   </div>
 </div>
 
-<!-- INTRO -->
-<section class="section bg-cream">
-  <div class="container container--narrow">
-    <div class="section-header text-center">
-      <span class="eyebrow">Find Your Guide</span>
-      <h2>Written for Where You&rsquo;re Coming From</h2>
-      <div class="divider divider--center"></div>
-      <p class="lead">The financial comparisons, tax context, and travel logistics are tailored to your current location. Every page covers the same community: <strong>Goswick Ranch</strong>, E Poland Road, Mayer, AZ&nbsp;86333 &mdash; 4,400&ndash;6,000&nbsp;ft elevation, gated, 9-acre minimum lots.</p>
+<!-- INTRO / SPLIT -->
+<section>
+  <div class="split">
+    <div class="split-body" style="background:var(--cream)">
+      <span class="eyebrow">One community. Fifteen starting points.</span>
+      <h2>The financial logic depends on where you&rsquo;re coming from.</h2>
+      <div class="divider"></div>
+      <p>A buyer leaving California faces very different tax math than someone coming from Texas. A Canadian snowbird navigates FIRPTA and T1135 reporting. A UK buyer has ESTA stay limits. These guides do the location-specific work so you can focus on the property.</p>
+      <p>Every guide covers the same community: <strong>Goswick Ranch</strong>, E Poland Road, Mayer, AZ 86333 &mdash; 4,400&ndash;6,000&nbsp;ft elevation, gated, 9-acre minimums, $216/yr HOA.</p>
+    </div>
+    <div class="split-image" style="background-image: url('images/landscape/valley-panorama-mayer-corridor.jpg');"></div>
+  </div>
+</section>
+
+<!-- WHAT'S INSIDE EVERY GUIDE -->
+<section class="section--sm bg-white">
+  <div class="container">
+    <div class="covers-grid">
+      <div class="covers-item">
+        <span class="covers-icon">&#128200;</span>
+        <h4>Tax Comparison</h4>
+        <p>State income, property tax, estate tax, Social Security treatment &mdash; compared directly to where you are now.</p>
+      </div>
+      <div class="covers-item">
+        <span class="covers-icon">&#128181;</span>
+        <h4>Cost of Living</h4>
+        <p>Insurance, utility, and ownership cost comparisons that put Arizona&rsquo;s numbers in real-world context.</p>
+      </div>
+      <div class="covers-item">
+        <span class="covers-icon">&#9992;</span>
+        <h4>Travel Logistics</h4>
+        <p>Drive times, flight connections, and practical access from your region to Mayer, Arizona.</p>
+      </div>
+      <div class="covers-item">
+        <span class="covers-icon">&#127968;</span>
+        <h4>Ownership Details</h4>
+        <p>Community facts, HOA specifics, zoning, visa or FIRPTA rules for international buyers.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- US RETIREMENT MARKETS -->
-<section class="section bg-white">
+<section class="section bg-cream">
   <div class="container">
-    <div class="section-header text-center">
+    <div class="section-header">
       <span class="eyebrow">United States</span>
       <h2>Retiring from a US Metro</h2>
-      <div class="divider divider--center"></div>
-      <p class="lead">State income tax comparison, property tax difference, cost of living, and drive or flight logistics &mdash; all tailored to your region.</p>
+      <div class="divider"></div>
+      <p class="lead" style="max-width:55ch">Click the guide for where you&rsquo;re coming from. Each page runs the tax and cost numbers for your specific state.</p>
     </div>
 
-    <div class="grid-3">
+    <div class="grid-2">
 
-      <div class="feature-card">
-        <div class="feature-icon">&#127751;</div>
-        <h3>New York &amp; New Jersey</h3>
-        <p>Estate tax exposure, high property taxes, and the case for Arizona land after a NY home sale.</p>
-        <div class="mt-lg">
-          <a href="retire-from-new-york-to-arizona.html" class="btn btn-outline-pine btn-sm">New York Guide</a>
+      <a href="retire-from-new-york-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#127751;</div>
+        <div class="guide-body">
+          <span class="guide-hook">Estate tax starts at $1M</span>
+          <h3>New York &amp; New Jersey</h3>
+          <p>Estate tax exposure, high property taxes, and the case for Arizona land after a NY home sale.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#9728;</div>
-        <h3>California</h3>
-        <p>13.3% income tax, wildfire insurance costs, and how Arizona&rsquo;s numbers compare.</p>
-        <div class="mt-lg">
-          <a href="retire-from-california-to-arizona.html" class="btn btn-outline-pine btn-sm">California Guide</a>
+      <a href="retire-from-california-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#9728;</div>
+        <div class="guide-body">
+          <span class="guide-hook">13.3% income tax</span>
+          <h3>California</h3>
+          <p>13.3% income tax, wildfire insurance costs, and how Arizona&rsquo;s numbers compare.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#10052;</div>
-        <h3>Chicago &amp; the Midwest</h3>
-        <p>Five months of winter, Illinois income tax, and what the drive looks like on I-40.</p>
-        <div class="mt-lg">
-          <a href="retire-from-chicago-to-arizona.html" class="btn btn-outline-pine btn-sm">Chicago Guide</a>
+      <a href="retire-from-chicago-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#10052;</div>
+        <div class="guide-body">
+          <span class="guide-hook">4.95% IL income tax</span>
+          <h3>Chicago &amp; the Midwest</h3>
+          <p>Five months of winter, Illinois income tax, and what the drive looks like on I-40.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#11088;</div>
-        <h3>Texas</h3>
-        <p>No income tax (acknowledged), summer heat comparison, and property tax differences.</p>
-        <div class="mt-lg">
-          <a href="retire-from-texas-to-arizona.html" class="btn btn-outline-pine btn-sm">Texas Guide</a>
+      <a href="retire-from-texas-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#11088;</div>
+        <div class="guide-body">
+          <span class="guide-hook">High property taxes, brutal summers</span>
+          <h3>Texas</h3>
+          <p>No income tax (acknowledged), summer heat comparison, and property tax differences.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#127794;</div>
-        <h3>Pacific Northwest</h3>
-        <p>Seattle and Portland &mdash; 300 sunny days vs. persistent grey, WA vs. OR tax differences.</p>
-        <div class="mt-lg">
-          <a href="retire-from-pacific-northwest-to-arizona.html" class="btn btn-outline-pine btn-sm">Pacific Northwest Guide</a>
+      <a href="retire-from-pacific-northwest-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#127794;</div>
+        <div class="guide-body">
+          <span class="guide-hook">300 sunny days vs. persistent grey</span>
+          <h3>Pacific Northwest</h3>
+          <p>Seattle and Portland &mdash; no WA income tax vs. OR rates, and what leaving the rain looks like.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#127963;</div>
-        <h3>Washington DC / Mid-Atlantic</h3>
-        <p>Military retirement tax exemption in AZ, Maryland estate and inheritance tax, VA Medical Center access.</p>
-        <div class="mt-lg">
-          <a href="retire-from-washington-dc-to-arizona.html" class="btn btn-outline-pine btn-sm">DC Guide</a>
+      <a href="retire-from-washington-dc-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#127963;</div>
+        <div class="guide-body">
+          <span class="guide-hook">Military pensions fully exempt in AZ</span>
+          <h3>Washington DC / Mid-Atlantic</h3>
+          <p>Military retirement tax exemption, Maryland estate and inheritance tax, VA Medical Center access.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#10052;</div>
-        <h3>Boston &amp; New England</h3>
-        <p>Massachusetts estate tax (lowest threshold in the US), 48 inches of annual snow, healthcare comparison.</p>
-        <div class="mt-lg">
-          <a href="retire-from-boston-to-arizona.html" class="btn btn-outline-pine btn-sm">Boston Guide</a>
+      <a href="retire-from-boston-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#10052;</div>
+        <div class="guide-body">
+          <span class="guide-hook">Estate tax starts at $2M</span>
+          <h3>Boston &amp; New England</h3>
+          <p>Massachusetts estate tax (lowest threshold in the US), 48 inches of annual snow, healthcare comparison.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#9968;</div>
-        <h3>Colorado</h3>
-        <p>Altitude familiarity, ski country equity, Denver/Boulder property costs vs. Arizona prices.</p>
-        <div class="mt-lg">
-          <a href="retire-from-colorado-to-arizona.html" class="btn btn-outline-pine btn-sm">Colorado Guide</a>
+      <a href="retire-from-colorado-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#9968;</div>
+        <div class="guide-body">
+          <span class="guide-hook">Altitude familiarity, high prices</span>
+          <h3>Colorado</h3>
+          <p>Ski country equity, Denver/Boulder property costs vs. Arizona prices, and altitude you already know.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#127754;</div>
-        <h3>Florida</h3>
-        <p>Homeowner&rsquo;s insurance crisis, hurricane season, and what Arizona mountain retirement costs after the insurance bill.</p>
-        <div class="mt-lg">
-          <a href="retire-from-florida-to-arizona.html" class="btn btn-outline-pine btn-sm">Florida Guide</a>
+      <a href="retire-from-florida-to-arizona.html" class="guide-card">
+        <div class="guide-icon">&#127754;</div>
+        <div class="guide-body">
+          <span class="guide-hook">Insurance crisis + hurricane season</span>
+          <h3>Florida</h3>
+          <p>Homeowner&rsquo;s insurance crisis, hurricane season, and what Arizona mountain retirement costs after the insurance bill.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
-      <div class="feature-card">
-        <div class="feature-icon">&#127802;</div>
-        <h3>Hawaii</h3>
-        <p>Mainland base 5.5 hours from Honolulu &mdash; Hawaii&rsquo;s 11% income tax vs. Arizona&rsquo;s 2.5%.</p>
-        <div class="mt-lg">
-          <a href="arizona-property-for-hawaii-residents.html" class="btn btn-outline-pine btn-sm">Hawaii Guide</a>
+      <a href="arizona-property-for-hawaii-residents.html" class="guide-card">
+        <div class="guide-icon">&#127802;</div>
+        <div class="guide-body">
+          <span class="guide-hook">11% income tax</span>
+          <h3>Hawaii</h3>
+          <p>Mainland base 5.5 hours from Honolulu &mdash; Hawaii&rsquo;s 11% income tax vs. Arizona&rsquo;s 2.5%.</p>
         </div>
-      </div>
+        <span class="guide-arrow">&#8594;</span>
+      </a>
 
     </div>
   </div>
 </section>
 
 <!-- INTERNATIONAL BUYERS -->
-<section class="section bg-cream">
+<section class="section bg-white">
   <div class="container">
-    <div class="section-header text-center">
+    <div class="section-header">
       <span class="eyebrow">International</span>
       <h2>International Buyers</h2>
-      <div class="divider divider--center"></div>
-      <p class="lead">Visa stay rules, FIRPTA, US estate tax exposure, and currency equivalents for buyers outside the United States.</p>
+      <div class="divider"></div>
+      <p class="lead" style="max-width:55ch">Visa stay rules, FIRPTA, US estate tax exposure, and currency equivalents for buyers outside the United States.</p>
     </div>
 
     <div class="grid-3">
 
-      <div class="feature-card">
+      <a href="arizona-property-for-canadian-buyers.html" class="intl-card">
         <div class="feature-icon">&#127809;</div>
         <h3>Canada</h3>
         <p>Snowbird math &mdash; 6-month stays, FIRPTA, T1135 reporting, CAD/USD carrying costs.</p>
-        <div class="mt-lg">
-          <a href="arizona-property-for-canadian-buyers.html" class="btn btn-outline-pine btn-sm">Canada Guide</a>
-        </div>
-      </div>
+        <span class="intl-card-cta">Read the Canada guide</span>
+      </a>
 
-      <div class="feature-card">
+      <a href="arizona-property-for-british-buyers.html" class="intl-card">
         <div class="feature-icon">&#127468;&#127463;</div>
         <h3>United Kingdom</h3>
         <p>Investment and holiday property &mdash; $692 USD/yr (~&pound;530) to hold. ESTA rules, US&ndash;UK tax treaty.</p>
-        <div class="mt-lg">
-          <a href="arizona-property-for-british-buyers.html" class="btn btn-outline-pine btn-sm">UK Guide</a>
-        </div>
-      </div>
+        <span class="intl-card-cta">Read the UK guide</span>
+      </a>
 
-      <div class="feature-card">
+      <a href="arizona-property-for-australian-buyers.html" class="intl-card">
         <div class="feature-icon">&#129432;</div>
         <h3>Australia</h3>
         <p>Investment and holiday property &mdash; AUD equivalents, bushfire risk comparison, ESTA rules.</p>
-        <div class="mt-lg">
-          <a href="arizona-property-for-australian-buyers.html" class="btn btn-outline-pine btn-sm">Australia Guide</a>
-        </div>
-      </div>
+        <span class="intl-card-cta">Read the Australia guide</span>
+      </a>
 
-      <div class="feature-card">
+      <a href="arizona-property-for-israeli-buyers.html" class="intl-card">
         <div class="feature-icon">&#127470;&#127480;</div>
         <h3>Israel</h3>
         <p>Investment, vacation base, and dual-citizen framing &mdash; ILS equivalents, ESTA (since 2023), US&ndash;Israel treaty.</p>
-        <div class="mt-lg">
-          <a href="arizona-property-for-israeli-buyers.html" class="btn btn-outline-pine btn-sm">Israel Guide</a>
-        </div>
-      </div>
+        <span class="intl-card-cta">Read the Israel guide</span>
+      </a>
 
-      <div class="feature-card">
+      <a href="arizona-property-for-indian-buyers.html" class="intl-card">
         <div class="feature-icon">&#127470;&#127475;</div>
         <h3>India &amp; NRIs</h3>
         <p>H-1B ownership rights, LRS/FEMA rules for India-resident buyers, INR equivalents (~INR 58K/yr to hold).</p>
-        <div class="mt-lg">
-          <a href="arizona-property-for-indian-buyers.html" class="btn btn-outline-pine btn-sm">India &amp; NRI Guide</a>
-        </div>
-      </div>
+        <span class="intl-card-cta">Read the India &amp; NRI guide</span>
+      </a>
 
     </div>
   </div>
@@ -266,7 +436,7 @@
 <!-- CTA -->
 <section class="section bg-pine">
   <div class="container">
-    <div style="text-align:center;max-width:700px;margin:0 auto">
+    <div style="text-align:center;max-width:680px;margin:0 auto">
       <span class="eyebrow">Ready to Move Forward?</span>
       <h2 style="color:var(--white);margin-bottom:var(--space-md)">The Numbers Speak for Themselves</h2>
       <p style="color:rgba(255,255,255,0.82);font-size:1.1rem;margin-bottom:var(--space-lg)">9 acres minimum. $216/year HOA. ~$476/year in property taxes. Gated community in the Bradshaw Mountains, 27 minutes from Prescott.</p>
