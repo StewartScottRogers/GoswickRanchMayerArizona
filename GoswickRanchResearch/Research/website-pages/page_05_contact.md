@@ -21,15 +21,19 @@ Provides contact information for the board, describes the board structure, and g
 
 **H2:** Board of Directors
 
-> **PLACEHOLDER — requires board input.**
-
-Table template (populate when board provides info):
-
 | Name | Role | Contact |
 |---|---|---|
-| [Name] | President | [Via contact form] |
-| [Name] | Secretary | [Via contact form] |
-| [Name] | Treasurer | [Via contact form] |
+| Devin Drake | President | Via contact form |
+| [Name] | Secretary | Via contact form |
+| [Name] | Treasurer | Via contact form |
+
+**Board email addresses (for Formspree routing — do not publish in plain text on site):**
+
+| Role | Email |
+|---|---|
+| General Board | goswickranchboard@gmail.com |
+| Secretary | goswickranchsectretary@gmail.com |
+| Treasurer | goswickranchtreasurer@gmail.com |
 
 **Copy around the table:**
 > Goswick Ranch is self-managed — there is no management company. The board of directors handles all HOA administration, from maintaining the roads to reviewing architectural requests.
@@ -98,8 +102,8 @@ Use a **Formspree** contact form. Fields:
 
 | Item | Status | Priority |
 |---|---|---|
-| Board member names and roles | **Needs board** | Critical |
-| Board email address(es) for Formspree routing | **Needs board** | Critical |
+| Board member names and roles | President confirmed (Devin Drake); Secretary & Treasurer names still needed | Critical |
+| Board email address(es) for Formspree routing | **Resolved** — board, secretary, treasurer emails confirmed | Critical |
 | Meeting schedule and location | **Needs board** | High |
 | Board phone number (for urgent issues) | **Needs board** | Medium |
 
