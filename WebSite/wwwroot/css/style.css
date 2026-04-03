@@ -576,6 +576,15 @@ p:last-child { margin-bottom: 0; }
 .feature-card h3 { font-size: 1.25rem; margin-bottom: var(--space-sm); }
 .feature-card p  { color: var(--stone); font-size: 0.95rem; max-width: none; }
 
+/* When feature-card is itself a link — whole card is clickable */
+a.feature-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+a.feature-card h3 { transition: color var(--transition); }
+a.feature-card:hover h3 { color: var(--pine); }
+
 /* Document card */
 .doc-card {
   background: var(--white);
