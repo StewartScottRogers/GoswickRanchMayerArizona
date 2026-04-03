@@ -1,6 +1,6 @@
 # Research Index — Goswick Ranch HOA Website Project
 
-*Last updated: 2026-04-01 (reframed: Poland Road / Bradshaws as geographic anchor; Mayer de-emphasized to nearest community)*
+*Last updated: 2026-04-03 (Wave 3: 14_veteran_resources.md added)*
 
 This is the master index for the consolidated research library. All files are in the `research/` folder. Research was gathered in two waves (March 28–29, 2026) and consolidated into this structure on April 1, 2026.
 
@@ -25,6 +25,7 @@ This is the master index for the consolidated research library. All files are in
 | [11_hoa_website_design.md](11_hoa_website_design.md) | Website Design | HOA website design strategy: reference sites analyzed (Windgate Ranch, Johnson Ranch, Canyon Gate, Cherry Ridge, Vactor Ranch, The Ranch Community), content best practices, navigation structure, visual design (color palette, typography, hero sections), technical features (Formspree forms, Leaflet.js maps, Google Calendar, Lightbox2 gallery, document library structure), SEO (keyword strategy, schema markup, Google Business Profile), legal compliance, content checklist (MVP vs. Phase 2), priority action plan |
 | [12_ranch_lifestyle_governance.md](12_ranch_lifestyle_governance.md) | Ranch Lifestyle & Regional | Ranch lifestyle culture in the **Poland Road / Bradshaw Mountains** corridor; horse culture in Yavapai County; RCU-2A livestock/ADU/STR/camping rules; agricultural tax classification; open range law (ARS § 3-1426, lawful fence specs, driver liability); equestrian services (Los Caballos Vet, Olsen's Grain); four seasons at elevation; Prescott (Whiskey Row, World's Oldest Rodeo, museums, airport); Verde Valley Wine Trail; Jerome; Sedona; Phoenix metro access; Arcosanti; distance reference table |
 | [13_photo_gallery.md](13_photo_gallery.md) | Photo Gallery | Catalog of 23 PAAR MLS photos (2022–2026) in `PhotoGallery/`: full inventory table, subject descriptions, key visual facts confirmed (gate design, black Angus cattle, Big Bug Creek flowing water, historic stone wall, 4 seasons, mining disturbance, ridgeline home siting), cross-references to research files, website-use recommendations |
+| [14_veteran_resources.md](14_veteran_resources.md) | Veteran Resources | VA facilities, clinics, and CBOCs near Mayer/Prescott; telehealth and transportation programs; VSOs (American Legion Post 78 in Dewey-Humboldt closest to ranch); Arizona state veteran benefits (property tax exemption, hunting/fishing licenses, license plates); Yavapai County resources; VA home loan rural property rules; SAH grants; emergency/crisis resources including Veterans Crisis Line |
 
 ---
 
@@ -114,3 +115,4 @@ The following documents in the root of this repository predate the research/ fol
 | Wave 1 | March 28, 2026 | `Web/01–09` | Community identity, county resources, HOA law, design, geography, utilities |
 | Wave 2 | March 29, 2026 | `Web/10–13` + `scraped/` (6 files) | HOA fee confirmation, Goswick family, arsenic warning, Henrietta Mine, deep HOA law, lifestyle, Prescott/Verde Valley, real estate market |
 | Consolidation | April 1, 2026 | `research/01–12` | All Wave 1 + Wave 2 content merged into 12 topic files |
+| Wave 3 | April 3, 2026 | `research/14` | Veteran resources: VA facilities, VSOs, state benefits, telehealth, VA home loans, crisis resources |
