@@ -1,6 +1,6 @@
 # How to Use This Research
 
-*Last updated: 2026-04-01 (website-pages/ subfolder added)*
+*Last updated: 2026-04-03 (Wave 3: 14_veteran_resources.md added)*
 
 This folder (`research/`) contains all research for the Goswick Ranch HOA website project, consolidated from the original `Web/` and `scraped/` directories. Twelve topic files cover everything needed to build and maintain the website.
 
@@ -39,6 +39,7 @@ See `research/website-pages/INDEX.md` for the full list of pages.
 | **Day Trips / What to Do Nearby** | `12_ranch_lifestyle_governance.md` (Prescott, Jerome, Sedona, Arcosanti) | `05_outdoor_recreation.md` |
 | **Design and Technical Build** | `11_hoa_website_design.md` | (self-contained) |
 | **Legal Compliance review** | `10_arizona_hoa_law.md` | `11_hoa_website_design.md` (legal/compliance section) |
+| **Veteran Resources page** | `14_veteran_resources.md` | `08_real_estate.md` (VA loan as buyer benefit), `09_yavapai_county_resources.md` (county contacts) |
 
 ---
 
@@ -58,6 +59,8 @@ See `research/website-pages/INDEX.md` for the full list of pages.
 | 10 | `10_arizona_hoa_law.md` | Complete ARS §§33-1801 through 33-1818; 2025 updates; board guidance; ARC rules |
 | 11 | `11_hoa_website_design.md` | Design strategy, reference sites, technical stack, SEO, content checklist, priority plan |
 | 12 | `12_ranch_lifestyle_governance.md` | Ranch culture, livestock rules, open range law, equestrian services, Prescott, Verde Valley, Sedona, day trips |
+| 13 | `13_photo_gallery.md` | Catalog of 23 PAAR MLS photos; descriptions, visual facts, website-use recommendations |
+| 14 | `14_veteran_resources.md` | VA hospitals/clinics, telehealth, VSOs, AZ state veteran benefits, VA home loans, crisis resources |
 
 ---
 
@@ -86,6 +89,8 @@ All research was conducted in two waves, then consolidated on April 1, 2026:
 - **Wave 2 (March 29, 2026):** Deep research by 14-agent parallel session — HOA fee confirmation ($216/yr), Goswick family genealogy and BLM mining claim, Henrietta Mine research, arsenic warning, deep HOA law (2025 updates, ARC, self-managed guidance), ranch lifestyle and RCU-2A zoning details, Prescott/Verde Valley/Sedona regional context, real estate market appreciation data, buyer profiles, Arizona tax advantages. Files: `Web/10–13` and `scraped/` (6 files).
 
 - **Consolidation (April 1, 2026):** All Wave 1 and Wave 2 content merged into 12 coherent topic files in this `research/` directory. Source files in `Web/` and `scraped/` are retained for provenance but should not be edited.
+
+- **Wave 3 (April 3, 2026):** Veteran resources research — VA Medical Center (Prescott), CBOCs (Anthem, Cottonwood), Prescott Vet Center, telehealth (VA Video Connect, ATLAS, MISSION Act), DAV/VFW/American Legion VSOs (incl. Post 78 in Dewey-Humboldt, nearest to ranch), Arizona state veteran benefits (property tax exemption, hunting/fishing, license plates), VA home loans for rural properties, SAH grants, crisis resources. File: `14_veteran_resources.md`.
 
 ---
 
