@@ -47,6 +47,7 @@ Images depicting the working ranch character of the property.
 | File | Size | Description |
 |---|---|---|
 | `black-angus-cattle-grazing-chaparral.jpg` | 2.2 MB | Black Angus cattle grazing in chaparral — illustrates active ranch use |
+| `Bortle-Rural-Sky-Classification.jpg` | 6.3 KB | Bortle scale diagram classifying rural dark-sky quality — illustrates the ranch's low light-pollution night sky |
 | `historic-stone-wall-juniper-meadow.jpg` | 1.6 MB | Historic stone wall in a juniper meadow — evidence of early ranch-era construction |
 
 ---
@@ -74,11 +75,11 @@ Seasonal variety across spring wildflowers, summer monsoons, fall foliage, and w
 
 | Metric | Value |
 |---|---|
-| Total images | 21 |
+| Total images | 22 |
 | File format | JPEG |
 | Subfolders | 5 |
 | Approximate total size | ~38 MB |
-| Last updated | 2026-04-03 |
+| Last updated | 2026-04-05 |
 
 ### By Folder
 
@@ -87,5 +88,5 @@ Seasonal variety across spring wildflowers, summer monsoons, fall foliage, and w
 | Aerial | 3 | ~6.6 MB |
 | Creek | 1 | ~647 KB |
 | Landscape | 5 | ~6.6 MB |
-| RanchLife | 2 | ~3.9 MB |
+| RanchLife | 3 | ~3.9 MB |
 | Seasons | 10 | ~13.4 MB |

@@ -11,10 +11,10 @@ All images are organized into five thematic subfolders. See [CATALOG.md](CATALOG
 | `Aerial/` | 3 | Drone/aerial views of ridgelines, roads, and disturbed hillsides |
 | `Creek/` | 1 | Big Bug Creek — rocks and cottonwood |
 | `Landscape/` | 5 | Boulders, canyons, valleys, and Bradshaw Mountain ridges |
-| `RanchLife/` | 2 | Cattle grazing, historic stone wall |
+| `RanchLife/` | 3 | Cattle grazing, historic stone wall, Bortle dark-sky chart |
 | `Seasons/` | 10 | Spring wildflowers, monsoon storms, fall color, winter snow |
 
-**Total: 21 images — ~38 MB**
+**Total: 22 images — ~38 MB**
 
 ## Usage Notes
 

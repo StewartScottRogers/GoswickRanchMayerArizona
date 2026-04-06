@@ -81,6 +81,7 @@
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\ridgeline-boulder-valley-overlook.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Landscape\valley-panorama-mayer-corridor.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\RanchLife\black-angus-cattle-grazing-chaparral.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\RanchLife\Bortle-Rural-Sky-Classification.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\RanchLife\historic-stone-wall-juniper-meadow.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\fall-cottonwood-golden-color.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\monsoon-clouds-bradshaw-ridgelines.jpg" />
