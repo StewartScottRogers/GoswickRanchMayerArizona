@@ -19,6 +19,7 @@
     <None Include="$(MSBuildThisFileDirectory)Documents\README.md" />
     <None Include="$(MSBuildThisFileDirectory)PhotoGallery\CATALOG.md" />
     <None Include="$(MSBuildThisFileDirectory)PhotoGallery\README.md" />
+    <None Include="$(MSBuildThisFileDirectory)PhotoGallery\Videos\Top-Of-The-Ranch-Spring.mp4" />
     <None Include="$(MSBuildThisFileDirectory)README.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\01_goswick_ranch_hoa.md" />
     <None Include="$(MSBuildThisFileDirectory)Research\02_mayer_arizona.md" />
@@ -93,5 +94,7 @@
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\spring-wildflowers-desert-scrub.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\winter-snow-cactus-mountain-peaks.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Seasons\winter-sunset-snow-peaks-crimson-sky.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Videos\Ranch-Road-Mantanance-Equipment.mp4" />
+    <Content Include="$(MSBuildThisFileDirectory)PhotoGallery\Videos\Top-Of-The-Ranch-Winter.mp4" />
   </ItemGroup>
 </Project>
