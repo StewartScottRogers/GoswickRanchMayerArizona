@@ -5,7 +5,7 @@
 | Role | Email |
 |------|-------|
 | General Board | goswickranchboard@gmail.com |
-| Secretary | goswickranchsectretary@gmail.com |
+| Secretary | goswickranchsecretary@gmail.com |
 | Treasurer | goswickranchtreasurer@gmail.com |
 
 ---
@@ -26,7 +26,7 @@ Email: dewsterdew@gmail.com
 **Secretary**
 Goswick Ranch HOA — Mayer, Arizona
 Phone: 602-619-0531
-Email: goswickranchsectretary@gmail.com
+Email: goswickranchsecretary@gmail.com
 
 ## Ivan Rodriguez
 **Treasurer**

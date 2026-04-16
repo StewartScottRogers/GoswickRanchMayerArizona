@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"\nimport json, sys, subprocess\ndata = json.load(sys.stdin)\nfp = data.get('tool_input', {}).get('file_path', '')\nif fp.endswith('.html') and 'wwwroot' in fp:\n    subprocess.run(['python3', 'WebSite/scripts/stamp-build.py'], cwd='Z:/repos/GoswickRanchMayerArizona')\n\"",
+            "statusMessage": "Updating build stamp..."
+          }
+        ]
+      }
+    ]
+  }
+}
